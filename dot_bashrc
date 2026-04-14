@@ -18,6 +18,9 @@ HISTFILESIZE=20000
 # check the window size after each command and, if necessary, update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
+# Use starship
+eval "$(starship init bash)"
+
 alias ls='ls --color=auto'
 alias list='ls -AFoqvh --time-style long-iso --group-directories-first'
 alias listsize='list -S'
