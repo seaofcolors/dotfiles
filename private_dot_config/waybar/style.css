@@ -54,13 +54,8 @@ tooltip {
 }
 
 #workspaces button:hover {
-  background: @highlightLow;
-  color: @text;
-  border-radius: 8px;
-  border-radius: 12px;
-  border-width: 3px;
-  border-style: solid;
-  border-color: @lavender;
+  background: @lavender;
+  color: @teal;
 }
 
 #window {
