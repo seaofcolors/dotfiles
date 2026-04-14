@@ -74,7 +74,7 @@ tooltip {
  padding: 3px 8px;
  background-color: @lavender;
  transition: all 200ms ease-in-out;
- border-radius: 1.5em;
+ border-radius: 1em;
  margin-right: 10px;
 }
 
@@ -90,10 +90,10 @@ tooltip {
 }
 
 pulseaudio {
+  border-radius: 12px;
   border-width: 3px;
   border-style: solid;
   border-color: @lavender;
-  padding-left: 10px;
   border-left: 0px;
   border-right: 0px;
 }
