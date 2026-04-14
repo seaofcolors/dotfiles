@@ -118,7 +118,10 @@ tooltip {
 }
 
 #network {
-  color: @love;
+  border-width: 3px;
+  border-style: solid;
+  border-color: @lavender;
+  padding-left: 50px;
   border-right: 0px;
   border-left: 0px;
   padding-right: 15px;
