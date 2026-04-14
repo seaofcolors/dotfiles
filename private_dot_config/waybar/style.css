@@ -33,7 +33,7 @@ tooltip {
 
 #workspaces button {
   padding: 5px;
-  color: @text;
+  color: @highlightMed;
   margin-right: 10px;
 }
 
@@ -42,9 +42,9 @@ tooltip {
 }
 
 #workspaces button.focused {
-  color: @subtle;
-  background: @love;
-  border-radius: 8px;
+/*  color: @subtle; */
+/*  background: @love; */
+/*  border-radius: 8px; */
 }
 
 #workspaces button.urgent {
