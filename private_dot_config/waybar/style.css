@@ -54,8 +54,7 @@ tooltip {
 }
 
 #workspaces button:hover {
-  background: @lavender;
-  color: @teal;
+  color: @rosewater;
 }
 
 #window {
@@ -91,24 +90,8 @@ tooltip {
 
 #memory {
   color: @lavender;
-}
-
-#temperature {
-  color: @gold;
-  border-left: 0px;
-  border-right: 0px;
-}
-
-#temperature.critical {
-  border-left: 0px;
-  border-right: 0px;
-  color: @love;
-}
-
-#backlight {
-  color: @text;
-  border-radius: 0px 8px 8px 0px;
-  margin-right: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #tray{
@@ -123,35 +106,14 @@ tooltip {
  /* margin-right: 10px; */
 }
 
-#custom-power_profile {
-  color: @foam;
-  border-left: 0px;
-  border-right: 0px;
-}
-
-window#waybar.empty {
-  background-color: transparent;
-}
-
-window#waybar.empty #window {
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
-  /*  background-color: rgba(66,66,66,0.5); */
-  /* transparent */
-  background-color: transparent;
-}
 
 #clock {
   color: @text;
-  background: @pine;
-  border-radius: 8px;
-  margin-left: 20px;
+  padding-left: 5px;
 }
 
 #network {
   color: @love;
-/*  border-radius: 0px 0px 0px 0px; */
   border-right: 0px;
   border-left: 0px;
   padding-right: 15px;
