@@ -17,9 +17,7 @@
 	"show-passive-items": true,
 	"icon-size": 21,
 	"spacing": 10,
-	"icons": {
-		"nm-applet": "/home/till/.local/share/icons/hicolor/16x16/apps/chrome-pjibgclleladliembfgfagdaldikeohf-Profile_1.png"
-	}
+	"color": "#ffffff"
   },
   "clock": {
     "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
