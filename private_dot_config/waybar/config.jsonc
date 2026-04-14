@@ -13,31 +13,8 @@
             "2": "",
             "3": "",
             "4": "",
-            "5": "",
-            "urgent": "",
-            "focused": "",
-            "default": ""
+            "5": ""
     }
-  },
-
-  "hyprland/mode": {
-        "format": "<span style=\"italic\">{}</span>"
-  },
-
-  "hyprland/scratchpad": {
-        "format": "{icon} {count}",
-        "show-empty": false,
-        "format-icons": ["", ""],
-        "tooltip": true,
-        "tooltip-format": "{app}: {title}"
-  },
-
-  "idle_inhibitor": {
-        "format": "{icon}",
-        "format-icons": {
-            "activated": "",
-            "deactivated": ""
-        }
   },
 
   "cpu": {
@@ -80,7 +57,7 @@
   },
 
   "network": {
-    "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
+    "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
     "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Disconnected",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
