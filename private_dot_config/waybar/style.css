@@ -88,6 +88,15 @@ tooltip {
  /* border: 2px solid @maroon; */
 }
 
+pulseaudio {
+  border-width: 3px;
+  border-style: solid;
+  border-color: @lavender;
+  padding-left: 10px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
 #memory {
   color: @lavender;
   padding-right: 10px;
@@ -122,8 +131,8 @@ tooltip {
   border-style: solid;
   border-color: @lavender;
   padding-left: 50px;
-  border-right: 0px;
   border-left: 0px;
+  border-right: 0px;
   padding-right: 15px;
 }
 
