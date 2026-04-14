@@ -120,7 +120,6 @@ pulseaudio {
   padding-right: 10px;
   padding-left: 10px;
   border-radius: 0 8px 8px 0;
-  margin-right: 0px;
 }
 
 #clock {
@@ -132,5 +131,6 @@ pulseaudio {
   margin-right: 5px;
   padding-right: 10px;
   padding-left: 10px;
+  border-radius: 0 8px 8px 0;
 /*  color: @text; */
 }
