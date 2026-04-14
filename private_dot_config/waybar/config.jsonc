@@ -16,8 +16,7 @@
   "tray": {
 	"show-passive-items": true,
 	"icon-size": 21,
-	"spacing": 10,
-	"color": "#ffffff"
+	"spacing": 10
   },
   "clock": {
     "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
