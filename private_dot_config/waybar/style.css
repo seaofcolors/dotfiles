@@ -154,9 +154,9 @@ window#waybar.empty #window {
 }
 
 #pulseaudio {
-  color: @iris;
-  border-radius: 8px 0px 0px 8px;
-  border-right: 0px;
+  color: @text;
+/*  border-radius: 8px 0px 0px 8px; */
+/*  border-right: 0px; */
 }
 
 #battery {
@@ -175,31 +175,3 @@ window#waybar.empty #window {
 /*  background: @pine; */
 }
 
-#custom-spotify {
-  border-radius: 8px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  background: @base;
-  opacity: 0.9;
-  padding: 0px 10px;
-  font-size: 14px;
-  border-width: 0px;
-  border-style: solid;
-  border-color: @pine;
-
-}
-#custom-exit {
-  color: @foam;
-  background: @base;
-  border-width: 0px;
-  border-style: solid;
-  border-color: @pine;
-  border-radius: 0 8px 8px 0;
-  margin-right: 0px;
-  border-left: 0px;
-  padding-right: 15px;
-  margin-right: 20px;
-  margin-top: 10px;
-
-}
