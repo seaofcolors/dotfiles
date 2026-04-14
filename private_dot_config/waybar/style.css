@@ -68,26 +68,6 @@ tooltip {
   padding-left: 10px;
 }
 
-#custom-power_profile,
-#window,
-#clock,
-#battery,
-#pulseaudio,
-#network,
-#bluetooth,
-#temperature,
-#workspaces,
-#tray,
-#memory,
-#backlight {
- /* background: @surface; */
- /* opacity: 0.9; */
- /* padding: 10px 10px; */
- /* margin: 10px 10px; */
- /* margin-top: 10px; */
- /* border: 2px solid @maroon; */
-}
-
 pulseaudio {
   border-width: 3px;
   border-style: solid;
