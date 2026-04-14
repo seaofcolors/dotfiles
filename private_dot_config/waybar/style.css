@@ -83,10 +83,9 @@ tooltip {
   border-width: 3px;
   border-style: solid;
   border-color: @lavender;
-  padding-left: 10px;
-/*  border-left: 0px; */
   border-right: 0px;
-/*  padding-right: 10px; */
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 pulseaudio {
@@ -96,6 +95,8 @@ pulseaudio {
   border-color: @lavender;
   border-left: 0px;
   border-right: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #memory {
@@ -110,11 +111,16 @@ pulseaudio {
 }
 
 #battery {
-  color: @foam;
+  border-radius: 12px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: @lavender;
+  border-left: 0px;
+  border-right: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
   border-radius: 0 8px 8px 0;
   margin-right: 0px;
-  border-left: 0px;
-  padding-right: 15px;
 }
 
 #clock {
