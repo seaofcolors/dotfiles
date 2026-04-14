@@ -57,6 +57,10 @@ tooltip {
   background: @highlightLow;
   color: @text;
   border-radius: 8px;
+  border-radius: 12px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: @lavender;
 }
 
 #window {
