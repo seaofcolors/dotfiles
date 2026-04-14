@@ -1,0 +1,66 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# don't put duplicate lines or lines starting with space in the history.
+HISTCONTROL=ignoreboth
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=10000
+HISTFILESIZE=20000
+
+# check the window size after each command and, if necessary, update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+alias ls='ls --color=auto'
+alias list='ls -AFoqvh --time-style long-iso --group-directories-first'
+alias listsize='list -S'
+alias listtime='ls -AFoqvh --time-style long-iso -t -1'
+alias mnt='mount | column -t | egrep ^/dev/ | sort'
+alias gh='history|grep'
+alias cpv='rsync -ah --inplace --no-whole-file --info=progress2 '
+alias rmv='mv --force -t ~/.local/share/Trash '
+
+# Custom bash prompt
+export PS1="\[\e[1;32m\]\u\[\e[m\]: \[\033[1;34m\]\w\[\033[00m\] \$ "
+
+alias pacdiff='DIFFPROG=nano pacdiff'
+alias checkservices='DIFFPROG=nano checkservices'
+
+# Pkgfile database to be checked for missing commands
+source /usr/share/doc/pkgfile/command-not-found.bash
+
+# Bash completion for sudo
+complete -cf sudo
+
+# Setup fzf enhancements
+# ctrl-r lists command history
+# ctrl-t lists files and folders [ easy replacement for  $ command $(fzf) ]
+# alt-c offers a visual cd [ replacement for  $ cd $(fzf) ]
+# Other uses: $ kill -9 <TAB>
+alias fzfp="fzf --ansi --preview '(highlight -O ansi {} 2>/dev/null || cat {} || tree -C {}) 2>/dev/null | head -200'"
+source /usr/share/fzf/key-bindings.bash
+source /usr/share/fzf/completion.bash
+
+# Work around a loop due to Steam pointing back to root and remove the large amounts of files in .cache
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .steam --exclude .local\/share\/Steam --exclude .cache'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="$FZF_DEFAULT_COMMAND"
+
+_fzf_compgen_path() {
+  fd --hidden --follow --exclude ".steam" --exclude ".local/share/Steam" . "$1"
+}
+
+_fzf_compgen_dir() {
+  fd --type d --hidden --follow --exclude ".steam" --exclude ".local/share/Steam" . "$1"
+}
+
+
+# Created by `pipx` on 2025-06-09 11:11:10
+export PATH="$PATH:/home/till/.local/bin"
