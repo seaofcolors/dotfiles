@@ -32,9 +32,9 @@ tooltip {
 }
 
 #workspaces button {
-  padding: 5px;
-  color: @highlightMed;
-  margin-right: 10px;
+/*  padding: 5px; */
+/*  color: @highlightMed; */
+/*  margin-right: 10px; */
 }
 
 #workspaces button.active {
@@ -57,6 +57,17 @@ tooltip {
   background: @highlightLow;
   color: @text;
   border-radius: 8px;
+}
+
+#window {
+  border-radius: 12px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: @lavender;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #custom-power_profile,
@@ -117,17 +128,6 @@ tooltip {
   color: @foam;
   border-left: 0px;
   border-right: 0px;
-}
-
-#window {
-  border-radius: 12px;
-  border-width: 3px;
-  border-style: solid;
-  border-color: @lavender;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-right: 10px;
-  padding-left: 10px;
 }
 
 window#waybar.empty {
