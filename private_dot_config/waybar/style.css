@@ -101,9 +101,7 @@ tooltip {
  background-color: @lavender;
  transition: all 200ms ease-in-out;
  border-radius: 1.5em;
- /* border-radius: 8px; */
- /* margin-left: 10px; */
- /* margin-right: 10px; */
+ margin-right: 10px;
 }
 
 
