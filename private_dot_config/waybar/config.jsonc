@@ -5,18 +5,21 @@
   "modules-right": ["tray", "network", "pulseaudio", "cpu", "memory", "battery", "clock"],
   "cpu": {
     "interval": 10,
-    "format": "{}% ",
+    "format": "<span color='#ff9977'>{}% </span>",
     "max-length": 10
   },
   "memory": {
     "interval": 30,
-    "format": "{}% ",
+    "format": "<span color='#f8f8f2'>{}% </span>",
     "max-length": 10
   },
   "tray": {
-	"format": "<span color='#f8f8f2'></span>",
+	"show-passive-items": true,
 	"icon-size": 21,
-	"spacing": 10
+	"spacing": 10,
+	"icons": {
+		"nm-applet": "<span size='13000' foreground='#f5e0dc'>  </span>"
+	}
   },
   "clock": {
     "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
@@ -38,12 +41,11 @@
     "tooltip-format": "{time}"
   },
   "network": {
-    "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
+    "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
     "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Disconnected",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
-    "tooltip-format-wifi": "Signal Strenght: {signalStrength}%",
-    "on-click": "nmtui-connect"
+    "tooltip-format-wifi": "Signal Strenght: {signalStrength}%"
   },
   "pulseaudio": {
       "format": "{icon}  {volume}%",
