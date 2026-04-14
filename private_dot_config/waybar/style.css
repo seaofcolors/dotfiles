@@ -79,6 +79,7 @@ tooltip {
 }
 
 #network {
+  border-radius: 12px;
   border-width: 3px;
   border-style: solid;
   border-color: @lavender;
