@@ -10,7 +10,7 @@
 }
 
 window#waybar {
-  background: @lavender;
+  background: @surface;
   color: @text;
 }
 
