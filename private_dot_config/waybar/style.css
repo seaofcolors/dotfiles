@@ -1,10 +1,6 @@
 @import "mocha.css"; 
 
 * {
-  border-radius: 12px;
-  border-width: 3px;
-  border-style: solid;
-  border-color: @lavender;
   font-family: "JetBrainsMono";
   font-weight: bold;
   font-size: 16px;
@@ -25,6 +21,10 @@ tooltip {
 }
 
 #workspaces {
+  border-radius: 12px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: @lavender;
   background: @surface;
   margin-left: 10px;
   padding-right: 5px;
