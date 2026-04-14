@@ -10,7 +10,7 @@
 }
 
 window#waybar {
-  background: rgba(21, 18, 27, 0);
+  background: @lavender;
   color: @text;
 }
 
@@ -98,7 +98,7 @@ tooltip {
  margin: 4px;
  color: @text;
  padding: 3px 8px;
- background-color: @surface0;
+ background-color: @lavender;
  transition: all 200ms ease-in-out;
  border-radius: 1.5em;
  /* border-radius: 8px; */
