@@ -4,9 +4,12 @@
   "modules-center": ["hyprland/window"],
   "modules-right": ["tray", "network", "pulseaudio", "battery", "clock"],
   "tray": {
-    "icons": {
-      "blueman": "<span size='13000' foreground='#a6e3a1'>{bluetooth} </span>"
-    }
+	"icon-size": 21,
+	"spacing": 10,
+	"icons": {
+		"blueman": "bluetooth",
+		"nm-applet": "network"
+	}
   },
   "clock": {
     "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
