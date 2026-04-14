@@ -24,7 +24,7 @@ tooltip {
 
 #workspaces {
   background: @surface;
-  border-radius: 8px;
+/*  border-radius: 8px; */
   margin-left: 10px;
   padding-right: 5px;
   padding-left: 5px;
