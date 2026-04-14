@@ -22,6 +22,14 @@ tooltip {
   border-color: @lavender;
 }
 
+#workspaces {
+  background: @surface;
+ /* border-radius: 8px; */
+ /* margin-left: 10px; */
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
 #workspaces button {
   padding: 5px;
   color: @highlightMed;
@@ -106,14 +114,6 @@ tooltip {
  /* margin-right: 10px; */
 }
 
-#workspaces {
-  background: @surface;
-  border-radius: 8px;
-  margin-left: 10px;
-  padding-right: 5px;
-  padding-left: 5px;
-}
-
 #custom-power_profile {
   color: @foam;
   border-left: 0px;
@@ -124,8 +124,8 @@ tooltip {
   border-radius: 8px;
   margin-left: 5px;
   margin-right: 5px;
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 window#waybar.empty {
