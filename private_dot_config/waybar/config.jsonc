@@ -10,7 +10,7 @@
       "blueman": "bluetooth",
       "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
     }
-  }
+  },
   "clock": {
     "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
