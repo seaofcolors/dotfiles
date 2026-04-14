@@ -25,7 +25,7 @@ tooltip {
 #workspaces button {
   padding: 5px;
   color: @highlightMed;
-  margin-left: 5px;
+  margin-right: 10px;
 }
 
 #workspaces button.active {
@@ -109,7 +109,7 @@ tooltip {
 #workspaces {
   background: @base;
   border-radius: 8px;
-  margin-left: 10px;
+  margin-left: 100px;
   padding-right: 0px;
   padding-left: 5px;
 }
