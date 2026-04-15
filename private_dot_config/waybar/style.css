@@ -88,28 +88,6 @@ tooltip {
   padding-right: 10px;
 }
 
-pulseaudio {
-  border-radius: 0 0 0 0;
-  border-width: 3px;
-  border-style: solid;
-  border-color: @lavender;
-  border-left: 0px;
-  border-right: 0px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-cpu {
-  border-radius: 0 0 0 0;
-  border-width: 3px;
-  border-style: solid;
-  border-color: @lavender;
-  border-left: 0px;
-  border-right: 0px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
 #memory {
   border-radius: 0 0 0 0;
   border-width: 3px;
