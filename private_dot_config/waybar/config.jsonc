@@ -33,7 +33,7 @@
 
   "memory": {
     "interval": 30,
-    "format": "<span color='#f8f8f2'>{}% </span>",
+    "format": "{}% ",
     "max-length": 10
   },
 
@@ -54,7 +54,7 @@
   },
 
   "clock": {
-    "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
+    "format": "   </span>{:%a %d %H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
 
