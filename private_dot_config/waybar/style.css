@@ -108,6 +108,7 @@ pulseaudio {
   border-right: 0px;
   padding-right: 10px;
   padding-left: 10px;
+  border-radius: 0 0px 0px 0;
 }
 
 #battery {
@@ -131,5 +132,5 @@ pulseaudio {
   padding-left: 10px;
   padding-right: 10px;
   border-left: 0px;
-  border-radius: 0 8px 8px 0;
+/*  border-radius: 0 8px 8px 0; */
 }
