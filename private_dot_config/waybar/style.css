@@ -42,15 +42,15 @@ tooltip {
 }
 
 #workspaces button.focused {
-/*  color: @subtle; */
+  color: @lavender;
 /*  background: @love; */
 /*  border-radius: 8px; */
 }
 
 #workspaces button.urgent {
-  color: @base;
+  color: @teal;
   background: @pine;
-  border-radius: 8px;
+/*  border-radius: 8px; */
 }
 
 #workspaces button:hover {
@@ -69,14 +69,23 @@ tooltip {
 }
 
 #tray{
- margin: 4px;
- color: @text;
- padding: 3px 8px;
- background-color: @lavender;
- transition: all 200ms ease-in-out;
- border-radius: 1em;
- margin-right: 10px;
+  margin: 4px;
+  color: @text;
+  padding: 3px 8px;
+  background-color: @lavender;
+  transition: all 200ms ease-in-out;
+  border-radius: 1em;
+  margin-right: 10px;
 }
+
+#tray > .passive {
+  -gtk-icon-effect: dim; 
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight; 
+}
+
 
 #network {
   border-radius: 12px 0 0 12px;
