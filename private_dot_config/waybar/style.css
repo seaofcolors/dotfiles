@@ -79,14 +79,13 @@ tooltip {
 }
 
 #network {
-  border-radius: 12px;
   border-width: 3px;
   border-style: solid;
   border-color: @lavender;
   border-right: 0px;
   padding-left: 10px;
   padding-right: 10px;
-  border-radius: 12px 12px 0 0;
+  border-radius: 12px 0 12px 0;
 }
 
 pulseaudio {
@@ -134,5 +133,5 @@ pulseaudio {
   padding-left: 10px;
   padding-right: 10px;
   border-left: 0px;
-  border-radius: 0 12px 12px 0;
+  border-radius: 0 12px 0 12px;
 }
