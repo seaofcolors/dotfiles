@@ -98,7 +98,7 @@
   "custom/power": {
     "format": "<span size='13000'> </span>",
     "on-click": "wlogout",
-    "tooltip": "false"
+    "tooltip": false
   },
 
   "clock": {
