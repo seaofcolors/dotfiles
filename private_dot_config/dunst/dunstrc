@@ -352,7 +352,7 @@
     #default_icon = dialog-information
 
 [urgency_normal]
-    background = "#585b70"
+    background = "#45475a"
     foreground = "#cdd6f4"
 	frame_color = "#5e5086"
 	highlight = "#722ae6, #e4b5cb"
