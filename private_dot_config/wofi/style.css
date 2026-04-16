@@ -106,6 +106,7 @@ window {
 
 #input * {
   outline: 4px solid @red;
+  margin-left: 10px;
 }
 
 /* Text */
@@ -126,7 +127,8 @@ window {
 
 /* Selected Entry */
 #entry:selected {
-  border: 0.11em solid @lavender;
+  border: 3px solid @lavender;
+  border-radius: 12px;
 }
 
 #entry:selected #text {
@@ -134,5 +136,5 @@ window {
 }
 
 #entry:drop(active) {
-  background-color: @lavender!important;
+  background-color: @lavender;
 }
