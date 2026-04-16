@@ -2,7 +2,7 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["tray", "network", "memory", "battery", "idle_inhibitor", "clock"],
+  "modules-right": ["tray", "network", "memory", "battery", "idle_inhibitor", "custom/dunst", "clock"],
 
   "hyprland/workspaces": {
     "disable-scroll": true,
@@ -67,6 +67,13 @@
     "tooltip-format-activated": "Idle Inhibitor Activated",
     "tooltip-format-deactivated": "Idle Inhibitor Deactivated"
   },
+
+  "custom/dunst": {
+    "return-type": "json",
+    "format": "{text}",
+    "exec": "/usr/lib/waybar-dunst/waybar-dunst",
+    "on-click": "dunstctl set-paused toggle"
+  }
 
   "clock": {
     "format": "   {:%a %d %H:%M}",
