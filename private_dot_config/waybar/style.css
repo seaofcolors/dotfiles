@@ -135,7 +135,7 @@ tooltip {
   color: @text;
 }
 
-#custom/dunst {
+#custom#dunst {
   color: @teal;
   border-radius: 0 0 0 0;
   border-width: 3px;
