@@ -156,7 +156,7 @@ tooltip {
 }
 
 #custom-power {
-  color: @red;
+  color: @text;
   border-radius: 0 0 0 0;
   border-width: 3px;
   border-style: solid;
@@ -165,6 +165,10 @@ tooltip {
   border-right: 0px;
   padding-left: 10px;
   padding-right: 0px;
+}
+
+#custom-power:hover {
+  color: @red;
 }
 
 #clock {
