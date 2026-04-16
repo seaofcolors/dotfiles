@@ -96,9 +96,9 @@
   },
 
   "custom/power": {
-     "format": "<span size='13000'> </span>",
-/*     "format": "<big> </big>", */
-     "on-click": "wlogout"
+    "format": "<span size='13000'> </span>",
+    "on-click": "wlogout",
+    "tooltip": "false"
   },
 
   "clock": {
