@@ -69,12 +69,16 @@ tooltip {
 }
 
 #tray{
+  border-radius: 12px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: @lavender;
   margin: 4px;
   color: @text;
   padding: 3px 8px;
   background-color: @lavender;
   transition: all 200ms ease-in-out;
-  border-radius: 1em;
+#  border-radius: 1em;
   margin-right: 10px;
 }
 
