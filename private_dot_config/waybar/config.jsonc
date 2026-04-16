@@ -99,7 +99,7 @@
 
   "custom/power": {
     "format": "<span size='13000'> </span>",
-    "on-click": "wlogout",
+    "on-click": "wlogout --buttons-per-row 2 --column-spacing 50 --row-spacing 50 --margin-top 290 --margin-bottom 290 --margin-left 300 --margin-right 300",
     "tooltip": false
   },
 
