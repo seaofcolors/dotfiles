@@ -1,0 +1,24 @@
+{
+  "label": "lock",
+  "text": "Lock",
+  "action" : "pidof hyprlock || hyprlock",
+  "keybind": "l"
+}
+{
+  "label": "suspend",
+  "text": "Suspend",
+  "action": "loginctl lock-session & systemctl suspend",
+  "keybind": "s"
+}
+{
+  "label": "reboot",
+  "text": "Reboot",
+  "action": "hyprshutdown --post-cmd systemctl reboot",
+  "keybind": "r"
+}
+{
+  "label": "shutdown",
+  "text": "Shutdown",
+  "action": "hyprshutdown --post-cmd systemctl poweroff",
+  "keybind": "p"
+}
