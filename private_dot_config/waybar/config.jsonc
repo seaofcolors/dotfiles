@@ -68,8 +68,8 @@
       "critical": 15
     },
     "format": "<span size='13000' foreground='#cdd6f4'>{icon} {capacity}%</span>",
-    "format-warning": "<span size='13000' foreground='#f9e2af'>{icon} </span>{capacity}%",
-    "format-critical": "<span size='13000' foreground='#f38ba8'>{icon} </span>{capacity}%",
+    "format-warning": "<span size='13000' foreground='#f9e2af'>{icon} </span> {capacity}%",
+    "format-critical": "<span size='13000' foreground='#f38ba8'>{icon} </span> {capacity}%",
     "format-charging": "<span size='13000' foreground='#89dceb'> </span>{capacity}%",
     "format-plugged": "<span size='13000' foreground='#cdd6f4'> </span>{capacity}%",
     "format-alt": "<span size='13000' foreground='#cdd6f4'>{icon} </span> {time}",
