@@ -129,7 +129,7 @@ tooltip {
 }
 
 #idle_inhibitor {
-  color: @teal;
+  color: @red;
   border-radius: 0 0 0 0;
   border-width: 3px;
   border-style: solid;
@@ -141,7 +141,7 @@ tooltip {
 }
 
 #idle_inhibitor.deactivated {
-  color: @red;
+  color: @lavender;
 }
 
 #custom-dunst {
