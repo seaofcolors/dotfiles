@@ -96,7 +96,7 @@
   },
 
   "custom/power": {
-     "format": "⏻",
+     "format": "<span size='13000'>⏻</span>",
      "on-click": "wlogout"
   },
 
