@@ -144,7 +144,7 @@ tooltip {
   color: @text;
 }
 
-#custom#dunst {
+#dunst {
   border-radius: 0 0 0 0;
   border-width: 3px;
   border-style: solid;
@@ -155,7 +155,7 @@ tooltip {
   padding-right: 10px;
 }
 
-#custom#power {
+#power {
   border-radius: 0 0 0 0;
   border-width: 3px;
   border-style: solid;
