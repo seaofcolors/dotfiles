@@ -91,13 +91,12 @@
   "custom/dunst": {
     "return-type": "json",
     "format": "{text}",
-/*    "format": "󰎟 ", */
     "exec": "/usr/lib/waybar-dunst/waybar-dunst",
     "on-click": "dunstctl set-paused toggle"
   },
 
   "custom/power": {
-     "format": "⏻ ",
+     "format": "⏻",
      "on-click": "wlogout"
   },
 
