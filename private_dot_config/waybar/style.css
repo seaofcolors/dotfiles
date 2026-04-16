@@ -48,13 +48,13 @@ tooltip {
 }
 
 #workspaces button.urgent {
-  color: @teal;
+  color: @pink;
   background: @pine;
 /*  border-radius: 8px; */
 }
 
 #workspaces button:hover {
-  color: @rosewater;
+  color: @flamingo;
 }
 
 #window {
