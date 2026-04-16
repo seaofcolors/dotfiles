@@ -79,7 +79,7 @@ tooltip {
   padding-left: 10px;
 /*  margin: 4px; */
   color: @text;
-/*  padding: 3px 8px; /*
+/*  padding: 3px 8px; */
   background-color: @lavender;
   transition: all 200ms ease-in-out;
 /*  border-radius: 1em; */
