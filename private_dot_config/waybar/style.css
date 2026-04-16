@@ -156,7 +156,7 @@ tooltip {
 }
 
 #custom-power {
-  color: @mauve
+  color: @mauve;
   border-radius: 0 0 0 0;
   border-width: 3px;
   border-style: solid;
