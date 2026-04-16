@@ -60,8 +60,8 @@
 window {
   margin: 0px;
   padding: 10px;
-  border: 2px solid @lavender;
-  border-radius: 8px;
+  border: 3px solid @lavender;
+  border-radius: 12px;
   background-color: @base;
 }
 
@@ -105,7 +105,7 @@ window {
 }
 
 #input * {
-  outline: 4px solid @red!important;
+  outline: 4px solid @red;
 }
 
 /* Text */
