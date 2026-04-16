@@ -353,9 +353,8 @@
 
 [urgency_normal]
     background = "#313244"
-    foreground = "#eba0ac"
-    frame_color = "#f38ba8"
-	highlight = "#a6e3a1, #cdd6f4"
+    foreground = "#cdd6f4"
+	highlight = "#94e2d5, #74c7ec"
     timeout = 20
     override_pause_level = 30
     # Icon for notifications with normal urgency
@@ -364,8 +363,8 @@
 [urgency_critical]
     background = "#313244"
     foreground = "#eba0ac"
-    frame_color = "#d54e53"
-	highlight = "#d54e53, #f0f0f0"
+    frame_color = "#f38ba8"
+	highlight = "#a6e3a1, #cdd6f4"
     timeout = 0
     override_pause_level = 60
     # Icon for notifications with critical urgency
