@@ -80,7 +80,8 @@ tooltip {
 /*  margin: 4px; */
   color: @text;
 /*  padding: 3px 8px; */
-  background-color: @lavender;
+/*  background-color: @lavender; */
+  background-color: @text;
   transition: all 200ms ease-in-out;
 /*  border-radius: 1em; */
 /*  margin-right: 10px; */
