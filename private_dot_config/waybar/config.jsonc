@@ -68,11 +68,11 @@
       "critical": 15
     },
     "format": "<span size='13000' foreground='#cdd6f4'>{icon} {capacity}%</span>",
-    "format-warning": "<span size='13000' foreground='#f9e2af'>{icon} {capacity}%</span>",
-    "format-critical": "<span size='13000' foreground='#f38ba8'>{icon} {capacity}%</span>",
+    "format-warning": "<span size='13000' foreground='#f9e2af'>{icon}  {capacity}%</span>",
+    "format-critical": "<span size='13000' foreground='#f38ba8'>{icon}  {capacity}%</span>",
     "format-charging": "<span size='13000' foreground='#89dceb'> {capacity}%</span>",
     "format-plugged": "<span size='13000' foreground='#cdd6f4'> {capacity}%</span>",
-    "format-alt": "<span size='13000' foreground='#cdd6f4'>{icon} {time}</span>",
+    "format-alt": "<span size='13000' foreground='#cdd6f4'>{icon}  {time}</span>",
     "format-full": "<span size='13000' foreground='#cdd6f4'>  {capacity}%</span>",
     "format-icons": ["", "", "", "", ""],
     "tooltip-format": "{time}"
