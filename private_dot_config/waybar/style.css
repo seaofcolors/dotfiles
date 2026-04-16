@@ -145,7 +145,17 @@ tooltip {
 }
 
 #custom#dunst {
-  color: @teal;
+  border-radius: 0 0 0 0;
+  border-width: 3px;
+  border-style: solid;
+  border-color: @lavender;
+  border-left: 0px;
+  border-right: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#custom#power {
   border-radius: 0 0 0 0;
   border-width: 3px;
   border-style: solid;
