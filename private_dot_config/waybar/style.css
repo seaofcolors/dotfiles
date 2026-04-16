@@ -141,7 +141,7 @@ tooltip {
 }
 
 #idle_inhibitor.deactivated {
-  color: @lavender;
+  color: @text;
 }
 
 #custom-dunst {
@@ -156,7 +156,7 @@ tooltip {
 }
 
 #custom-power {
-  color: @mauve;
+  color: @red;
   border-radius: 0 0 0 0;
   border-width: 3px;
   border-style: solid;
