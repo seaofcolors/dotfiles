@@ -42,7 +42,8 @@
 		"phone-muted": "",
 		"portable": "",
 		"car": "",
-		"default": ["", ""]
+/*		"default": ["", ""] */
+		"default": ["󰕿", "󰖀", "󰕾"]
 	},
 	"scroll-step": 1,
 	"on-click": "pavucontrol"
