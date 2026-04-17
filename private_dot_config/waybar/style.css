@@ -75,7 +75,6 @@ tooltip {
   padding-right: 10px;
   padding-left: 10px;
   color: @lavender;
-  foreground-color: @lavender;
   transition: all 200ms ease-in-out;
 }
 
