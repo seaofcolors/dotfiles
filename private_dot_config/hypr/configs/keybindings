@@ -15,7 +15,7 @@ bind = $mainMod, F, exec, $fileManager
 bind = $mainMod, T, exec, $terminal
 bind = $mainMod SHIFT, S, exec, hyprmoncfg
 
-bind = $mainMod SHIFT, O, exec, command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch ex>
+bind = $mainMod SHIFT, O, exec, command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit
 
 bind = $mainMod, S, exec, htop
 bind = $mainMod, L, exec, librewolf
