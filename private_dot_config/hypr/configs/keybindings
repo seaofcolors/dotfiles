@@ -29,17 +29,20 @@ bind = $mainMod, K, exec, kate
 bind = $mainMod, Z, exec, [workspace 4] zettlr
 bind = $mainMod, U, exec, [workspace 4] zotero
 bind = $mainMod, W, exec, [workspace 4] libreoffile -writer
+
 bind = $mainMod, H, exec, [workspace 5] hugin
 bind = $mainMod, K, exec, [workspace 5] darktable
 bind = $mainMod, D, exec, [workspace 5] digikam
 bind = $mainMod, E, exec, [workspace 5] ente-desktop
-bind = $mainMod, A, exec, anki
+
 bind = $mainMod, Q, exec, [workspace 6] qobuz
+
 bind = $mainMod, C, exec, [workspace 3] element-desktop & signal-desktop --password-store="kwallet6" & Telegram & /opt/google/chrome/google-chrome --profile-directory=Default --app-id=hnpfjngllnobngcgfapefoaidbinmjnm
 bind = $mainMod, B, exec, [workspace 3] bluesky
+
 bind = $mainMod, O, exec, opera
 bind = $mainMod, I, exec, google-chrome-stable
-bind = $mainMod, G, exec, [workspace 9] steam
+bind = $mainMod, G, exec, [workspace 9] prime-run steam
 
 
 # Move focus with mainMod + arrow keys
