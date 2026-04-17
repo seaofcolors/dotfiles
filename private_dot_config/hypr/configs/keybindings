@@ -44,6 +44,10 @@ bind = $mainMod, O, exec, opera
 bind = $mainMod, I, exec, google-chrome-stable
 bind = $mainMod, G, exec, [workspace 9] prime-run steam
 
+# Regional screenshot
+bind =, Print, exec, grim -g "$(slurp)" - | wl-copy && wl-paste > ~/Pictures/Screenshots/Screenshot-$(date +%F_%T).png | dunstify "Screenshot of the region taken" -t 1000
+# Fullscreen screenshot
+bind = SHIFT, Print, exec, grim - | wl-copy && wl-paste > ~/Pictures/Screenshots/Screenshot-$(date +%F_%T).png | dunstify "Screenshot of whole screen taken" -t 1000
 
 # Move focus with mainMod + arrow keys
 bind = $mainMod, left, movefocus, l
