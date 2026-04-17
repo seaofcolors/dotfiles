@@ -1,4 +1,0 @@
-$terminal = kitty
-$fileManager = /usr/bin/dolphin
-$menu = wofi --show drun --allow-images --insensitive
-
