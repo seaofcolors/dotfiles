@@ -12,34 +12,34 @@ bind = $mainMod, code:35, togglespecialworkspace, magic
 bind = $mainMod SHIFT, code:35, movetoworkspace, special:magic
 
 bind = $mainMod, F, exec, $fileManager
-bind = $mainMod, T, exec, $terminal
+bind = $mainMod, T, exec, [workspace 8] $terminal
 bind = $mainMod SHIFT, S, exec, hyprmoncfg
 
 bind = $mainMod SHIFT, O, exec, command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit
 
 bind = $mainMod, S, exec, kitty --hold htop
-bind = $mainMod, L, exec, librewolf
-bind = $mainMod, M, exec, proton-mail
-bind = $mainMod, P, exec, proton-pass
-bind = $mainMod, A, exec, enteauth
-bind = $mainMod, V, exec, protonvpn-app
+bind = $mainMod, L, exec, [workspace 1] librewolf
+bind = $mainMod, M, exec, [workspace 2] proton-mail
+bind = $mainMod, P, exec, [workspace 9] proton-pass
+bind = $mainMod, A, exec, [workspace 9] enteauth
+bind = $mainMod, V, exec, [workspace 9] protonvpn-app
 
 bind = $mainMod, R, exec, recoll
 bind = $mainMod, K, exec, kate
-bind = $mainMod, Z, exec, zettlr
-bind = $mainMod, U, exec, zotero
-bind = $mainMod, W, exec, libreoffile -writer
-bind = $mainMod, H, exec, hugin
-bind = $mainMod, K, exec, darktable
-bind = $mainMod, D, exec, digikam
-bind = $mainMod, E, exec, ente-desktop
+bind = $mainMod, Z, exec, [workspace 4] zettlr
+bind = $mainMod, U, exec, [workspace 4] zotero
+bind = $mainMod, W, exec, [workspace 4] libreoffile -writer
+bind = $mainMod, H, exec, [workspace 5] hugin
+bind = $mainMod, K, exec, [workspace 5] darktable
+bind = $mainMod, D, exec, [workspace 5] digikam
+bind = $mainMod, E, exec, [workspace 5] ente-desktop
 bind = $mainMod, A, exec, anki
-bind = $mainMod, Q, exec, qobuz
-bind = $mainMod, C, exec, signal & element & telegram & whatsapp
-bind = $mainMod, B, exec, bluesky
+bind = $mainMod, Q, exec, [workspace 6] qobuz
+bind = $mainMod, C, exec, [workspace 3] signal & element & telegram & whatsapp
+bind = $mainMod, B, exec, [workspace 3] bluesky
 bind = $mainMod, O, exec, opera
 bind = $mainMod, I, exec, google-chrome-stable
-bind = $mainMod, G, exec, steam
+bind = $mainMod, G, exec, [workspace 9] steam
 
 
 # Move focus with mainMod + arrow keys
