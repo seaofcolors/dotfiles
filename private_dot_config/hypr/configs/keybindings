@@ -11,29 +11,29 @@ bind = $mainMod, code:61, layoutmsg, togglesplit # dwindle
 bind = $mainMod, code:35, togglespecialworkspace, magic
 bind = $mainMod SHIFT, code:35, movetoworkspace, special:magic
 
-bind = $mainMod, F, exec, $fileManager
-bind = $mainMod, T, exec, [workspace 8] $terminal
 bind = $mainMod SHIFT, S, exec, hyprmoncfg
-
 bind = $mainMod SHIFT, O, exec, command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit
 
+bind = $mainMod, F, exec, $fileManager
+bind = $mainMod, T, exec, [workspace 8] $terminal
 bind = $mainMod, S, exec, kitty --hold htop
+
 bind = $mainMod, L, exec, [workspace 1] librewolf
 bind = $mainMod, M, exec, [workspace 2] proton-mail
 bind = $mainMod, P, exec, [workspace 9] proton-pass
 bind = $mainMod, A, exec, [workspace 9] enteauth
 bind = $mainMod, V, exec, [workspace 9] protonvpn-app
 
-bind = $mainMod, R, exec, recoll
-bind = $mainMod, K, exec, kate
+bind = $mainMod, W, exec, [workspace 4] libreoffice -writer
 bind = $mainMod, Z, exec, [workspace 4] zettlr
 bind = $mainMod, U, exec, [workspace 4] zotero
-bind = $mainMod, W, exec, [workspace 4] libreoffice -writer
+bind = $mainMod, R, exec, recoll
+bind = $mainMod, K, exec, kate
 
-bind = $mainMod, H, exec, [workspace 5] hugin
-bind = $mainMod, K, exec, [workspace 5] darktable
-bind = $mainMod, D, exec, [workspace 5] digikam
 bind = $mainMod, E, exec, [workspace 5] ente-desktop
+bind = $mainMod, D, exec, [workspace 5] digikam
+bind = $mainMod, K, exec, [workspace 5] darktable
+bind = $mainMod, H, exec, [workspace 5] hugin
 
 bind = $mainMod, Q, exec, [workspace 6] qobuz
 
