@@ -18,7 +18,7 @@ exec-once = [workspace 2 silent] proton-mail
 exec-once = [workspace 9 silent] proton-pass
 exec-once = [workspace 9 silent] protonvpn-app
 exec-once = [workspace 1 silent] env QT_QPA_PLATFORM=xcb insync start
-exec-once = feh --bg-fill ~/.config/backgrounds/hyprland-keybindings.jpg
+exec-once = [workspace 10 silent] feh --zoom 100 -F ~/.config/backgrounds/hyprland-keybindings.jpg
 
 # exec-once = [workspace 9 silent] enteauth
 
