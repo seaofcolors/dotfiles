@@ -35,7 +35,7 @@ bind = $mainMod, D, exec, [workspace 5] digikam
 bind = $mainMod, E, exec, [workspace 5] ente-desktop
 bind = $mainMod, A, exec, anki
 bind = $mainMod, Q, exec, [workspace 6] qobuz
-bind = $mainMod, C, exec, [workspace 3] signal-desktop & element-dektop & Telegram & /opt/google/chrome/google-chrome --profile-directory=Default --app-id=hnpfjngllnobngcgfapefoaidbinmjnm
+bind = $mainMod, C, exec, [workspace 3] signal-desktop --password-store="kwallet6" & element-dektop & Telegram & /opt/google/chrome/google-chrome --profile-directory=Default --app-id=hnpfjngllnobngcgfapefoaidbinmjnm
 bind = $mainMod, B, exec, [workspace 3] bluesky
 bind = $mainMod, O, exec, opera
 bind = $mainMod, I, exec, google-chrome-stable
