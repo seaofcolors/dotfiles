@@ -12,6 +12,7 @@ exec-once = hypridle
 exec-once = udiskie
 exec-once = nm-applet
 exec-once = blueman-applet
+exec-once = insync start
 
 exec-once = [workspace 1 silent] librewolf
 exec-once = [workspace 2 silent] proton-mail
