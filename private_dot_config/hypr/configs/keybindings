@@ -28,7 +28,7 @@ bind = $mainMod, R, exec, recoll
 bind = $mainMod, K, exec, kate
 bind = $mainMod, Z, exec, [workspace 4] zettlr
 bind = $mainMod, U, exec, [workspace 4] zotero
-bind = $mainMod, W, exec, [workspace 4] libreoffile -writer
+bind = $mainMod, W, exec, [workspace 4] libreoffice -writer
 
 bind = $mainMod, H, exec, [workspace 5] hugin
 bind = $mainMod, K, exec, [workspace 5] darktable
