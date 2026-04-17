@@ -43,14 +43,11 @@ tooltip {
 
 #workspaces button.focused {
   color: @lavender;
-/*  background: @love; */
-/*  border-radius: 8px; */
 }
 
 #workspaces button.urgent {
   color: @pink;
   background: @pine;
-/*  border-radius: 8px; */
 }
 
 #workspaces button:hover {
@@ -77,14 +74,9 @@ tooltip {
   margin-right: 5px;
   padding-right: 10px;
   padding-left: 10px;
-/*  margin: 4px; */
-  color: @text;
-/*  padding: 3px 8px; */
-/*  background-color: @lavender; */
-  background-color: @text;
+/*  color: @text; */
+/*  background-color: @text; */
   transition: all 200ms ease-in-out;
-/*  border-radius: 1em; */
-/*  margin-right: 10px; */
 }
 
 #tray > .passive {
