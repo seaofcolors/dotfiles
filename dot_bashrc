@@ -114,3 +114,6 @@ export SHELLHELP="\n
 └────────────────────────────────────────────────────────────────
 "
 alias shellhelp='echo -e $SHELLHELP'
+
+shellhelp
+
