@@ -96,20 +96,20 @@ export EDITOR="nano"
 alias dotedit='chezmoi edit --apply'
 
 export SHELLHELP="\n
-	Ctrl-R	\t\t	Interactive command history \n
-	Ctrl-T          Interactive file and folder list \n
-	Alt-C           Interactive cd \n
-	$ list          Expanded ls \n
+	Ctrl-R \t	Interactive command history \n
+	Ctrl-T \t	Interactive file and folder list \n
+	Alt-C \t	Interactive cd \n
+	$ list \t	Expanded ls \n
 	listsize \t	List by size \n
-	listtime        List by time \n
-	mnt             List mounted drives \n
-	gh              History grep'ped \n
-	cpv             Enhanced copy command \n
-	rmv             Move to trash instead of delete \n
-	pacinstall      Interactive package installation \n
-	pacremove       Interactive package removal \n
-	dotedit         Edit dotfiles managed by Chezmoi \n	
-	pacdiff         Start editor to review pacman config changes \n
-	checkservices   Check for systemd and other install/remove cruft"
+	listtime \t	List by time \n
+	mnt \t		List mounted drives \n
+	gh \t		History grep'ped \n
+	cpv \t		Enhanced copy command \n
+	rmv \t		Move to trash instead of delete \n
+	pacinstall \t	Interactive package installation \n
+	pacremove \t	Interactive package removal \n
+	dotedit \t	Edit dotfiles managed by Chezmoi \n	
+	pacdiff \t	Start editor to review pacman config changes \n
+	checkservices\t Check for systemd and other install/remove cruft"
 
 alias shellhelp='echo -e $SHELLHELP'
