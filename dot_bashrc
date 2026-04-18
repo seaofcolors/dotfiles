@@ -32,7 +32,7 @@ alias rmv='mv --force -t ~/.local/share/Trash '
 # Custom bash prompt
 export PS1="\[\e[1;32m\]\u\[\e[m\]: \[\033[1;34m\]\w\[\033[00m\] \$ "
 
-alias pacdiff='DIFFPROG=nano pacdiff'
+alias pacdiff='DIFFPROG=nano pacdiff --sudo --backup'
 alias checkservices='DIFFPROG=nano checkservices'
 
 # Pkgfile database to be checked for missing commands
