@@ -25,7 +25,7 @@ bind = $mainMod, A, exec, [workspace 9] enteauth
 bind = $mainMod, V, exec, [workspace 9] protonvpn-app
 
 bind = $mainMod, W, exec, [workspace 4] libreoffice -writer
-bind = $mainMod, Z, exec, [workspace 4] zettlr
+bind = $mainMod, Z, exec, [workspace 4] ~/.config/hypr/scripts/zettlr-gitwatch.sh
 bind = $mainMod, U, exec, [workspace 4] zotero
 bind = $mainMod, R, exec, recoll
 bind = $mainMod, K, exec, kate
