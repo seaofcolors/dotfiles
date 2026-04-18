@@ -5,4 +5,5 @@ zettlr
 
 sleep 70
 
-kill %1
+ps -aux | grep gitwatch | grep -v grep | awk '{ print $2 }' | xargs kill -9
+ps -aux | grep inotifywait | grep -v grep | awk '{ print $2 }' | xargs kill -9
