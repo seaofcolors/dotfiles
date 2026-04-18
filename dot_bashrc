@@ -98,14 +98,14 @@ alias dotedit='chezmoi edit --apply'
 export SHELLHELP="\n
 	Ctrl-R \t	Interactive command history \n
 	Ctrl-T \t	Interactive file and folder list \n
-	Alt-C \t	Interactive cd \n
+	Alt-C \t\t	Interactive cd \n
 	$ list \t	Expanded ls \n
 	listsize \t	List by size \n
 	listtime \t	List by time \n
-	mnt \t		List mounted drives \n
-	gh \t		History grep'ped \n
-	cpv \t		Enhanced copy command \n
-	rmv \t		Move to trash instead of delete \n
+	mnt \t\t	List mounted drives \n
+	gh \t\t		History grep'ped \n
+	cpv \t\t	Enhanced copy command \n
+	rmv \t\t	Move to trash instead of delete \n
 	pacinstall \t	Interactive package installation \n
 	pacremove \t	Interactive package removal \n
 	dotedit \t	Edit dotfiles managed by Chezmoi \n	
