@@ -53,8 +53,8 @@ eval "$(fzf --bash)"
 # source /usr/share/fzf/completion.bash
 
 # Work around a loop due to Steam pointing back to root and remove the large amounts of files in .cache
-export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .steam --exclude .local\/share\/Steam --exclude .cache'
-#export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .steam --exclude .local\/share\/Steam --exclude .cache --exclude Disk2/Steam --exclude Disk2/Steam_Library --exclude Disk2/Virtualbox'
+# export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 # export FZF_ALT_C_COMMAND="$FZF_DEFAULT_COMMAND"
 # Print tree structure in the preview window
 
