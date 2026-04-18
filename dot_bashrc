@@ -49,13 +49,19 @@ complete -cf sudo
 # Other uses: $ kill -9 <TAB>
 alias fzfp="fzf --ansi --preview '(highlight -O ansi {} 2>/dev/null || cat {} || tree -C {}) 2>/dev/null | head -200'"
 eval "$(fzf --bash)"
-#source /usr/share/fzf/key-bindings.bash
-#source /usr/share/fzf/completion.bash
+# source /usr/share/fzf/key-bindings.bash
+# source /usr/share/fzf/completion.bash
 
 # Work around a loop due to Steam pointing back to root and remove the large amounts of files in .cache
 export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .steam --exclude .local\/share\/Steam --exclude .cache'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-export FZF_ALT_C_COMMAND="$FZF_DEFAULT_COMMAND"
+# export FZF_ALT_C_COMMAND="$FZF_DEFAULT_COMMAND"
+# Print tree structure in the preview window
+export FZF_ALT_C_OPTS="
+  --walker-skip .git,node_modules,target
+  --preview 'tree -C {}'"
+
+
 alias pacinstall="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
 alias pacremove="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rncs"
 
