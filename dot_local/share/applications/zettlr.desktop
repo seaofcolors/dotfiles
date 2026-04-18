@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Zettlr
+Comment=A Markdown Editor for the 21st century
+Exec=~/.config/hypr/scripts/zettlr-gitwatch.sh
+Icon=zettlr
+Terminal=false
+StartupNotify=false
+Categories=Office;
+MimeType=text/markdown;
+StartupWMClass=Zettlr
