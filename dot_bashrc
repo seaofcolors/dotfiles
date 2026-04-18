@@ -71,3 +71,5 @@ export PATH="$PATH:/home/till/.local/bin"
 # Make sure chezmoi and other tools default to nano not vim
 export EDITOR="nano"
 
+# Have an easier command for editing dotfiles with chezmoi
+alias dotedit='chezmoi edit --apply'
