@@ -42,21 +42,16 @@ source /usr/share/doc/pkgfile/command-not-found.bash
 # Bash completion for sudo
 complete -cf sudo
 
-# Setup fzf enhancements
+# Interactive fzf enhancements
 # ctrl-r lists command history
-# ctrl-t lists files and folders [ easy replacement for  $ command $(fzf) ]
-# alt-c offers a visual cd [ replacement for  $ cd $(fzf) ]
+# ctrl-t lists files and folders
+# alt-c offers a visual cd
 # Other uses: $ kill -9 <TAB>
 alias fzfp="fzf --ansi --preview '(highlight -O ansi {} 2>/dev/null || cat {} || tree -C {}) 2>/dev/null | head -200'"
 eval "$(fzf --bash)"
-# source /usr/share/fzf/key-bindings.bash
-# source /usr/share/fzf/completion.bash
 
 # Work around a loop due to Steam pointing back to root and remove the large amounts of files in .cache
 export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .steam --exclude .local\/share\/Steam --exclude .cache --exclude Disk2/Steam --exclude Disk2/Steam_Library --exclude Disk2/Virtualbox'
-# export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-# export FZF_ALT_C_COMMAND="$FZF_DEFAULT_COMMAND"
-# Print tree structure in the preview window
 
 export FZF_CTRL_R_OPTS="
   --bind 'ctrl-y:execute-silent(echo -n {2..} | pbcopy)+abort'
@@ -73,9 +68,12 @@ export FZF_ALT_C_OPTS="
   --walker-skip .git,node_modules,target
   --preview 'tree -C {}'"
 
-
-alias pacinstall="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
-alias pacremove="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rncs"
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#313244,bg:#1E1E2E,spinner:#F5E0DC,hl:#F38BA8 \
+--color=fg:#CDD6F4,header:#F38BA8,info:#CBA6F7,pointer:#F5E0DC \
+--color=marker:#B4BEFE,fg+:#CDD6F4,prompt:#CBA6F7,hl+:#F38BA8 \
+--color=selected-bg:#45475A \
+--color=border:#6C7086,label:#CDD6F4"
 
 _fzf_compgen_path() {
   fd --hidden --follow --exclude ".steam" --exclude ".local/share/Steam" . "$1"
@@ -85,8 +83,10 @@ _fzf_compgen_dir() {
   fd --type d --hidden --follow --exclude ".steam" --exclude ".local/share/Steam" . "$1"
 }
 
+alias pacinstall="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
+alias pacremove="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rncs"
 
-# Created by `pipx` on 2025-06-09 11:11:10
+# Make pipx programs executable
 export PATH="$PATH:/home/till/.local/bin"
 
 # Make sure chezmoi and other tools default to nano not vim
