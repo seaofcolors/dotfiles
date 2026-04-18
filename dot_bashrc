@@ -109,8 +109,8 @@ export SHELLHELP="
 │ dotedit \t	Edit dotfiles managed by Chezmoi \n	
 │ pacinstall \t	Interactive package installation \n
 │ pacremove \t	Interactive package removal \n
-│ pacdiff \t	Start editor to review pacman config changes \n
-│ checkservices\t Check for systemd and other install/remove cruft \n
+│ pacdiff \t	Start editor to review pacman config changes\n
+│ checkservices\t Check for systemd and other install/remove cruft\n
 └────────────────────────────────────────────────────────────────
 "
 alias shellhelp='echo -e $SHELLHELP'
