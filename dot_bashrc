@@ -55,8 +55,8 @@ source /usr/share/fzf/completion.bash
 export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .steam --exclude .local\/share\/Steam --exclude .cache'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND="$FZF_DEFAULT_COMMAND"
-export pacinstall="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
-export pacremove="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rncs"
+alias pacinstall="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
+alias pacremove="pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rncs"
 
 _fzf_compgen_path() {
   fd --hidden --follow --exclude ".steam" --exclude ".local/share/Steam" . "$1"
