@@ -110,6 +110,6 @@ export SHELLHELP="\n
 	pacremove       Interactive package removal \n
 	dotedit         Edit dotfiles managed by Chezmoi \n	
 	pacdiff         Start editor to review pacman config changes \n
-	checkservices   ???"
+	checkservices   Check for systemd and other install/remove cruft"
 
 alias shellhelp='echo -e $SHELLHELP'
