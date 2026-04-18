@@ -94,8 +94,7 @@ export EDITOR="nano"
 # Have an easier command for editing dotfiles with chezmoi
 alias dotedit='chezmoi edit --apply'
 
-export SHELLHELP="
-┌────────────────────────────────────────────────────────────────\n
+export SHELLHELP=" ┌────────────────────────────────────────────────────────────────\n
 │ Ctrl-R \t	Interactive command history \n
 │ Ctrl-T \t	Interactive file and folder list \n
 │ Alt-C \t\t	Interactive cd \n
@@ -109,8 +108,8 @@ export SHELLHELP="
 │ dotedit \t	Edit dotfiles managed by Chezmoi \n	
 │ pacinstall \t	Interactive package installation \n
 │ pacremove \t	Interactive package removal \n
-│ pacdiff \t	Start editor to review pacman config changes\n
-│ checkservices\t Check for systemd and other install/remove cruft\n
+│ pacdiff \t	Start editor to review pacman config changes \n
+│ checkservices\t Check for systemd and other install/remove cruft \n
 └────────────────────────────────────────────────────────────────
 "
 alias shellhelp='echo -e $SHELLHELP'
