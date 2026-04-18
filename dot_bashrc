@@ -96,11 +96,11 @@ export EDITOR="nano"
 alias dotedit='chezmoi edit --apply'
 
 export SHELLHELP="\n
-	Ctrl-R          Interactive command history \n
+	Ctrl-R	\t\t	Interactive command history \n
 	Ctrl-T          Interactive file and folder list \n
 	Alt-C           Interactive cd \n
 	$ list          Expanded ls \n
-	listsize        List by size \n
+	listsize \t	List by size \n
 	listtime        List by time \n
 	mnt             List mounted drives \n
 	gh              History grep'ped \n
