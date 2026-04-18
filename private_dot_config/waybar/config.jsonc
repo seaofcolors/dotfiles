@@ -19,7 +19,14 @@
             "8": "",
             "9": "󰒃",
             "10": "",
-    }
+    },
+    "window-rewrite": {
+	    "title<.*hyprland-keybindings.*>": "Hyprland Keybindings",
+            "class<librewolf>": "  LibreWolf",
+            "class<firefox>": "  FireFox",
+            "class<google-chrome>": "󰊯 Google Chrome",
+            "class<opera>": " Opera",
+    },
   },
 
   "tray": {
