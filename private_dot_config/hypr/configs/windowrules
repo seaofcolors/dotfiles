@@ -39,8 +39,9 @@ windowrule {
 }
 
 windowrule {
+   name = make-feh-fullscreen
    match:class = feh
-   border-size = 0
+   border_size = 0
    fullscreen = on
 }
 
