@@ -2,9 +2,12 @@
 
 sleep 1
 
-if ! pgrep hyprpaper > /dev/null
+if pgrep -x "hyprpaper" > /dev/null
 then
-  hyprpaper &
+    echo "Hyprpaper is running"
+else
+    echo "Starting hyprpaper"
+    hyprpaper &
 fi
 
 sleep 1
