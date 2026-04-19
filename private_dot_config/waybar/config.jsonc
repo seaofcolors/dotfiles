@@ -21,12 +21,21 @@
             "10": "",
     },
     "window-rewrite": {
-	    "title<.*hyprland-keybindings.*>": "Hyprland Keybindings",
-            "class<librewolf>": "  LibreWolf",
-            "class<firefox>": "  FireFox",
+    },
+  },
+
+  "hyprland/window": {
+	"format": "{}",
+	"icon": true,
+	"separate-outputs": true,
+	"max-length": 20,
+	"rewrite": {
+	    "(.*)hyprland-keybindings(.*)": "Hyprland Keybindings",
+            "(.*) - LibreWolf":		"  $1",
+            "(.*) - Mozilla Firefox":	"  $1",
             "class<google-chrome>": "󰊯 Google Chrome",
             "class<opera>": " Opera",
-    },
+	},
   },
 
   "tray": {
