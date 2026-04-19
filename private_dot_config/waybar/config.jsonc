@@ -26,7 +26,7 @@
 
   "hyprland/window": {
 	"format": "{}",
-	# "icon": true,
+	/* "icon": true, */
 	"separate-outputs": true,
 	"max-length": 100,
 	"rewrite": {
