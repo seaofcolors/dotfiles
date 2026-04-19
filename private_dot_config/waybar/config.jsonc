@@ -26,9 +26,9 @@
 
   "hyprland/window": {
 	"format": "{}",
-	"icon": true,
+	# "icon": true,
 	"separate-outputs": true,
-	"max-length": 20,
+	"max-length": 100,
 	"rewrite": {
 	    "(.*)hyprland-keybindings(.*)": "Hyprland Keybindings",
             "(.*) - LibreWolf":		"  $1",
