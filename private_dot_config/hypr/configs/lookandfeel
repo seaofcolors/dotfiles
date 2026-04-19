@@ -62,7 +62,7 @@ misc {
     force_default_wallpaper = 0
 }
 
-exec-once hyprpaper
+exec-once = hyprpaper
 
 hyprpaper = workspace1, ~/.config/backgrounds/arch-rainbow-catppuccin-mocha.png
 hyprpaper = workspace2, ~/.config/backgrounds/arch-rainbow-catppuccin-mocha.png
