@@ -5,6 +5,9 @@ exec-once = hyprctl setcursor catppuccin-mocha-dark-cursors 28
 
 exec-once = cursor-clip --daemon
 
+now=`date +"%x %X"`
+echo "== Hyprland startup, ${now}. ==" >> mylog.log
+
 exec-once = waybar &
 exec-once = dunst
 exec-once = hypridle
