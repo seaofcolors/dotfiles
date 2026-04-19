@@ -61,3 +61,14 @@ animations {
 misc {
     force_default_wallpaper = 0
 }
+
+hyprpaper = workspace1, ~/.config/backgrounds/arch-rainbow-catppuccin-mocha.png
+hyprpaper = workspace2, ~/.config/backgrounds/arch-rainbow-catppuccin-mocha.png
+hyprpaper = workspace3, ~/.config/backgrounds/arch-rainbow-catppuccin-mocha.png
+hyprpaper = workspace4, ~/.config/backgrounds/arch-rainbow-catppuccin-mocha.png
+hyprpaper = workspace5, ~/.config/backgrounds/arch-rainbow-catppuccin-mocha.png
+hyprpaper = workspace6, ~/.config/backgrounds/arch-rainbow-catppuccin-mocha.png
+hyprpaper = workspace7, ~/.config/backgrounds/arch-rainbow-catppuccin-mocha.png
+hyprpaper = workspace8, ~/.config/backgrounds/arch-rainbow-catppuccin-mocha.png
+hyprpaper = workspace9, ~/.config/backgrounds/arch-rainbow-catppuccin-mocha.png
+hyprpaper = workspace10, ~/.config/backgrounds/hyprland-keybindings.jpg
