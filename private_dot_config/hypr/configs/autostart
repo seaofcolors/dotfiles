@@ -7,18 +7,19 @@ exec-once = cursor-clip --daemon
 
 exec-once = waybar &
 exec-once = dunst
-exec-once = hyprpaper
 exec-once = hypridle
 exec-once = udiskie --appindicator
 exec-once = nm-applet
 exec-once = blueman-applet
 exec-once = insync start
+exec-once = hyprpaper
 
 exec-once = [workspace 1 silent] librewolf
 exec-once = [workspace 2 silent] proton-mail
 exec-once = [workspace 9 silent] proton-pass
 exec-once = [workspace 9 silent] protonvpn-app
-exec-once = [workspace 1 silent] env QT_QPA_PLATFORM=xcb insync start
+#exec-once = [workspace 1 silent] env QT_QPA_PLATFORM=xcb insync start
+exec-once = [workspace 1 silent] insync start
 exec-once = [workspace 10 silent] feh -x -F ~/.config/backgrounds/hyprland-keybindings.jpg
 
 # exec-once = [workspace 9 silent] enteauth
