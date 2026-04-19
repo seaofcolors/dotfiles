@@ -37,3 +37,10 @@ windowrule {
     move = 20 monitor_h-120
     float = yes
 }
+
+windowrule {
+   match:class = feh
+   border-size = 0
+   fullscreen = on
+}
+
