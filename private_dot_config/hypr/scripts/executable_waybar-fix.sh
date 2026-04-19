@@ -2,16 +2,10 @@
 
 sleep 4
 
-#if ! pgrep waybar > /dev/null
-#then
-#  waybar &
-#fi
-
-
-if pgrep waybar | grep "[0-9]" 
+if pgrep -x "waybar" > /dev/null
 then
-  echo "no"
+    echo "Waybar is running"
 else
-  echo "yes"
-  waybar &
+    echo "Starting waybar"
+    waybar &
 fi
