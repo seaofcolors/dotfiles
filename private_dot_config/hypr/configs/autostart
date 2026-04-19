@@ -14,6 +14,7 @@ exec-once = blueman-applet
 exec-once = insync start
 exec-once = hyprpaper
 exec-once = hyprctl hyprpaper wallpaper , ~/.config/backgrounds/arch-rainbow-catppuccin-mocha.png
+exec-once = ~/.config/hypr/scripts/wallpaper-fix.sh
 
 exec-once = [workspace 1 silent] librewolf
 exec-once = [workspace 2 silent] proton-mail
