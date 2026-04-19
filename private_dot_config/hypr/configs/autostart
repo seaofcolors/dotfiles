@@ -7,7 +7,7 @@ exec-once = cursor-clip --daemon
 
 exec-once = waybar &
 exec-once = dunst
-exec-once = hyprpaper
+# exec-once = hyprpaper
 exec-once = hypridle
 exec-once = udiskie --appindicator
 exec-once = nm-applet
