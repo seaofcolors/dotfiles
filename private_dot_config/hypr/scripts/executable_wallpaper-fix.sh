@@ -2,6 +2,8 @@
 
 sleep 1
 
+killall kded6
+
 if pgrep -x "hyprpaper" > /dev/null
 then
     echo "Hyprpaper is running"
