@@ -31,7 +31,7 @@
 	"max-length": 100,
 	"rewrite": {
 	    "(.*)hyprland-keybindings(.*)": "Hyprland Keybindings",
-            "(.*)  LibreWolf":		"  $1",
+            "(.*) (.) LibreWolf":	"  $1",
             "(.*) - Mozilla Firefox":	"  $1",
             "class<google-chrome>": "󰊯 Google Chrome",
             "class<opera>": " Opera",
