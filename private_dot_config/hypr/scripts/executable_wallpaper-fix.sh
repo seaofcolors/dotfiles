@@ -8,8 +8,9 @@ if pgrep -x "hyprpaper" > /dev/null
 then
     echo "Hyprpaper is running"
 else
-    echo "Starting hyprpaper"
     hyprpaper &
+    now=`date +"%x %X"`
+    echo "Hyprpaper fix executed, ${now}." >> mylog.log
 fi
 
 sleep 1
