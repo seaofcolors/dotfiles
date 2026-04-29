@@ -98,7 +98,6 @@ show_always = true
 
 [directory]
 style = "fg:mantle bg:peach"
-format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
 
