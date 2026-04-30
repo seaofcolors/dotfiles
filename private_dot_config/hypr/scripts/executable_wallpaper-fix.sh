@@ -15,4 +15,4 @@ fi
 
 sleep 1
 
-hyprctl hyprpaper wallpaper , ~/.config/backgrounds/arch-rainbow-catppuccin-mocha-2.png
+hyprctl hyprpaper wallpaper , ~/.config/backgrounds/arch-rainbow-catppuccin-mocha-2.png &
