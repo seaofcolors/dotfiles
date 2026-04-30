@@ -9,7 +9,7 @@ echo "Start zettlr, ${now}." >> ~/.config/hypr/scripts/mylog.log
 zettlr
 
 now=`date +"%x %X"`
-echo "Zettlr quit, ${now}." >> ~/.config/hypr/scripts/mylog.log
+echo "Zettlr quit, ${now}. .. Sleep for 70s, then poll and kill gitwatch." >> ~/.config/hypr/scripts/mylog.log
 
 sleep 70
 
