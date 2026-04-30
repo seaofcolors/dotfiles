@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gitwatch -s 60 -r origin ~/Documents/Zettlr\ Notes/ &
+gitwatch -s 60 -r origin ~/Google\ Drive/04\ Life\ and\ Joy/Zettlr\ Notes/ &
 zettlr
 
 sleep 70
