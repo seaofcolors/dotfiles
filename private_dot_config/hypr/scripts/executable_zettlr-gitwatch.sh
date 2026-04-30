@@ -2,7 +2,7 @@
 
 now=`date +"%x %X"`
 echo "Start gitwatch, ${now}." >> ~/.config/hypr/scripts/mylog.log
-gitwatch -s 60 -r origin ~/Google\ Drive/04\ Life\ and\ Joy/Zettlr\ Notes/ &
+gitwatch -s 60 -r origin ~/Documents/Zettlr\ Notes/ &
 
 now=`date +"%x %X"`
 echo "Start zettlr, ${now}." >> ~/.config/hypr/scripts/mylog.log
