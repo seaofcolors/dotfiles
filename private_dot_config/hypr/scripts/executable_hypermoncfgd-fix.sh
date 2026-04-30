@@ -11,6 +11,6 @@ while true
 	then
 		systemctl --user restart hyprmoncfgd
 		now=`date +"%x %X"`
-		echo "Hyprmoncfg fix executed, ${now}." >> mylog.log
+		echo "Hyprmoncfg fix executed, ${now}." >> ~/.config/hypr/scripts/mylog.log
 	fi
 done
