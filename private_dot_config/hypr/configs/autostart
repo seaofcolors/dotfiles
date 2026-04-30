@@ -14,9 +14,8 @@ exec-once = hypridle
 exec-once = udiskie --appindicator
 exec-once = nm-applet
 exec-once = blueman-applet
-exec-once = insync start
-exec-once = hyprpaper
-# exec-once = hyprctl hyprpaper wallpaper , ~/.config/backgrounds/arch-rainbow-catppuccin-mocha-2.png
+exec-once = wait 1; hyprpaper
+# exec-once = wait 2; hyprctl hyprpaper wallpaper , ~/.config/backgrounds/arch-rainbow-catppuccin-mocha-2.png
 exec-once = ~/.config/hypr/scripts/wallpaper-fix.sh
 exec-once = ~/.config/hypr/scripts/waybar-fix.sh
 exec-once = ~/.config/hypr/scripts/hypermoncfgd-fix.sh
@@ -24,8 +23,8 @@ exec-once = ~/.config/hypr/scripts/hypermoncfgd-fix.sh
 exec-once = [workspace 1 silent] librewolf
 exec-once = [workspace 2 silent] proton-mail
 exec-once = [workspace 9 silent] proton-pass
-exec-once = [workspace 9 silent] protonvpn-app
-exec-once = [workspace 1 silent] env QT_QPA_PLATFORM=xcb insync start
+exec-once = [workspace 9 silent] wait 1; protonvpn-app
+exec-once = [workspace 1 silent] wait 1; env QT_QPA_PLATFORM=xcb insync start
 exec-once = [workspace 1 silent] ~/.config/hypr/scripts/insync-fix.sh
 exec-once = [workspace 10 silent] feh -x -F ~/.config/backgrounds/hyprland-keybindings.jpg
 
