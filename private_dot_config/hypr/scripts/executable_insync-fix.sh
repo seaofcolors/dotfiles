@@ -9,5 +9,5 @@ else
     echo "Starting insync"
     env QT_QPA_PLATFORM=xcb insync start &
     now=`date +"%x %X"`
-    echo "Insync fix executed, ${now}." >> mylog.log
+    echo "Insync fix executed, ${now}." >> ~/.config/hypr/scripts/mylog.log
 fi
