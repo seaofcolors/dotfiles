@@ -20,7 +20,11 @@ echo "Gitwatch status, ${now}: ${psgitres}." >> ~/.config/hypr/scripts/mylog.log
 echo "Inotifywait status, ${now}: ${psinotres}." >> ~/.config/hypr/scripts/mylog.log
 
 ps -aux | grep gitwatch | grep -v grep | awk '{ print $2 }' | xargs kill -9
+now=`date +"%x %X"`
+echo "Gitwatch kill executed, ${now}." >> ~/.config/hypr/scripts/mylog.log
 ps -aux | grep inotifywait | grep -v grep | awk '{ print $2 }' | xargs kill -9
+now=`date +"%x %X"`
+echo "Inotifywatch kill executed, ${now}." >> ~/.config/hypr/scripts/mylog.log
 
 now=`date +"%x %X"`
 psgitres=`ps -aux |grep gitwatch | grep -v grep | awk '{ print $2 }'`
