@@ -10,7 +10,7 @@ then
 else
     hyprpaper &
     now=`date +"%x %X"`
-    echo "Hyprpaper fix executed, ${now}." >> mylog.log
+    echo "Hyprpaper fix executed, ${now}." >> ~/.config/hypr/scripts/mylog.log
 fi
 
 sleep 1
