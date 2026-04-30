@@ -8,5 +8,5 @@ then
 else
     waybar &
     now=`date +"%x %X"`
-    echo "Waybar fix executed, ${now}." >> mylog.log
+    echo "Waybar fix executed, ${now}." >> ~/.config/hypr/scripts/mylog.log
 fi
