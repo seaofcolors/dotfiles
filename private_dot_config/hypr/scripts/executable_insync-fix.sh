@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sleep 4
+sleep 14
 
 if pgrep -x "insync" > /dev/null
 then
