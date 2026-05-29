@@ -113,7 +113,7 @@ export SHELLHELP="\n
 │ checkservices Check for systemd and other install/remove cruft \n
 └────────────────────────────────────────────────────────────────
 "
-alias shellhelp='echo -e $SHELLHELP'
+alias shellhelp='echo -e "$SHELLHELP"'
 
 # Execute with the start of the interactive shell
 fastfetch --logo none
