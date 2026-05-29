@@ -1,4 +1,6 @@
 
+# Log startup
+echo "Hyprland started up (specifically, the autostart script was executed, ${now}." >> ~/.config/hypr/scripts/mylog.log
 
 # ML4W starts listeners - check them out and maybe build similar listeners
 # exec-once = ~/.config/ml4w/listeners.sh --startall
