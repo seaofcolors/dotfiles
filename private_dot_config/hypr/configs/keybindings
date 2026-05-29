@@ -35,7 +35,7 @@ bind = $mainMod, D, exec, [workspace 5] digikam
 bind = $mainMod, K, exec, [workspace 5] darktable
 bind = $mainMod, H, exec, [workspace 5] hugin
 
-bind = $mainMod, Q, exec, [workspace 6] qobuz
+bind = $mainMod, Q, exec, [workspace 6] /opt/google/chrome/google-chrome "--profile-directory=Profile 6" --app-id=opocehcckdgkafiimcmacpmcepdlamom
 bind = $mainMod, Y, exec, [workspace 1] freetube
 
 bind = $mainMod, C, exec, [workspace 3] element-desktop & signal-desktop --password-store="kwallet6" & Telegram & /opt/google/chrome/google-chrome --profile-directory=Default --app-id=hnpfjngllnobngcgfapefoaidbinmjnm
