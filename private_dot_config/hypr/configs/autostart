@@ -3,8 +3,9 @@
 # ML4W starts listeners - check them out and maybe build similar listeners
 # exec-once = ~/.config/ml4w/listeners.sh --startall
 
-# Start Polkit
+# Start Polkit and update dbus
 exec-once = /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec-once = dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
 
 exec-once = systemctl --user start hyprpolkitagent
 exec-once = ~/.config/hypr/scripts/xdg-fix.sh &
@@ -37,4 +38,4 @@ exec-once = [workspace 1 silent] wait 10; QT_QPA_PLATFORM=xcb insync start
 exec-once = [workspace 1 silent] ~/.config/hypr/scripts/insync-fix.sh
 exec-once = [workspace 10 silent] feh -x -F ~/.config/backgrounds/hyprland-keybindings.jpg
 
-# exec-once = [workspace 9 silent] enteauth
+exec-once = [workspace 9 silent] enteauth
