@@ -1,5 +1,5 @@
 dwindle {
-    pseudotile = true # Master switch for pseudotiling. Enabling is bound to mainMod + +
+    # deprecated and removed # pseudotile = true # Master switch for pseudotiling. Enabling is bound to mainMod + +
     preserve_split = true # You probably want this
 }
 
