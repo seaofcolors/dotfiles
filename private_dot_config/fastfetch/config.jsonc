@@ -51,11 +51,6 @@
       "format": ""
     },
     {
-      "type": "colors",
-      "symbol": "circle",
-      "paddingLeft": 44
-    },
-    {
       "type": "custom", // SoftwareStart
       "format": " \u001b[38;2;242;205;205m┌\u001b[0m{$1} \u001b[38;2;203;166;247mSoftware Information\u001b[0m {$1}\u001b[38;2;242;205;205m┐\u001b[0m"
     },
