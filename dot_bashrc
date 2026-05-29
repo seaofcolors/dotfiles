@@ -96,21 +96,21 @@ alias dotedit='chezmoi edit --apply'
 
 export SHELLHELP="\n
 ‎┌────────────────────────────────────────────────────────────────\n
-│ Ctrl-R \t	Interactive command history \n
+�  Ctrl-R \t	Interactive command history \n
    Ctrl-T \t	Interactive file and folder list \n
-│ Alt-C \t	Interactive cd \n
+   Alt-C \t	Interactive cd \n
 ├────────────────────────────────────────────────────────────────\n
-│ list \t	Expanded ls \n
-│ listsize \t	List by size \n
-│ listtime \t	List by time \n
-│ mnt \t\t	List mounted drives \n
-│ cpv \t\t	Enhanced copy command \n
-│ rmv \t\t	Move to trash instead of delete \n
-│ dotedit \t	Edit dotfiles managed by Chezmoi \n	
-│ pacinstall \t	Interactive package installation \n
-│ pacremove \t	Interactive package removal \n
-│ pacdiff \t	Start editor to review pacman config changes \n
-│ checkservices Check for systemd and other install/remove cruft \n
+�  list \t	Expanded ls \n
+�  listsize \t	List by size \n
+   listtime \t	List by time \n
+�  mnt \t\t	List mounted drives \n
+�  cpv \t\t	Enhanced copy command \n
+�  rmv \t\t	Move to trash instead of delete \n
+�  dotedit \t	Edit dotfiles managed by Chezmoi \n	
+�  pacinstall \t	Interactive package installation \n
+�  pacremove \t	Interactive package removal \n
+�  pacdiff \t	Start editor to review pacman config changes \n
+�  checkservices Check for systemd and other install/remove cruft \n
 └────────────────────────────────────────────────────────────────
 "
 alias shellhelp='echo -e "$SHELLHELP"'
