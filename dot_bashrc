@@ -95,11 +95,11 @@ export EDITOR="nano"
 alias dotedit='chezmoi edit --apply'
 
 export SHELLHELP="\n
-‎┌───────────────────────────────────────────────────────────────
+‎┌─────────────────────────────────────────────────────────────── ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^`
    Ctrl-R \t	 Interactive command history
    Ctrl-T \t	 Interactive file and folder list
    Alt-C \t	 Interactive cd
-├────────────────────────────────────────────────────────────────
+├──────────────────────────────────────────────────────────────── ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^`
    list \t	 Expanded ls
    listsize \t	 List by size
    listtime \t	 List by time
@@ -111,7 +111,7 @@ export SHELLHELP="\n
    pacremove \t	 Interactive package removal
    pacdiff \t	 Start editor to review pacman config changes
    checkservices \t  Check for systemd and other install/remove cruft
-└────────────────────────────────────────────────────────────────
+└──────────────────────────────────────────────────────────────── ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^` ^t^`
 "
 alias shellhelp='echo -e "$SHELLHELP"'
 
