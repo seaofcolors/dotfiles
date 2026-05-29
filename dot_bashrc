@@ -100,8 +100,8 @@ export SHELLHELP="\n
    Ctrl-T \t	Interactive file and folder list \n
    Alt-C \t	Interactive cd \n
 ├────────────────────────────────────────────────────────────────\n
-�  list \t	Expanded ls \n
-�  listsize \t	List by size \n
+   list \t	Expanded ls \n
+   listsize \t	List by size \n
    listtime \t	List by time \n
 �  mnt \t\t	List mounted drives \n
 �  cpv \t\t	Enhanced copy command \n
