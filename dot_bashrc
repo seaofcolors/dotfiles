@@ -25,7 +25,7 @@ alias ls='ls --color=auto'
 alias list='ls -AFoqvh --time-style long-iso --group-directories-first'
 alias listsize='list -S'
 alias listtime='ls -AFoqvh --time-style long-iso -t -1'
-alias mnt='mount | column -t | egrep ^/dev/ | sort'
+alias mnt='mount | column -t | grep -E ^/dev/ | sort'
 alias cpv='rsync -ah --inplace --no-whole-file --info=progress2 '
 alias rmv='mv --force -t ~/.local/share/Trash '
 
