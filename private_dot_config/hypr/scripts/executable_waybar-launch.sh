@@ -14,6 +14,7 @@ flock -n 200 || exit 0
 
 killall waybar || true
 pkill waybar || true
+/usr/lib/xdg-desktop-portal --replace
 sleep 0.5
 
 HYPRLAND_SIGNATURE=$(hyprctl instances -j | jq -r '.[0].instance')
