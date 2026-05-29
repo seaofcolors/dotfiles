@@ -116,6 +116,6 @@ export SHELLHELP="\n
 alias shellhelp='echo -e $SHELLHELP'
 
 # Execute with the start of the interactive shell
-fastfetch
+fastfetch --logo none
 shellhelp
 
