@@ -8,6 +8,8 @@ exec-once = ~/.config/hypr/scripts/hypr-startup-log.sh
 exec-once = systemctl --user import-environment XDG_CURRENT_DESKTOP XDG_SESSION_TYPE
 exec-once = dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
 
+exec-once = /usr/lib/xdg-desktop-portal-hyprland
+
 exec-once = systemctl --user start hyprpolkitagent
 exec-once = ~/.config/hypr/scripts/xdg-fix.sh &
 
