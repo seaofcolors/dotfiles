@@ -95,6 +95,7 @@ export EDITOR="nano"
 alias dotedit='chezmoi edit --apply'
 
 export SHELLHELP="\n
+┌────────────────────────────────────── Software Information ──────────────────────────────────────┐
 ‎┌────────────────────────────────────────────────────────────────\n
 │ Ctrl-R \t	Interactive command history \n
 │ Ctrl-T \t	Interactive file and folder list \n
