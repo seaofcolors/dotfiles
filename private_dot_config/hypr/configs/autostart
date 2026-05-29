@@ -1,6 +1,8 @@
-
 # Log startup
 exec-once = ~/.config/hypr/scripts/hypr-startup-log.sh
+
+# Fix the desktop portal issues
+exec-once = /usr/lib/xdg-desktop-portal --replace
 
 # ML4W starts listeners - check them out and maybe build similar listeners
 # exec-once = ~/.config/ml4w/listeners.sh --startall
