@@ -11,7 +11,7 @@ exec-once = dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CUR
 exec-once = /usr/lib/xdg-desktop-portal-hyprland
 
 exec-once = systemctl --user start hyprpolkitagent
-exec-once = ~/.config/hypr/scripts/xdg-fix.sh &
+### exec-once = ~/.config/hypr/scripts/xdg-fix.sh &
 
 # Fix the desktop portal issues
 exec-once = /usr/lib/xdg-desktop-portal --replace
