@@ -100,7 +100,7 @@ export SHELLHELP="\n
    Ctrl-T \t	 Interactive file and folder list
    Alt-C \t	 Interactive cd
 \u001b[38;2;242;205;205m ├──────────────────────────────────────────────────────────────────────────────────────────────────┤
-\033[01;37m   list \t	 Expanded ls
+\033[00;37m   list \t	 Expanded ls
    listsize \t	 List by size
    listtime \t	 List by time
    mnt \t\t	 List mounted drives
@@ -110,7 +110,7 @@ export SHELLHELP="\n
    pacinstall \t	 Interactive package installation
    pacremove \t	 Interactive package removal
    pacdiff \t	 Start editor to review pacman config changes
-   checkservices \t �� Check for systemd and other install/remove cruft
+   checkservices     �� Check for systemd and other install/remove cruft
 \u001b[38;2;242;205;205m └──────────────────────────────────────────────────────────────────────────────────────────────────┘
 "
 alias shellhelp='echo -e "$SHELLHELP"'
