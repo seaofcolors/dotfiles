@@ -94,8 +94,7 @@ export EDITOR="nano"
 # Have an easier command for editing dotfiles with chezmoi
 alias dotedit='chezmoi edit --apply'
 
-export SHELLHELP="\n
-\u001b[38;2;242;205;205m ‎┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+export SHELLHELP="\u001b[38;2;242;205;205m ‎┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
 \033[00;37m   Ctrl-R \t	 Interactive command history
    Ctrl-T \t	 Interactive file and folder list
    Alt-C \t	 Interactive cd
