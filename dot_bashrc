@@ -111,7 +111,7 @@ export SHELLHELP="\n
    pacremove \t	 Interactive package removal
    pacdiff \t	 Start editor to review pacman config changes
    checkservices \t  Check for systemd and other install/remove cruft
-└───────────────────────────────────────────────────────
+└───────────────────────────────────────────────────────────────────────────────────────────────────┘
 "
 alias shellhelp='echo -e "$SHELLHELP"'
 
