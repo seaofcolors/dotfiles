@@ -29,7 +29,7 @@ exec-once = blueman-applet
 # exec-once = wait 2; hyprctl hyprpaper wallpaper , ~/.config/backgrounds/arch-rainbow-catppuccin-mocha-2.png
 # exec-once = ~/.config/hypr/scripts/wallpaper-fix.sh
 exec-once = awww-daemon
-exec-once = awww img ~/.config/backgrounds/arch-rainbow-catppuccin-mocha-2.png
+exec-once = awww img ~/.config/backgrounds/arch-rainbow-catppuccin-mocha-2.png &
 
 exec-once = ~/.config/hypr/scripts/waybar-fix.sh
 exec-once = ~/.config/hypr/scripts/hypermoncfgd-fix.sh
