@@ -1,7 +1,6 @@
 
 # Log startup
-now=`date +"%x %X"`
-echo "Hyprland started up (specifically, the autostart script was executed), ${now}." >> ~/.config/hypr/scripts/mylog.log
+exec-once = ~/.config/hypr/scripts/hypr-startup-log.sh
 
 # ML4W starts listeners - check them out and maybe build similar listeners
 # exec-once = ~/.config/ml4w/listeners.sh --startall
