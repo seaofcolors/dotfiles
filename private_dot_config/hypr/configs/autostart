@@ -24,7 +24,7 @@ exec-once = cursor-clip --daemon
 
 exec-once = wait 1; ~/.config/hypr/scripts/waybar-launch.sh &
 exec-once = wait 5; ~/.config/hypr/scripts/waybar-launch.sh &
-### exec-once = wait 10; ~/.config/hypr/scripts/waybar-fix.sh &
+exec-once = wait 10; ~/.config/hypr/scripts/waybar-fix.sh &
 
 exec-once = dunst
 exec-once = hypridle
