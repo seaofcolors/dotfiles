@@ -1,7 +1,5 @@
 #!/bin/sh
 
-sleep 10
-
 now=`date +"%x %X"`
 
 if pgrep -x "waybar" > /dev/null
