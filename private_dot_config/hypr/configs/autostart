@@ -10,7 +10,7 @@ exec-once=/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 
 exec-once = systemctl --user start hyprpolkitagent
-exec-once = ~/.config/hypr/scripts/xdg-fix.sh
+exec-once = ~/.config/hypr/scripts/xdg-fix.sh &
 
 exec-once = hyprctl setcursor catppuccin-mocha-dark-cursors 28
 
@@ -19,20 +19,18 @@ exec-once = cursor-clip --daemon
 now=`date +"%x %X"`
 exec-once = echo "== Hyprland startup, ${now}. ==" >> ~/.config/hypr/scripts/mylog.log
 
-exec-once = waybar &
+exec-once = ~/.config/hypr/scripts/waybar-launch.sh &
+exec-once = wait 10; ~/.config/hypr/scripts/waybar-fix.sh &
+
 exec-once = dunst
 exec-once = hypridle
 exec-once = udiskie --appindicator
 exec-once = nm-applet
 exec-once = blueman-applet
-# exec-once = wait 1; hyprpaper
-# exec-once = wait 2; hyprctl hyprpaper wallpaper , ~/.config/backgrounds/arch-rainbow-catppuccin-mocha-2.png
-# exec-once = ~/.config/hypr/scripts/wallpaper-fix.sh
 exec-once = awww-daemon
-exec-once = awww img ~/.config/backgrounds/arch-rainbow-catppuccin-mocha-2.png &
+exec-once = wait 1; awww img ~/.config/backgrounds/arch-rainbow-catppuccin-mocha-2.png &
 
-exec-once = ~/.config/hypr/scripts/waybar-fix.sh
-exec-once = ~/.config/hypr/scripts/hypermoncfgd-fix.sh
+exec-once = ~/.config/hypr/scripts/hypermoncfgd-fix.sh &
 
 exec-once = [workspace 1 silent] librewolf
 exec-once = [workspace 2 silent] proton-mail
