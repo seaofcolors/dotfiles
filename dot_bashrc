@@ -97,7 +97,7 @@ alias dotedit='chezmoi edit --apply'
 export SHELLHELP="\n
 ‎┌────────────────────────────────────────────────────────────────\n
 │ Ctrl-R \t	Interactive command history \n
-│ Ctrl-T \t	Interactive file and folder list \n
+   Ctrl-T \t	Interactive file and folder list \n
 │ Alt-C \t	Interactive cd \n
 ├────────────────────────────────────────────────────────────────\n
 │ list \t	Expanded ls \n
