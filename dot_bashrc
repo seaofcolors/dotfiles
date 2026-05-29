@@ -95,22 +95,22 @@ export EDITOR="nano"
 alias dotedit='chezmoi edit --apply'
 
 export SHELLHELP="\n
-‎┌────────────────────────────────────────────────────────────────\n
-   Ctrl-R \t	 Interactive command history \n
-   Ctrl-T \t	 Interactive file and folder list \n
-   Alt-C \t	 Interactive cd \n
-├────────────────────────────────────────────────────────────────\n
+‎┌───────────────────────────────────────────────────────────────�`
+   Ctrl-R \t	 Interactive command history
+   Ctrl-T \t	 Interactive file and folder list
+   Alt-C \t	 Interactive cd
+├────────────────────────────────────────────────────────────────
    list \t	 Expanded ls
    listsize \t	 List by size
    listtime \t	 List by time
    mnt \t\t	 List mounted drives
    cpv \t\t	 Enhanced copy command
-   rmv \t\t	 Move to trash instead of delete \n
-   dotedit \t	 Edit dotfiles managed by Chezmoi \n	
-   pacinstall \t	 Interactive package installation \n
-   pacremove \t	 Interactive package removal \n
-   pacdiff \t	 Start editor to review pacman config changes \n
-   checkservices  Check for systemd and other install/remove cruft \n
+   rmv \t\t	 Move to trash instead of delete
+   dotedit \t	 Edit dotfiles managed by Chezmoi	
+   pacinstall \t	 Interactive package installation
+   pacremove \t	 Interactive package removal
+   pacdiff \t	 Start editor to review pacman config changes
+   checkservices \t  Check for systemd and other install/remove cruft
 └────────────────────────────────────────────────────────────────
 "
 alias shellhelp='echo -e "$SHELLHELP"'
