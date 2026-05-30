@@ -20,6 +20,8 @@ exec-once = /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 exec-once = hyprctl setcursor catppuccin-mocha-dark-cursors 28
 
+exec-once = /usr/bin/keepassxc
+
 exec-once = cursor-clip --daemon
 
 exec-once = ~/.config/hypr/scripts/waybar-launch.sh &
