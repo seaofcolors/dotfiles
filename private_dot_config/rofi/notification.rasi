@@ -79,8 +79,8 @@ element {
     border-radius:               0em;
 }
 element selected.normal {
-    background-color:            @select-bg;
-    text-color:                  @select-fg;
+    background-color:            @bg-col-light;
+    text-color:                  @selected-col;
 }
 element-icon {
     enabled:                     false;
