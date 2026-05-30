@@ -28,3 +28,16 @@ Open qt5ct, qt6ct, kvantum-manager and nwg-look and set the following:
 If KDE system settings app is installed, also adjust the fonts and icons there.
 - Small 8pt, Toolbar 10pt, Menu 10pt, Window title 10pt (all Inter)
 
+
+# Packages besides those mentioned above that I actually use (probably not exhaustive)
+
+keepassxc hyprshutdown archlinux-xdg-menu hyprpolkitagent hyprqt6engine hyprsysteminfo wlogout waybar-dunst dunst pasystray-wayland pasystray quillpolkit-git starship wofi chezmoi hyprviz hyprmoncfg hyprlauncher hyprshot hyprland-protocols hyprpwcenter hyprpolkitagent hyprland-qt-support fastfetch htop xdg-desktop-portal-hyprland waybar udiskie hyprpicker nwg-look wl-clipboard hyprpaper kitty qt6-wayland hyprlock fzf xclip pavucontrol network-manager-applet hyprsunset xdg-user-dirs hypridle hyprland hyprwire hyprland-guiutils hyprtoolkit hyprgraphics hyprcursor hyprlang aquamarine hyprwayland-scanner hyprutils grim slurp 
+
+
+
+ gitwatch-git 
+
+
+# What about these
+
+power-profiles-daemon 
