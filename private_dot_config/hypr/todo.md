@@ -28,26 +28,10 @@ In case of crashes with Firefox, there is a recommended line I encountered:
 env = GBM_BACKEND,nvidia-drm
 
 
-# Info screen (ws 10)
-
-I might want to migrate displaying the cheat sheet on workspace 10 from feh to awww.
-
-
 # Desktop password managers
 
 I don't want both KDE Wallet and the Gnome keychain thingy. And the latter seems to have some bug. I need to look into getting rid of one. I might also consider using KeePassXC instead.
 https://wiki.archlinux.org/title/KeePass
-
-
-# Notifications
-
-dunstrc's line
->  dmenu = /usr/bin/rofi -config "$HOME/.config/rofi/notification.rasi" -dmenu -p dunst:
-is severely broken. It freezes before it starts and I don't want to use rofi anyway.
-
-I want to try
-> /usr/bin/wofi -dmenu -p dunst
-or something like that instead. Or I need to either go back to dmenu or get rid of it entirely.
 
 
 # Power saving
@@ -56,9 +40,4 @@ If I find that hyprland uses to much battery time, I might want to look into
 > system76-power
 Unfortunately, though, the gnome shell plugin wouldn't work on hyprland.
 
-
-# Workspace switching with mouse wheel
-
-Add workspace switching left and right with mouse wheel scroll down and up to waybar's workspace module. So far I can only switch with three finger left and right swipe on the trackpad or with $mod and mouse wheel.
-See https://github.com/Alexays/Waybar/issues/4629
 
