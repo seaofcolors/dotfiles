@@ -144,6 +144,10 @@ tooltip {
   padding-right: 0px;
 }
 
+#custom-notifications.dnd {
+  color: @red;
+}
+
 #custom-power {
   color: @text;
   border-radius: 0 0 0 0;
