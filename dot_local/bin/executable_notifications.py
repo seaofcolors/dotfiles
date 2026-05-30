@@ -13,10 +13,11 @@ def format_history(history):
     count = len(history['data'][0])
     alt = 'none'
     tooltip_click = []
-    tooltip_click.append("󰎟 Notifications")
-    tooltip_click.append("󰳽 click-left:   show history")
-    tooltip_click.append("󰳽 click-middle: 󰛌  clear history")
-    tooltip_click.append("󰳽 click-right: 󱄊  hide history")
+    tooltip_click.append(" 󰎟  Notifications")
+    tooltip_click.append("󰳽  click-left:    toggle suspend notifications")
+    tooltip_click.append("󰳽  mouse wheel down:    show history")
+    tooltip_click.append("󰳽  click-right:  󱄊  hide history")
+    tooltip_click.append("󰳽  click-middle:  󰛌  clear history")
 
     tooltip = []
 
