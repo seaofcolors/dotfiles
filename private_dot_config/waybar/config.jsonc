@@ -5,7 +5,8 @@
   "modules-right": ["tray", "pulseaudio", "memory", "battery", "idle_inhibitor", "custom/notifications", "custom/power", "clock"],
 
   "hyprland/workspaces": {
-    "disable-scroll": true,
+    "disable-scroll": false,
+    "disable-scroll-wraparound": true,
     "all-outputs": true,
     "format": "{name}: {icon}",
     "format-icons": {
