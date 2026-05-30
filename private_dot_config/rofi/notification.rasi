@@ -75,7 +75,7 @@ element {
     padding:                     1em;
     cursor:                      pointer;
     background-color:            transparent;
-    text-color:                  @text-color;
+    text-color:                  @fg-col;
     border-radius:               0em;
 }
 element selected.normal {
