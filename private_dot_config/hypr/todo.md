@@ -57,4 +57,8 @@ If I find that hyprland uses to much battery time, I might want to look into
 Unfortunately, though, the gnome shell plugin wouldn't work on hyprland.
 
 
+# Workspace switching with mouse wheel
+
+Add workspace switching left and right with mouse wheel scroll down and up to waybar's workspace module. So far I can only switch with three finger left and right swipe on the trackpad or with $mod and mouse wheel.
+See https://github.com/Alexays/Waybar/issues/4629
 
