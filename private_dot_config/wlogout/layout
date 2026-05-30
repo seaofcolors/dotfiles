@@ -13,12 +13,12 @@
 {
   "label": "reboot",
   "text": "Reboot",
-  "action": "hyprshutdown --post-cmd systemctl reboot",
+  "action": "hyprshutdown --post-cmd 'systemctl reboot'",
   "keybind": "r"
 }
 {
   "label": "shutdown",
   "text": "Shutdown",
-  "action": "hyprshutdown --post-cmd systemctl poweroff",
+  "action": "hyprshutdown --post-cmd 'systemctl poweroff'",
   "keybind": "p"
 }
