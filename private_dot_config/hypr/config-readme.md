@@ -31,13 +31,15 @@ If KDE system settings app is installed, also adjust the fonts and icons there.
 
 # Packages besides those mentioned above that I actually use (probably not exhaustive)
 
-keepassxc hyprshutdown archlinux-xdg-menu hyprpolkitagent hyprqt6engine hyprsysteminfo wlogout waybar-dunst dunst pasystray-wayland pasystray quillpolkit-git starship wofi chezmoi hyprviz hyprmoncfg hyprlauncher hyprshot hyprland-protocols hyprpwcenter hyprpolkitagent hyprland-qt-support fastfetch htop xdg-desktop-portal-hyprland waybar udiskie hyprpicker nwg-look wl-clipboard hyprpaper kitty qt6-wayland hyprlock fzf xclip pavucontrol network-manager-applet hyprsunset xdg-user-dirs hypridle hyprland hyprwire hyprland-guiutils hyprtoolkit hyprgraphics hyprcursor hyprlang aquamarine hyprwayland-scanner hyprutils grim slurp 
+keepassxc hyprshutdown archlinux-xdg-menu hyprpolkitagent hyprqt6engine hyprsysteminfo wlogout waybar-dunst dunst pasystray-wayland pasystray quillpolkit-git starship wofi chezmoi hyprviz hyprmoncfg hyprlauncher hyprshot hyprland-protocols hyprpwcenter hyprpolkitagent hyprland-qt-support fastfetch htop xdg-desktop-portal-hyprland waybar udiskie hyprpicker nwg-look wl-clipboard hyprpaper kitty qt6-wayland hyprlock fzf xclip pavucontrol network-manager-applet hyprsunset xdg-user-dirs hypridle hyprland hyprwire hyprland-guiutils hyprtoolkit hyprgraphics hyprcursor hyprlang aquamarine hyprwayland-scanner hyprutils grim slurp sddm power-profiles-daemon
 
 
+# Other desktop software crucial for my system
 
- gitwatch-git 
+gitwatch-git zettlr anki proton-vpn-gtk-app proton-pass-bin proton-mail-bin ente-auth-bin ente-desktop-bin libreoffice-fresh dolphin recoll digikam darktable librewolf-bin zotero-bin hugin kate freetube-bin bluesky element-desktop signal-desktop
 
 
-# What about these
+# What else?
 
-power-profiles-daemon 
+The nitty-gritty of my system installation isn't on here.
+
