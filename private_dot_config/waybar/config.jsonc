@@ -6,6 +6,7 @@
 
   "hyprland/workspaces": {
     "disable-scroll": false,
+    "enable-bar-scroll": true,
     "disable-scroll-wraparound": true,
     "all-outputs": true,
     "format": "{name}: {icon}",
