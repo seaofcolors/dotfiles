@@ -117,6 +117,17 @@ tooltip {
   padding-right: 10px;
 }
 
+#power-profiles-daemon {
+  border-radius: 0 0 0 0;
+  border-width: 3px;
+  border-style: solid;
+  border-color: @lavender;
+  border-left: 0px;
+  border-right: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 #idle_inhibitor {
   color: @red;
   border-radius: 0 0 0 0;
