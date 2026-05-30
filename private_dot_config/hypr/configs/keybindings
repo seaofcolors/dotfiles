@@ -28,7 +28,7 @@ bind = $mainMod, W, exec, [workspace 4] libreoffice -writer
 bind = $mainMod, Z, exec, [workspace 4] ~/.config/hypr/scripts/zettlr-gitwatch.sh
 bind = $mainMod, U, exec, [workspace 4] zotero
 bind = $mainMod, R, exec, recoll
-bind = $mainMod, K, exec, kate
+# bind = $mainMod, K, exec, kate    ### This is also the keybind for darktable
 
 bind = $mainMod, E, exec, [workspace 5] ente-desktop
 bind = $mainMod, D, exec, [workspace 5] digikam
