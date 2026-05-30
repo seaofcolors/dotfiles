@@ -47,8 +47,16 @@ bind = $mainMod, G, exec, [workspace 9] prime-run steam
 
 # Regional screenshot
 bind =, Print, exec, grim -g "$(slurp)" - | wl-copy && wl-paste > ~/Pictures/Screenshots/Screenshot-$(date +%F_%T).png | dunstify "Screenshot of the region taken" -t 1000
+
 # Fullscreen screenshot
 bind = SHIFT, Print, exec, grim - | wl-copy && wl-paste > ~/Pictures/Screenshots/Screenshot-$(date +%F_%T).png | dunstify "Screenshot of whole screen taken" -t 1000
+
+# Regional screen recording
+bind = $mainMod, Print, exec, if pgrep -x "wf-recorder" > /dev/null; then pkill -INT -x wf-recorder; dunstify "Screen  recording ended."; else wf-recorder -g "$(slurp)" -f ~/Videos/screen_recording${RANDOM}.mp4 | dunstify "Regional screen recording starting ...\n End the recording by pressing Win-Print again." -t 1000; fi
+
+# Fullscreen screen recording
+bind = $mainMod SHIFT, Print, exec, if pgrep -x "wf-recorder" > /dev/null; then pkill -INT -x wf-recorder; dunstify "Screen  recording ended."; else wf-recorder -f ~/Videos/screen_recording${RANDOM}.mp4 | dunstify "Fullscreen screen recording starting ...\n End the recording by pressing Win-Print again." -t 1000; fi
+
 
 # Move focus with mainMod + arrow keys
 bind = $mainMod, left, movefocus, l
