@@ -2,7 +2,7 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["tray", "pulseaudio", "memory", "battery", "idle_inhibitor", "custom/notifications", "custom/power", "clock"],
+  "modules-right": ["tray", "pulseaudio", "memory", "battery", "power-profiles-daemon", "idle_inhibitor", "custom/notifications", "custom/power", "clock"],
 
   "hyprland/workspaces": {
     "all-outputs": true,
@@ -85,6 +85,18 @@
     "format-full": "<span size='13000' foreground='#cdd6f4'> </span>{capacity}%",
     "format-icons": ["", "", "", "", ""],
     "tooltip-format": "{time}"
+  },
+
+  "power-profiles-daemon": {
+    "format": "{icon}",
+    "tooltip-format": "Power profile: {profile}nDriver: {driver}",
+    "tooltip": true,
+    "format-icons": {
+      "default": "",
+      "performance": "",
+      "balanced": "",
+      "power-saver": ""
+    }
   },
 
   "idle_inhibitor": {
