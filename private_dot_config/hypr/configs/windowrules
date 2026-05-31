@@ -70,3 +70,11 @@ windowrule {
     move = (((monitor_w)-(400))-10) 44
 }
 
+windowrule {
+    # Format Proton VPN as a pinned popup.
+    name = resize-proton-vpn
+    match:title = Proton VPN
+    float = on
+    pin = on
+    move = (((monitor_w)-(window_w))-10) 44
+}
