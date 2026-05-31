@@ -31,7 +31,7 @@ If KDE system settings app is installed, also adjust the fonts and icons there.
 
 # Packages besides those mentioned above that I actually use (probably not exhaustive)
 
-keepassxc hyprshutdown archlinux-xdg-menu hyprpolkitagent hyprqt6engine hyprsysteminfo wlogout waybar-dunst dunst pasystray-wayland pasystray quillpolkit-git starship wofi chezmoi hyprviz hyprmoncfg hyprlauncher hyprshot hyprland-protocols hyprpwcenter hyprpolkitagent hyprland-qt-support fastfetch htop xdg-desktop-portal-hyprland waybar udiskie hyprpicker nwg-look wl-clipboard hyprpaper kitty qt6-wayland hyprlock fzf xclip pavucontrol network-manager-applet hyprsunset xdg-user-dirs hypridle hyprland hyprwire hyprland-guiutils hyprtoolkit hyprgraphics hyprcursor hyprlang aquamarine hyprwayland-scanner hyprutils grim slurp sddm power-profiles-daemon
+keepassxc hyprshutdown archlinux-xdg-menu hyprpolkitagent hyprqt6engine hyprsysteminfo wlogout waybar-dunst dunst pasystray-wayland pasystray quillpolkit-git starship wofi chezmoi hyprviz hyprmoncfg hyprlauncher hyprshot hyprland-protocols hyprpwcenter hyprpolkitagent hyprland-qt-support fastfetch htop xdg-desktop-portal-hyprland waybar udiskie hyprpicker nwg-look wl-clipboard hyprpaper kitty qt6-wayland hyprlock fzf xclip pavucontrol network-manager-applet hyprsunset xdg-user-dirs hypridle hyprland hyprwire hyprland-guiutils hyprtoolkit hyprgraphics hyprcursor hyprlang aquamarine hyprwayland-scanner hyprutils grim slurp sddm power-profiles-daemon hdrop-git
 
 
 # Other desktop software crucial for my system
