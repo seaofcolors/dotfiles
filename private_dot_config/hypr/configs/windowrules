@@ -61,12 +61,12 @@ windowrule {
 }
 
 windowrule {
-    # Make Youtube's PIP popup window float and pin it to all workspaces
+    # Format Ente Auth as a pinned popup.
     name = resize-ente-auth
     match:title = Ente Auth
     float = on
     pin = on
-    size = 400 800
-    move = (((monitor_w)-(400))-10) 0)
+    size = 400 1200
+    move = (((monitor_w)-(400))-10) 0
 }
 
