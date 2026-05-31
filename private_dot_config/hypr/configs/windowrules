@@ -55,5 +55,5 @@ windowrule {
     float = on
     pin = on
     size = 600 400
-    move = (((monitor_w)-(window_w))-3) (((monitor_h)-(window_h))-3)
+    move = (((monitor_w)-(window_w))+30) (((monitor_h)-(window_h))-10)
 }
