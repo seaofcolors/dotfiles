@@ -20,7 +20,7 @@ bind = $mainMod, S, exec, kitty --hold htop
 
 bind = $mainMod, L, exec, [workspace 1] librewolf
 bind = $mainMod, M, exec, [workspace 2] proton-mail
-bind = $mainMod, P, exec, hdrop proton-pass
+bind = $mainMod, P, exec, proton-pass
 bind = $mainMod, A, exec, enteauth
 bind = $mainMod, V, exec, protonvpn-app
 
