@@ -46,6 +46,7 @@ windowrule {
     match:title = Picture in picture
     float = on
     pin = on
+    move = (((monitor_w)-(600))-10) (((monitor_h)-(400))-10)
 }
 
 windowrule {
@@ -55,5 +56,5 @@ windowrule {
     float = on
     pin = on
     size = 600 400
-    move = (((monitor_w)-(600))-10) (((monitor_h)-(window_h))-10)
+    move = (((monitor_w)-(600))-10) (((monitor_h)-(400))-10)
 }
