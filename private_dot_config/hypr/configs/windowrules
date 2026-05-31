@@ -78,3 +78,12 @@ windowrule {
     pin = on
     move = (((monitor_w)-(window_w))-80) 20
 }
+
+windowrule {
+    # Format Insync as a pinned popup.
+    name = resize-insync
+    match:title = Insync
+    float = on
+    pin = on
+    move = (((monitor_w)-(window_w))-10) 44
+}
