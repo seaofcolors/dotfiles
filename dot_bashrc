@@ -115,6 +115,7 @@ export SHELLHELP="\u001b[38;2;242;205;205m ‎┌──────────�
 alias shellhelp='echo -e "$SHELLHELP"'
 
 # Execute with the start of the interactive shell
+setterm -linewrap off
 fastfetch --logo none
 shellhelp
-
+setterm -linewrap on
