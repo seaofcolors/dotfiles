@@ -46,14 +46,8 @@ windowrule {
 }
 
 # Make Freetube's (and maybe also Youtube's) PIP popup window float and pin it to all workspaces
-windowrule = float, title:^(Picture in picture)$
-windowrule = pin, title:^(Picture in picture)$
-
-windowrule match:title(Picture in picture), float on
-windowrule match:title:^(Picture in picture)$, pin on
-
 windowrule {
-  name = float and pin PIPs
+  name = float-and-pin-PIPs
   match:title = Picture in picture
   float = on
   pin = on
