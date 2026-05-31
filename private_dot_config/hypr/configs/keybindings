@@ -16,7 +16,7 @@ bind = $mainMod SHIFT, O, exec, command -v hyprshutdown >/dev/null 2>&1 && hyprs
 
 bind = $mainMod, F, exec, $fileManager
 bind = $mainMod, T, exec, [workspace 8] $terminal
-bind = $mainMod, S, exec, kitty --hold htop
+bind = $mainMod, S, exec, hdrop kitty --hold htop
 
 bind = $mainMod, L, exec, [workspace 1] librewolf
 bind = $mainMod, M, exec, [workspace 2] proton-mail
