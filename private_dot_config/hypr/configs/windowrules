@@ -76,5 +76,5 @@ windowrule {
     match:title = Proton VPN
     float = on
     pin = on
-    move = (((monitor_w)-(window_w))-1) 20
+    move = (((monitor_w)-(window_w))-80) 20
 }
