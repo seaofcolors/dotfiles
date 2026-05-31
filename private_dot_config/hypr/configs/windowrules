@@ -85,5 +85,6 @@ windowrule {
     match:title = Insync
     float = on
     pin = on
+    size = 800 600
     move = (((monitor_w)-(window_w))-10) 44
 }
