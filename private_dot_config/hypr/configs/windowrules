@@ -51,3 +51,10 @@ windowrule = pin, title:^(Picture in picture)$
 
 windowrule match:title(Picture in picture), float on
 windowrule match:title:^(Picture in picture)$, pin on
+
+windowrule {
+  name = float and pin PIPs
+  match:title = Picture in picture
+  float = on
+  pin = on
+}
