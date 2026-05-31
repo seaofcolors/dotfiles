@@ -1,5 +1,4 @@
 dwindle {
-    # deprecated and removed # pseudotile = true # Master switch for pseudotiling. Enabling is bound to mainMod + +
     preserve_split = true # You probably want this
 }
 
@@ -11,7 +10,6 @@ windowrule {
     # Ignore maximize requests from all apps. You'll probably like this.
     name = suppress-maximize-events
     match:class = .*
-
     suppress_event = maximize
 }
 
@@ -24,39 +22,37 @@ windowrule {
     match:float = true
     match:fullscreen = false
     match:pin = false
-
     no_focus = true
 }
 
-# Hyprland-run windowrule
 windowrule {
+    # Hyprland-run windowrule
     name = move-hyprland-run
-
     match:class = hyprland-run
-
     move = 20 monitor_h-120
     float = yes
 }
 
 windowrule {
-   name = make-feh-fullscreen
-   match:class = feh
-   border_size = 0
-   fullscreen = on
+    name = make-feh-fullscreen
+    match:class = feh
+    border_size = 0
+    fullscreen = on
 }
 
-# Make Freetube's PIP popup window float and pin it to all workspaces
 windowrule {
-  name = float-and-pin-freetube
-  match:title = Picture in picture
-  float = on
-  pin = on
+    # Make Freetube's PIP popup window float and pin it to all workspaces
+    name = float-and-pin-freetube
+    match:title = Picture in picture
+    float = on
+    pin = on
 }
 
-# Make Youtube's PIP popup window float and pin it to all workspaces
 windowrule {
-  name = float-and-pin-youtube
-  match:title = Picture-in-Picture
-  float = on
-  pin = on
+    # Make Youtube's PIP popup window float and pin it to all workspaces
+    name = float-and-pin-youtube
+    match:title = Picture-in-Picture
+    float = on
+    pin = on
+    size = 600 400
 }
