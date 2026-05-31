@@ -45,3 +45,6 @@ windowrule {
    fullscreen = on
 }
 
+# Make Freetube's (and maybe also Youtube's) PIP popup window float and pin it to all workspaces
+windowrulev2 = float, title:^(Picture in picture)$
+windowrulev2 = pin, title:^(Picture in picture)$
