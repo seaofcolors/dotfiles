@@ -20,9 +20,9 @@ bind = $mainMod, S, exec, kitty --hold htop
 
 bind = $mainMod, L, exec, [workspace 1] librewolf
 bind = $mainMod, M, exec, [workspace 2] proton-mail
-bind = $mainMod, P, exec, [workspace 9] proton-pass
-bind = $mainMod, A, exec, [workspace 9] enteauth
-bind = $mainMod, V, exec, [workspace 9] protonvpn-app
+bind = $mainMod, P, exec, hdrop proton-pass
+bind = $mainMod, A, exec, enteauth
+bind = $mainMod, V, exec, protonvpn-app
 
 bind = $mainMod, W, exec, [workspace 4] libreoffice -writer
 bind = $mainMod, Z, exec, [workspace 4] ~/.config/hypr/scripts/zettlr-gitwatch.sh
