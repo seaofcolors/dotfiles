@@ -30,13 +30,13 @@
 	/* "icon": true, */
 	"separate-outputs": true,
 	"max-length": 80,
-	/* "rewrite": { */
-	/*    "(.*)hyprland-keybindings(.*)": "Hyprland Keybindings", */
-        /*    "(.*) — LibreWolf":	"$1   ", */
-        /*    "(.*) — Mozilla Firefox":	"$1   ", */
-        /*    "(.*) - Google Chrome": "$1  󰊯 ", */
-        /*    "(.*) - Opera": "$1   ", */
-	/* }, */
+	"rewrite": {
+	    "(.*)hyprland-keybindings(.*)": "Hyprland Keybindings",
+            "(.*) — LibreWolf":	"$1   ",
+            "(.*) — Mozilla Firefox":	"$1   ",
+            "(.*) - Google Chrome": "$1  󰊯 ",
+            "(.*) - Opera": "$1   ",
+	},
   },
 
   "tray": {
