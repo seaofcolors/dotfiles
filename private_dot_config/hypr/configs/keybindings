@@ -2,6 +2,7 @@ $mainMod = SUPER
 
 bind = $mainMod, space, exec, $menu
 bind = $mainMod SHIFT, Q, killactive,
+bind = $mainMod SHIFT, f, fullscreen
 bind = $mainMod SHIFT, C, exec, cursor-clip
 
 bind = $mainMod, code:59, togglefloating,
