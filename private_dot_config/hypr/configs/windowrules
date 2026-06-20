@@ -45,6 +45,7 @@ windowrule {
     match:title = Sid Meier's Civilization VI (DX12)
     border_size = 0
     fullscreen = off
+    float = yes
 }
 
 windowrule {
