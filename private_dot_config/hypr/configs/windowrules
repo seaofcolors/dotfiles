@@ -41,6 +41,13 @@ windowrule {
 }
 
 windowrule {
+    name = make-civ6-fullscreen
+    match:title = Cid Meier's Civilization VI (DX12)
+    border_size = 0
+    fullscreen = on
+}
+
+windowrule {
     # Make Freetube's PIP popup window float and pin it to all workspaces
     name = float-and-pin-freetube
     match:title = Picture in picture
