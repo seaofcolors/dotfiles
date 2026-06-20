@@ -42,7 +42,7 @@ windowrule {
 
 windowrule {
     name = make-civ6-fullscreen
-    match:title = Cid Meier's Civilization VI (DX12)
+    match:title = Sid Meier's Civilization VI (DX12)
     border_size = 0
     fullscreen = on
 }
