@@ -5,9 +5,9 @@
 # env = __GLX_VENDOR_LIBRARY_NAME,nvidia
 # env = NVD_BACKEND,direct
 
-cursor {
-  no_hardware_cursors = true
-}
+#cursor {
+#  no_hardware_cursors = true
+#}
 
 # PATHS
 env = PATH,$PATH:$HOME/.local/bin
