@@ -5,6 +5,7 @@
 # env = __GLX_VENDOR_LIBRARY_NAME,nvidia
 # env = NVD_BACKEND,direct
 
+# Fix NVidia bug where the cursor and its icon aren't in the same place by turning off in-hardware cursor support
 cursor {
   no_hardware_cursors = true
 }
