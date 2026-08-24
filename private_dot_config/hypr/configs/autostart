@@ -35,8 +35,8 @@ exec-once = udiskie --appindicator
 exec-once = nm-applet
 exec-once = blueman-applet
 exec-once = awww-daemon
-exec-once = awww img --resize stretch ~/.config/backgrounds/arch-rainbow-catppuccin-mocha-2.png
-# exec-once = awww img --resize stretch ~/.config/backgrounds/karl-marx.png
+# exec-once = awww img --resize stretch ~/.config/backgrounds/arch-rainbow-catppuccin-mocha-2.png
+exec-once = awww img --resize stretch ~/.config/backgrounds/karl-marx.png
 exec-once = wait 5; awww img --resize stretch ~/.config/backgrounds/arch-rainbow-catppuccin-mocha-2.png
 
 exec-once = ~/.config/hypr/scripts/hypermoncfgd-fix.sh &
