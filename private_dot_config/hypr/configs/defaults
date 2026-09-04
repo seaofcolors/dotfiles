@@ -6,7 +6,11 @@ $menu = wofi --show drun --allow-images --insensitive
 # This creates an ls output, trims it to only the folder and file names, pipes it to wofi
 # and returns it to the terminal. With an additional pipe in the end it would be handed
 # on to a command line utility. The question remaining would be whether to add quotation
-# marks around the filenames.
+# marks around the filenames. Mind that the first entry should be removed, if this was
+# actually going to be used for something. A huge source of error would be the trim
+# command, since it would strip multiple spaces from filenames as well. For a real world
+# case, no trim command and instead a use of the cut command with -c would be better,
+# such as 
 
 # ls -AFoqvh --time-style long-iso --group-directories-first | tr -s ' ' | cut -d ' ' -f 7- | wofi -S dmenu -d -k /dev/null --pre-display-cmd "echo '%s'"
 
@@ -15,3 +19,4 @@ $menu = wofi --show drun --allow-images --insensitive
 # The relevant command would probably look like this (not tested!):
 
 # clipvault list | wofi -S dmenu -d -k /dev/null --pre-display-cmd "echo '%s' | cut -f 2" | clipvault get | wl-copy
+
