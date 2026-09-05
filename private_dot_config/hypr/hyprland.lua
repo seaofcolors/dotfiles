@@ -332,14 +332,14 @@ hl.window_rule({
 -- ----- --
 
 
--- Three-finger-swipe to change workspaces
+-- Three-finger-swipe horizontally to change workspaces
 hl.gesture({
     fingers = 3,
     direction = "horizontal",
     action = "workspace",
 })
 
--- Allow for continuous swipe rather than single swipes
+-- Allow for continuous workspace swipe rather than single swipes
 -- Prevent new workspace creation to the right while swiping
 hl.config({
     gestures = {
@@ -348,11 +348,20 @@ hl.config({
     },
 })
 
+-- Three-finger-swipe upward to toggle fullscreen of the active window
 hl.gesture({
     fingers = 3,
     direction = "up",
  --   scale = 1.5,
     action = "fullscreen"
+})
+
+-- Three-finger-swipe down to toggle floating the active window
+hl.gesture({
+    fingers = 3,
+    direction = "down",
+ --   scale = 1.5,
+    action = "float"
 })
 
 hl.device({
