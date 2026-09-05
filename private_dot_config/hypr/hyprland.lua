@@ -477,8 +477,9 @@ hl.bind(mainMod .. " + SHIFT + K", hl.dsp.window.kill())
 hl.bind(mainMod .. " + SHIFT + f", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))
 hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd("cursor-clip"))
 
-hl.bind(mainMod .. " + code:59", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + code:60", hl.dsp.window.pseudo())
+-- hl.bind(mainMod .. " + code:59", hl.dsp.window.float({ action = "toggle" }))
+hl.bind(mainMod .. " + code:60", hl.dsp.window.float({ action = "toggle" }))
+-- hl.bind(mainMod .. " + code:60", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + code:61", hl.dsp.layout("togglesplit"))
 
 hl.bind(mainMod .. " + code:35", hl.dsp.workspace.toggle_special("magic"))
