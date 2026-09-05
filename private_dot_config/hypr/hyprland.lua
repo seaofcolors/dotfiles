@@ -370,18 +370,17 @@ hl.gesture({
     workspace_name = "magic",
 })
 
+-- Four-finger-swipe down to send window to special workplace or back
 local win_to_special_workspace = function()
     local normal_workspace = hl.get_active_workspace()
     local special_workspace = hl.get_active_special_workspace()
 
     if special_workspace == nil then
-        hl.dispatch(hl.dsp.window.move({ workspace = "special:magic" }))
+        hl.dispatch(hl.dsp.window.move({ workspace = "special:magic", follow = false }))
     elseif special_workspace.name == "special:magic" then
         hl.dispatch(hl.dsp.window.move({ workspace = normal_workspace }))
     end
 end
-
-hl.bind("SUPER + Y", win_to_special_workspace)
 
 hl.gesture({
     fingers = 4,
@@ -464,7 +463,8 @@ hl.bind(mainMod .. " + code:60", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + code:61", hl.dsp.layout("togglesplit"))
 
 hl.bind(mainMod .. " + code:35", hl.dsp.workspace.toggle_special("magic"))
-hl.bind(mainMod .. " + SHIFT + code:35", hl.dsp.window.move({ workspace = "special:magic", follow = false }))
+-- hl.bind(mainMod .. " + SHIFT + code:35", hl.dsp.window.move({ workspace = "special:magic", follow = false }))
+hl.bind(mainMod .. " + SHIFT + code:35", win_to_special_workspace)
 
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("hyprmoncfg"))
 hl.bind(mainMod .. " + SHIFT + O", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit"))
