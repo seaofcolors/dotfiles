@@ -397,6 +397,7 @@ hl.gesture({
     action = function()
         local variii = hl.get_active_workspace()
         local variiiii = hl.get_active_special_workspace()
+        hl.dsp.exec_cmd("notify-send " .. variii)
         hl.notification.create({ text = variii, timeout = 5000, icon = "ok" })
         hl.notification.create({ text = variiiii, timeout = 5000, icon = "ok" })
     end
