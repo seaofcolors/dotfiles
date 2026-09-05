@@ -211,7 +211,7 @@ hl.config({
     dwindle = {
         force_split = 2,
         preserve_split = true,
-        single_window_aspect_ratio = { 16, 10 },
+        single_window_aspect_ratio = { 20, 10 },
     },
     master = {
         new_status = "master",
