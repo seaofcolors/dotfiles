@@ -338,6 +338,13 @@ hl.gesture({
     action = "workspace",
 })
 
+hl.config({
+    gestures = {
+        workspace_swipe_forever = true,
+        workspace_swipe_create_new = false,
+    },
+})
+
 hl.device({
     name = "epic-mouse-v1",
     sensitivity = -0.5,
