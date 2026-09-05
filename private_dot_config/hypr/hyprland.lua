@@ -398,9 +398,9 @@ hl.gesture({
 --        if hl.get_workspace("special:magic") then
 --        if ( hl.get_active_special_workspace().name == "special:magic" ) then
         if ( hl.get_active_special_workspace == nil ) then
-            hl.dispatch(hl.dsp.window.move({ workspace = hl.get_active_workspace() }))
-        else
             hl.dispatch(hl.dsp.window.move({ workspace = "special:magic", follow = false }))
+        else
+            hl.dispatch(hl.dsp.window.move({ workspace = hl.get_active_workspace() }))
         end
     end
 })
