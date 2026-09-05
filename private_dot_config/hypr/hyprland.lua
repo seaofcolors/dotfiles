@@ -348,6 +348,14 @@ hl.config({
     },
 })
 
+hl.gesture({
+    fingers = 3,
+    direction = "up",
+    mods = "SUPER",
+    scale = 1.5,
+    action = "fullscreen"
+})
+
 hl.device({
     name = "epic-mouse-v1",
     sensitivity = -0.5,
