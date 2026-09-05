@@ -370,13 +370,21 @@ hl.gesture({
     workspace_name = "magic",
 })
 
+local swipe_to_and_fro_special = function()
+    if (hl.dispatch(hl.dsp.exec_cmd("hyprctl activewindow | grep \" workspace: \" | cut -d \"(\" -f2 | cut -d \")\" -f1")) == "special:magic")
+    then
+        hl.dispatch(hl.dsp.window.move({ workspace = "8" }))
+    else
+        hl.dispatch(hl.dsp.window.move({ workspace = "special:magic" }))
+    end
+end
+
+
 -- Four-finger-swipe down to send active window to the special workplace
 hl.gesture({
     fingers = 4,
     direction = "down",
-    action = function()
-         hl.dispatch(hl.dsp.window.move({ workspace = "special:magic" }))
-    end
+    action = swipe_to_and_fro_special,
 })
 
 
