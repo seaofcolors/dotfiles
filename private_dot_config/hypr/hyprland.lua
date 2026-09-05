@@ -391,6 +391,17 @@ hl.gesture({
     action = swipe_to_and_fro_special,
 })
 
+hl.gesture({
+    fingers = 5,
+    direction = "down",
+    action = function()
+        local variii = hl.get_active_workspace()
+        local variiiii = hl.get_active_special_workspace()
+        hl.notification.create({ text = variii, timeout = 5000, icon = "ok" })
+        hl.notification.create({ text = variiiii, timeout = 5000, icon = "ok" })
+    end
+})
+
 hl.device({
     name = "epic-mouse-v1",
     sensitivity = -0.5,
