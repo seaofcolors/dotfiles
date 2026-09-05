@@ -399,7 +399,8 @@ local win_to_special_workspace = function()
         hl.dispatch(hl.dsp.window.move({ workspace = "special:magic" }))
 --    elseif special_workspace.name == "special:magic" then
     else
-        hl.dispatch(hl.dsp.window.move({ workspace = normal_workspace }))
+--        hl.dispatch(hl.dsp.window.move({ workspace = normal_workspace }))
+        hl.dispatch(hl.dsp.window.move({ workspace = 8 }))
     end
 end
 
