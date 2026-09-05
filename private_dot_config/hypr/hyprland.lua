@@ -332,12 +332,15 @@ hl.window_rule({
 -- ----- --
 
 
+-- Three-finger-swipe to change workspaces
 hl.gesture({
     fingers = 3,
     direction = "horizontal",
     action = "workspace",
 })
 
+-- Allow for continuous swipe rather than single swipes
+-- Prevent new workspace creation to the right while swiping
 hl.config({
     gestures = {
         workspace_swipe_forever = true,
