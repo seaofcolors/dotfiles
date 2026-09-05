@@ -13,6 +13,7 @@ window#waybar {
 }
 
 window > box {
+    margin-bottom: 10px;
     background: rgba(43, 48, 59, 0.5);
     border-bottom: 3px;
     color: white;
