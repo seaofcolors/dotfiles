@@ -376,7 +376,7 @@ hl.gesture({
     direction = "down",
     action = function()
      --   hl.dsp.window.move({ workspace = "special:magic" })
-        hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))
+        hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" })
     end
 })
 
