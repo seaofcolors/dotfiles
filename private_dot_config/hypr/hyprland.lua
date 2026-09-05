@@ -187,7 +187,7 @@ hl.config({
 })
 
 -- Create a space between waybar and windows by reserving the top of the monitors.
-hl.monitor({ output = "name", reserved_area = 50 })
+hl.monitor({ output = "name", reserved_area = 150 })
 
 
 -- WHAT IS THIS
