@@ -375,9 +375,12 @@ hl.gesture({
     fingers = 4,
     direction = "down",
     action = function()
-        hl.dsp.window.move({ workspace = "special:magic" })
+     --   hl.dsp.window.move({ workspace = "special:magic" })
+        hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))
     end
 })
+
+
 
 hl.device({
     name = "epic-mouse-v1",
