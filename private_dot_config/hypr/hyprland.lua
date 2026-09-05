@@ -397,7 +397,7 @@ local toggle_special_workspace = function()
 
     if special_workspace == nil then
         hl.dispatch(hl.dsp.window.move({ workspace = "special:magic" }))
-    elseif special_workspace.name == "special:scratchpad" then
+    elseif special_workspace.name == "special:magic" then
         hl.dispatch(hl.dsp.window.move({ workspace = normal_workspace }))
     end
 end
