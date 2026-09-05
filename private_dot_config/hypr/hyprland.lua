@@ -404,7 +404,7 @@ local win_to_special_workspace = function()
 --    end
 end
 
-hl.bind("SUPER + #", win_to_special_workspace)
+hl.bind("SUPER + Y", win_to_special_workspace)
 
 hl.gesture({
     fingers = 5,
