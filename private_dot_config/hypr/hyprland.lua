@@ -239,14 +239,14 @@ hl.window_rule({
 
 -- Hyprland-run windowrule
 hl.window_rule({
-    name = "move-hyprland-run",
+    name = "color-special-workplace-window-borders",
     match = {
-        class = "hyprland-run",
+        workspace = "special:magic",
     },
-    move = "20 monitor_h-120",
-    float = true,
+    border_color = crust,
 })
 
+-- Make the feh display of the key bindings fullscreen
 hl.window_rule({
     name = "make-feh-fullscreen",
     match = {
