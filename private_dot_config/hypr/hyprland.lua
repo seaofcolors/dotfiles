@@ -162,7 +162,7 @@ hl.config({
         },
         resize_on_border = true,
         gaps_in = 2,
-        gaps_out = 0, 5, 10, 50,
+        gaps_out = 0, , 0, 0,
         layout = "dwindle",
         allow_tearing = false,
     },
@@ -186,7 +186,8 @@ hl.config({
     },
 })
 
-
+-- Create a space between waybar and windows by reserving the top of the monitors.
+hl.monitor({ output = "name", reserved_area = 50 })
 
 
 -- WHAT IS THIS
