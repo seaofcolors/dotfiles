@@ -395,13 +395,11 @@ local win_to_special_workspace = function()
     local normal_workspace = hl.get_active_workspace()
     local special_workspace = hl.get_active_special_workspace()
 
---    if special_workspace == nil then
---        hl.dispatch(hl.dsp.window.move({ workspace = "special:magic" }))
---    elseif special_workspace.name == "special:magic" then
---    else
---        hl.dispatch(hl.dsp.window.move({ workspace = normal_workspace }))
-        hl.dispatch(hl.dsp.window.move({ workspace = 8 }))
---    end
+    if special_workspace == nil then
+        hl.dispatch(hl.dsp.window.move({ workspace = "special:magic" }))
+    elseif special_workspace.name == "special:magic" then
+        hl.dispatch(hl.dsp.window.move({ workspace = normal_workspace }))
+    end
 end
 
 hl.bind("SUPER + Y", win_to_special_workspace)
