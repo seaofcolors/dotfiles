@@ -469,7 +469,7 @@ hl.bind(mainMod .. " + code:35", hl.dsp.workspace.toggle_special("magic"))
 -- hl.bind(mainMod .. " + SHIFT + code:35", hl.dsp.window.move({ workspace = "special:magic", follow = false }))
 hl.bind(mainMod .. " + SHIFT + code:35", win_to_special_workspace)
 
-hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("hyprmoncfg"))
+hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("kitty --hold hyprmoncfg"))
 hl.bind(mainMod .. " + SHIFT + O", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit"))
 
 hl.bind(mainMod .. " + F", hl.dsp.exec_cmd(fileManager))
