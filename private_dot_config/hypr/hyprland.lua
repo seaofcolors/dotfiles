@@ -370,24 +370,22 @@ hl.gesture({
     workspace_name = "magic",
 })
 
+-- Four-finger-swipe down to send active window to the special workplace
 local swipe_to_and_fro_special = function()
-    if (hl.dispatch(hl.dsp.exec_cmd("hyprctl activewindow | grep \" workspace: \" | cut -d \"(\" -f2 | cut -d \")\" -f1")) == "special:magic")
+    local real_wrkspc = io.popen("hyprctl activewindow | grep \" workspace: \" | cut -d \"(\" -f2 | cut -d \")\" -f1")
+    if ( real_wrkspc == "special:magic" )
     then
-        hl.dispatch(hl.dsp.window.move({ workspace = 8 }))
+        local active_wrkspc = io.popen("hyprctl -j activeworkspace | jq .id")
+        hl.dispatch(hl.dsp.window.move({ workspace = active_wrkspc }))
     else
         hl.dispatch(hl.dsp.window.move({ workspace = "special:magic" }))
     end
 end
-
-
--- Four-finger-swipe down to send active window to the special workplace
 hl.gesture({
     fingers = 4,
     direction = "down",
     action = swipe_to_and_fro_special,
 })
-
-
 
 hl.device({
     name = "epic-mouse-v1",
