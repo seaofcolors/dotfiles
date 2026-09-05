@@ -352,16 +352,32 @@ hl.config({
 hl.gesture({
     fingers = 3,
     direction = "up",
- --   scale = 1.5,
-    action = "fullscreen"
+    action = "fullscreen",
 })
 
 -- Three-finger-swipe down to toggle floating the active window
 hl.gesture({
     fingers = 3,
     direction = "down",
- --   scale = 1.5,
-    action = "float"
+    action = "float",
+})
+
+-- Four-finger-swipe up to toggle the special workplace
+hl.gesture({
+    fingers = 4,
+    direction = "up",
+    action = "special",
+    workspace_name = "magic",
+})
+
+-- Four-finger-swipe down to send active window to the special workplace
+hl.gesture({
+    fingers = 4,
+    direction = "down",
+    action = function()
+        hl.dsp.window.move({ workspace = "special:magic" })
+    end
+    workspace_name = "magic",
 })
 
 hl.device({
