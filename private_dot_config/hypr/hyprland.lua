@@ -371,12 +371,14 @@ hl.gesture({
 })
 
 -- Four-finger-swipe down to send active window to the special workplace
+local swipe_to_special = function()
+    hl.dsp.window.move({ workspace = "special:magic" })
+end
+
 hl.gesture({
     fingers = 4,
     direction = "down",
-    action = function()
-        hl.dsp.window.move({ workspace = "special:magic" })
-    end
+    action = swipe_to_special,
 })
 
 hl.device({
