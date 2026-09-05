@@ -391,13 +391,14 @@ hl.gesture({
     action = swipe_to_and_fro_special,
 })
 
-local toggle_special_workspace = function()
+local win_to_special_workspace = function()
     local normal_workspace = hl.get_active_workspace()
     local special_workspace = hl.get_active_special_workspace()
 
     if special_workspace == nil then
         hl.dispatch(hl.dsp.window.move({ workspace = "special:magic" }))
-    elseif special_workspace.name == "special:magic" then
+--    elseif special_workspace.name == "special:magic" then
+    else
         hl.dispatch(hl.dsp.window.move({ workspace = normal_workspace }))
     end
 end
@@ -405,7 +406,7 @@ end
 hl.gesture({
     fingers = 5,
     direction = "down",
-    action = toggle_special_workspace,
+    action = win_to_special_workspace,
 })
 
 hl.device({
