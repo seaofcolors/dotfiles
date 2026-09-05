@@ -1,3 +1,18 @@
+-- -------- --
+-- CONTENTS --
+-- -------- --
+
+-- Environment
+-- Colors
+-- Look and feel
+-- Window rules
+-- Inputs
+-- Defaults
+-- Keybindings
+-- Autostart
+-- Permissions (currently empty)
+-- Monitors (handled by hyprmoncfgd)
+
 
 
 -- ----------- --
@@ -117,7 +132,6 @@ local crustAlpha = "11111b"
 
 
 
-
 -- ------------- --
 -- LOOK AND FEEL --
 -- ------------- --
@@ -151,8 +165,7 @@ hl.animation({ leaf = "workspacesIn",  enabled = true,  speed = 1.21, bezier = "
 hl.animation({ leaf = "workspacesOut", enabled = true,  speed = 1.94, bezier = "almostLinear", style = "fade" })
 hl.animation({ leaf = "zoomFactor",    enabled = true,  speed = 7,    bezier = "quick" })
 
-
-
+-- Window decorations
 hl.config({
     general = {
         border_size = 3,
@@ -186,17 +199,6 @@ hl.config({
     },
 })
 
--- Create a space between waybar and windows by reserving the top of the monitors.
-hl.monitor({ output = "", reserved_area = -150 })
-
-
--- WHAT IS THIS
-
-hl.config({
-    scrolling = {
-        fullscreen_on_one_column = true,
-    },
-})
 
 
 -- ------------ --
@@ -415,9 +417,10 @@ hl.config({
 -- -------- --
 
 
-local terminal = "kitty"
+local terminal    = "kitty"
 local fileManager = "/usr/bin/dolphin"
-local menu = "wofi --show drun --allow-images --insensitive"
+local menu        = "wofi --show drun --allow-images --insensitive"
+local mainMod     = "SUPER"
 
 -- Note on how to use wofi for selection for interaction with terminal outputs and inputs:
 -- This creates an ls output, trims it to only the folder and file names, pipes it to wofi
@@ -448,8 +451,6 @@ local menu = "wofi --show drun --allow-images --insensitive"
 -- KEYBINDINGS --
 -- ----------- --
 
-
-local mainMod = "SUPER"
 
 hl.bind(mainMod .. " + space", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + SHIFT + Q", hl.dsp.window.close())
@@ -633,9 +634,10 @@ end)
 
 
 
-------------------
----- MONITORS ----
-------------------
+-- -------- --
+-- MONITORS --
+-- -------- --
+
 
 -- See https://wiki.hypr.land/Configuring/Basics/Monitors/
 hl.monitor({
