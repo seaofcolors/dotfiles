@@ -377,7 +377,6 @@ hl.gesture({
     action = function()
         hl.dsp.window.move({ workspace = "special:magic" })
     end
-    workspace_name = "magic",
 })
 
 hl.device({
