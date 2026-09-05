@@ -357,7 +357,7 @@ hl.gesture({
 
 -- Three-finger-swipe down to toggle floating the active window
 hl.gesture({
-    fingers = 3,
+    fingers = 4,
     direction = "down",
     action = "float",
 })
@@ -372,7 +372,7 @@ hl.gesture({
 
 -- Four-finger-swipe down to send active window to the special workplace
 hl.gesture({
-    fingers = 4,
+    fingers = 3,
     direction = "down",
     action = function()
      --   hl.dsp.window.move({ workspace = "special:magic" })
