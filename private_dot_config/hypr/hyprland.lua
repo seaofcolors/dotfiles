@@ -243,7 +243,7 @@ hl.window_rule({
     match = {
         workspace = "special:magic",
     },
-    border_color = crust,
+    border_color = pink,
 })
 
 -- Make the feh display of the key bindings fullscreen
