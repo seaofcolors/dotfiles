@@ -373,6 +373,7 @@ hl.gesture({
 -- Four-finger-swipe down to send active window to the special workplace
 local swipe_to_and_fro_special = function()
     local real_wrkspc = io.popen("hyprctl activewindow | grep \" workspace: \" | cut -d \"(\" -f2 | cut -d \")\" -f1")
+    hl.notification.create({ text = real_wrkspc, timeout = 5000, icon = "ok" })
     if ( real_wrkspc == "special:magic" )
     then
         local active_wrkspc = io.popen("hyprctl -j activeworkspace | jq .id")
