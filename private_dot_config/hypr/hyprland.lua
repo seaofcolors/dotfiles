@@ -379,7 +379,7 @@ local swipe_to_and_fro_special = function()
         hl.dispatch(hl.dsp.window.move({ workspace = active_wrkspc }))
         active_wrkspc:close()
     else
-        hl.dispatch(hl.dsp.window.move({ workspace = "special:magic" }))
+        hl.dispatch(hl.dsp.window.move({ workspace = "special:magic", follow = false }))
     end
     real_wrkspc:close()
 end
@@ -463,7 +463,7 @@ hl.bind(mainMod .. " + code:60", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + code:61", hl.dsp.layout("togglesplit"))
 
 hl.bind(mainMod .. " + code:35", hl.dsp.workspace.toggle_special("magic"))
-hl.bind(mainMod .. " + SHIFT + code:35", hl.dsp.window.move({ workspace = "special:magic" }))
+hl.bind(mainMod .. " + SHIFT + code:35", hl.dsp.window.move({ workspace = "special:magic", follow = false }))
 
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("hyprmoncfg"))
 hl.bind(mainMod .. " + SHIFT + O", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit"))
