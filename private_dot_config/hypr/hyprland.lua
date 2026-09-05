@@ -5,7 +5,6 @@
 -- ----------- --
 
 
-
 -- NVIDIA specific settings recommended as workarounds but not needed
 -- hl.env("AQ_DRM_DEVICES", "/dev/dri/by-path/pci-0000:06:00.0-card")
 -- hl.env("AQ_DRM_DEVICES", "/dev/dri/by-path/pci-0000:06:00.0-card:/dev/dri/by-path/pci-0000:01:00.0-card")
@@ -163,7 +162,7 @@ hl.config({
         },
         resize_on_border = true,
         gaps_in = 2,
-        gaps_out = 5, 0, 0, 0,
+        gaps_out = 0, 0, 0, 0,
         layout = "dwindle",
         allow_tearing = false,
     },
