@@ -395,11 +395,11 @@ hl.gesture({
     fingers = 5,
     direction = "down",
     action = function()
-        local variii = hl.get_active_workspace()
-        local variiiii = hl.get_active_special_workspace()
-        hl.dispatch(hl.dsp.exec_cmd("notify-send " .. variii))
-        hl.notification.create({ text = variii, timeout = 5000, icon = "ok" })
-        hl.notification.create({ text = variiiii, timeout = 5000, icon = "ok" })
+        if hl.get_workspace("special:magic") then
+            hl.dispatch(hl.dsp.window.move({ workspace = hl.get_active_workspace() }))
+        else
+            hl.dispatch(hl.dsp.window.move({ workspace = "special:magic", follow = false }))
+        end
     end
 })
 
