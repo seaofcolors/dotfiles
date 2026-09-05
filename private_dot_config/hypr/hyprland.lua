@@ -162,7 +162,7 @@ hl.config({
         },
         resize_on_border = true,
         gaps_in = 2,
-        gaps_out = 0, , 0, 0,
+        gaps_out = 0, 0, 0, 0,
         layout = "dwindle",
         allow_tearing = false,
     },
