@@ -372,18 +372,16 @@ hl.gesture({
 
 -- Four-finger-swipe down to send active window to the special workplace
 local swipe_to_and_fro_special = function()
-    local handleone = io.popen("hyprctl activewindow | grep \" workspace: \" | cut -d \"(\" -f2 | cut -d \")\" -f1")
-    local real_wrkspc = handleone:read()
-    handleone:close()
+    local real_wrkspc = io.popen("hyprctl activewindow | grep \" workspace: \" | cut -d \"(\" -f2 | cut -d \")\" -f1")
     if ( real_wrkspc == "special:magic" )
     then
-        local handletwo = io.popen("hyprctl -j activeworkspace | jq .id")
-        local active_wrkspc = handletwo:read()
+        local active_wrkspc = io.popen("hyprctl -j activeworkspace | jq .id")
         hl.dispatch(hl.dsp.window.move({ workspace = active_wrkspc }))
-        handletwo:close()
+        active_wrkspc:close()
     else
         hl.dispatch(hl.dsp.window.move({ workspace = "special:magic" }))
     end
+    real_wrkspc:close()
 end
 hl.gesture({
     fingers = 4,
