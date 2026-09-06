@@ -148,13 +148,12 @@
   "clock": {
     "format": "{:%a %d %H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "locale": "de",
     "calendar": {
 		"mode"             : "month",
 		"mode-mon-col"     : 3,
 		"weeks-pos"        : "right",
                 "iso8601"          : "true",
-                "first-day-of-week": 1,
+                "first-day-of-week": 2,
 		"on-scroll"        : 1,
 		"on-click-right"   : "mode",
 		"format": {
