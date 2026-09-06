@@ -346,7 +346,7 @@
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#313244AA"
-    foreground = "#cdd6f4"
+    foreground = "#cdd6f4AA"
 	highlight = "#94e2d5, #74c7ec"
     timeout = 20
     # Icon for notifications with low urgency
@@ -354,7 +354,7 @@
 
 [urgency_normal]
     background = "#313244AA"
-    foreground = "#cdd6f4"
+    foreground = "#cdd6f4AA"
 	highlight = "#94e2d5, #74c7ec"
     timeout = 20
     override_pause_level = 30
@@ -363,7 +363,7 @@
 
 [urgency_critical]
     background = "#313244AA"
-    foreground = "#eba0ac"
+    foreground = "#eba0acAA"
     frame_color = "#f38ba8"
 	highlight = "#a6e3a1, #cdd6f4"
     timeout = 0
