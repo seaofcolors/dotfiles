@@ -152,7 +152,8 @@
 		"mode"             : "month",
 		"mode-mon-col"     : 3,
 		"weeks-pos"        : "right",
-                "iso8601"          : 1,
+                "iso8601"          : "true",
+                "first-day-of-week": 1,
 		"on-scroll"        : 1,
 		"on-click-right"   : "mode",
 		"format": {
