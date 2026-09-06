@@ -147,7 +147,7 @@
 
   "clock": {
     "format": "{:%a %d %H:%M}",
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "calendar": {
 		"mode"             : "year",
 		"mode-mon-col"     : 3,
