@@ -586,6 +586,8 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("/usr/lib/xdg-desktop-portal-hyprland")
     hl.exec_cmd("systemctl --user start hyprpolkitagent")
 
+    hl.exec_cmd("/usr/lib/pam_kwallet_init")
+
     -- Fix xdg
 --    hl.exec_cmd("wait 1; ~/.config/hypr/scripts/xdg-fix.sh &")
 
@@ -594,7 +596,7 @@ hl.on("hyprland.start", function()
 
     hl.exec_cmd("/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1")
     hl.exec_cmd("hyprctl setcursor catppuccin-mocha-dark-cursors 28")
-    hl.exec_cmd("/usr/bin/keepassxc")
+--    hl.exec_cmd("/usr/bin/keepassxc")
     hl.exec_cmd("cursor-clip --daemon")
 
     -- Attempt waybar fixes
