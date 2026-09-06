@@ -112,7 +112,6 @@
   "custom/notifications": {
     "tooltip": false,
     "format": "{icon} {text}",
-    "on-click": "dunstctl close",
     "rotate": 0,
     "format-icons": {
       "email-notification": "<span foreground='white'><sup></sup></span>",
