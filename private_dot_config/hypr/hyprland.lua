@@ -625,7 +625,7 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("librewolf", { workspace = "1 silent" })
     hl.exec_cmd("proton-mail", { workspace = "2 silent" })
     hl.exec_cmd("proton-pass", { workspace = "9 silent" })
-    hl.exec_cmd("wait 1; protonvpn-app", { workspace = "9 silent" })
+    hl.exec_cmd("wait 1; proton-vpn-qt-app", { workspace = "9 silent" })
     hl.exec_cmd("enteauth", { workspace = "9 silent" })
 end)
 
