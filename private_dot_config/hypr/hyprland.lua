@@ -460,6 +460,8 @@ hl.bind(mainMod .. " + SHIFT + K", hl.dsp.window.kill())
 hl.bind(mainMod .. " + SHIFT + f", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))
 hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd("cursor-clip"))
 
+hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("swaync-client -t -sw"))
+
 -- hl.bind(mainMod .. " + code:59", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + code:60", hl.dsp.window.float({ action = "toggle" }))
 -- hl.bind(mainMod .. " + code:60", hl.dsp.window.pseudo())
