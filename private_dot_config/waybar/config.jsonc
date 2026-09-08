@@ -25,6 +25,16 @@
     },
   },
 
+  "hyprland/workspaces": {
+    "format": "{name} {windows}",
+    "workspac-taskbar": {
+        "enable": true,
+        "format": "{icon}",
+        "icon-size": 16,
+        "icon-theme": "breeze"
+    }
+  },
+
   "hyprland/window": {
 	"format": "{}",
 	/* "icon": true, */
