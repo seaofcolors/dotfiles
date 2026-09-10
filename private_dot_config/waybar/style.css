@@ -159,7 +159,27 @@ tooltip {
   padding-right: 0px;
 }
 
-#custom-notifications.dnd {
+#custom-notification.dnd-notification {
+  color: @red;
+}
+
+#custom-notification.dnd-none {
+  color: @red;
+}
+
+#custom-notification.inhibited-notification {
+  color: @red;
+}
+
+#custom-notification.inhibited-none {
+  color: @red;
+}
+
+#custom-notification.dnd-inhibited-notification {
+  color: @red;
+}
+
+#custom-notification.dnd-inhibited-none {
   color: @red;
 }
 
@@ -174,27 +194,7 @@ tooltip {
   padding-right: 0px;
 }
 
-#custom-notifications.dnd-notification {
-  color: @red;
-}
-
-#custom-notifications.dnd-none {
-  color: @red;
-}
-
-#custom-notifications.inhibited-notification {
-  color: @red;
-}
-
-#custom-notifications.inhibited-none {
-  color: @red;
-}
-
-#custom-notifications.dnd-inhibited-notification {
-  color: @red;
-}
-
-#custom-notifications.dnd-inhibited-none {
+#custom-notifications.dnd {
   color: @red;
 }
 
