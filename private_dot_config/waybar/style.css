@@ -159,10 +159,6 @@ tooltip {
   padding-right: 0px;
 }
 
-#custom-notification.dnd {
-  color: @red;
-}
-
 #custom-notifications {
   border-radius: 0 0 0 0;
   border-width: 3px;
