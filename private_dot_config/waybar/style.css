@@ -70,6 +70,7 @@ tooltip {
 }
 
 #tray{
+  color: rgba(0, 0, 0, 1);
   border-radius: 12px;
   border-width: 3px;
   border-style: solid;
