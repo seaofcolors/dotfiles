@@ -109,7 +109,7 @@
     "tooltip-format-deactivated": "Idle Inhibitor Deactivated"
   },
 
-"custom/notification": {
+  "custom/notification": {
     "tooltip": true,
     "format": "{0} <span size='16pt'>{icon}</span>",
     "format-icons": {
