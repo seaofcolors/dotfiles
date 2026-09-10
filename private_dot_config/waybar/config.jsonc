@@ -111,7 +111,7 @@
 
   "custom/notification": {
     "tooltip": true,
-    "format": "{0} {icon}",
+    "format": "{0}  {icon}",
     "format-icons": {
       "notification": " ",
       "none": " ",
