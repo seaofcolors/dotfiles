@@ -2,7 +2,7 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["tray", "pulseaudio", "memory", "battery", "power-profiles-daemon", "idle_inhibitor", "custom/notifications", "custom/power", "clock"],
+  "modules-right": ["tray", "pulseaudio", "memory", "battery", "power-profiles-daemon", "idle_inhibitor", "custom/notification", "custom/power", "clock"],
 
   "hyprland/workspaces": {
     "all-outputs": true,
