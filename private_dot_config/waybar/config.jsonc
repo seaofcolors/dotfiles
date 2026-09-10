@@ -130,6 +130,7 @@
     "escape": true
   },
 
+/*
   "custom/notifications": {
     "tooltip": false,
     "format": "{icon} {text}",
@@ -159,6 +160,8 @@
     "tooltip": true,
     "escape": true
   },
+
+*/
 
   "custom/power": {
     "format": "<span size='13000'> </span>",
