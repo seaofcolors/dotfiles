@@ -111,7 +111,7 @@
 
   "custom/notification": {
     "tooltip": true,
-    "format": "{0} <span size='16pt'>{icon}</span>",
+    "format": "{0} <span size='16pt'>{icon}</span> WHAA",
     "format-icons": {
       "notification": "󱅫",
       "none": "󰂜",
