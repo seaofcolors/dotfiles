@@ -70,6 +70,7 @@ tooltip {
 }
 
 #tray{
+  filter: grayscale(50%);
   color: @text;
   border-radius: 12px;
   border-width: 3px;
