@@ -46,8 +46,8 @@
   },
 
   "pulseaudio": {
-	"format": "{volume}% {icon}",
-	"format-bluetooth": "{volume}% {icon}",
+	"format": "{volume}%  {icon}",
+	"format-bluetooth": "{volume}%  {icon}",
 	"format-muted": "",
 	"format-icons": {
 		"alsa_output.pci-0000_00_1f.3.analog-stereo": "",
@@ -67,7 +67,7 @@
 
   "memory": {
     "interval": 30,
-    "format": "{}% ",
+    "format": "{}%  ",
     "max-length": 10
   },
 
@@ -76,13 +76,13 @@
       "warning": 30,
       "critical": 15
     },
-    "format": "{capacity}% <span size='13000' foreground='#cdd6f4'>{icon} </span>",
-    "format-warning": "{capacity}% <span size='13000' foreground='#f9e2af'>{icon} </span>",
-    "format-critical": "{capacity}% <span size='13000' foreground='#f38ba8'>{icon} </span>",
-    "format-charging": "{capacity}% <span size='13000' foreground='#89dceb'> </span>",
-    "format-plugged": "{capacity}% <span size='13000' foreground='#cdd6f4'> </span>",
-    "format-alt": "{time} <span size='13000' foreground='#cdd6f4'>{icon} </span>",
-    "format-full": "{capacity}% <span size='13000' foreground='#cdd6f4'> </span>",
+    "format": "{capacity}%  <span size='13000' foreground='#cdd6f4'>{icon} </span>",
+    "format-warning": "{capacity}%  <span size='13000' foreground='#f9e2af'>{icon} </span>",
+    "format-critical": "{capacity}%  <span size='13000' foreground='#f38ba8'>{icon} </span>",
+    "format-charging": "{capacity}%  <span size='13000' foreground='#89dceb'> </span>",
+    "format-plugged": "{capacity}%  <span size='13000' foreground='#cdd6f4'> </span>",
+    "format-alt": "{time}  <span size='13000' foreground='#cdd6f4'>{icon} </span>",
+    "format-full": "{capacity}%  <span size='13000' foreground='#cdd6f4'> </span>",
     "format-icons": ["", "", "", "", ""],
     "tooltip-format": "{time}"
   },
