@@ -148,6 +148,21 @@ tooltip {
   color: @text;
 }
 
+#custom-notification {
+  border-radius: 0 0 0 0;
+  border-width: 3px;
+  border-style: solid;
+  border-color: @lavender;
+  border-left: 0px;
+  border-right: 0px;
+  padding-left: 5px;
+  padding-right: 0px;
+}
+
+#custom-notification.dnd {
+  color: @red;
+}
+
 #custom-notifications {
   border-radius: 0 0 0 0;
   border-width: 3px;
