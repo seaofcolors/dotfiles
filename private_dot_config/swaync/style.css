@@ -9,7 +9,7 @@
 }
 
 :root {
-  --cc-bg: @base;
+  --cc-bg: @red;
   --cc-bg-alpha: 1.0;
   --noti-border-color: @lavender;
   --noti-bg: @red;
