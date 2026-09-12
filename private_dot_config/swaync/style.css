@@ -70,7 +70,7 @@
 }
 .close-button:hover {
   background: var(--noti-close-bg-hover);
-  color: var(--text-color);
+  color: var(--text-noti-close-bg-hover);
 }
 
 /********************************** Notification Row **********************************/
