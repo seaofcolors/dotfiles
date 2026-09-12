@@ -15,7 +15,7 @@
   --noti-bg: @red;
   --noti-bg-alpha: 1.0;
   --noti-bg-darker: @red;
-  --noti-bg-hover: @red;
+  --noti-bg-hover: @suface0;
   --noti-button-bg-hover: @maroon;
   --text-noti-button-bg-hover: @base;
   --noti-bg-focus: @red;
@@ -23,8 +23,8 @@
   --noti-close-bg-hover: @red;
   --text-noti-close-bg-hover: @base;
   --text-color: @text;
-  --text-color-disabled: @on_secondary;
-  --bg-selected: @surface_tint; */
+  --text-color-disabled: @overlay1;
+  --bg-selected: @base;
   --notification-icon-size: 64px;
   --notification-app-icon-size: calc(var(--notification-icon-size) / 3);
   --notification-group-icon-size: 32px;
