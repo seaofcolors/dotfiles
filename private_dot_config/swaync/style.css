@@ -13,9 +13,9 @@
   --cc-bg-alpha: 1.0;			/* Opacity of window background */
   --noti-border-color: @lavender;	/* Border of swaync window and notifications */
   --noti-bg: @base;			/* Notification background */
-  --noti-bg-alpha: 1.0;			/* Opacity of notification background */
   --noti-bg-darker: @red;		/* Not in use? */
   --noti-bg-hover: @surface1;		/* Background of notifications when hovered */
+  --text-noti-bg-hover: @base;		/* Text of notifications when hovered */
   --noti-button-bg-hover: @maroon;	/* Background of buttons on notifications when hovered */
   --text-noti-button-bg-hover: @base;	/* Text of button on notifications when hovered */
   --noti-bg-focus: @red;		/* ???? */
@@ -96,12 +96,11 @@
 
 .notification-row .notification-background .notification.low {
   /* Low Priority Notification */
-  background: rgba(var(--noti-bg), var(--noti-bg-alpha));
+  background: var(--noti-bg);
 }
 
 .notification-row .notification-background .notification.normal {
   /* Normal Priority Notification */
-  /* background: rgba(var(--noti-bg), var(--noti-bg-alpha)); */
   background: var(--noti-bg);
 }
 
@@ -120,7 +119,7 @@
 .notification-row .notification-background .notification:hover {
   /* -gtk-icon-filter: none; */
   background: var(--noti-bg-hover);
-  color: var(--text-color);
+  color: var(--text-noti-bg-hover);
 }
 
 .notification-row
