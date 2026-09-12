@@ -22,7 +22,7 @@
   --noti-close-bg: @lavender;
   --noti-close-bg-hover: @red;
   --text-noti-close-bg-hover: @base;
-  --text-color: @text;
+  --text-color: @lavender;
   --text-color-disabled: @overlay1;
   --bg-selected: @red;
   --notification-icon-size: 64px;
