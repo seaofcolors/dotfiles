@@ -16,14 +16,15 @@
   --noti-bg-alpha: 1.0;			/* Not in use? */
   --noti-bg-darker: @red;		/* Not in use? */
   --noti-bg-hover: @surface1;		/* Background of notifications when hovered */
-  --noti-button-bg-hover: @maroon;	/* Color of buttons on notifications when hovered */
-  --text-noti-button-bg-hover: @base;	/* Color of button text on notif. when hovered */
+  --noti-button-bg-hover: @maroon;	/* Background of buttons on notifications when hovered */
+  --text-noti-button-bg-hover: @base;	/* Text of button on notifications when hovered */
   --noti-bg-focus: @red;		/* ???? */
-  --noti-close-bg: @maroon;		/* Background of close button on notis */
+  --noti-close-bg: @lavender;		/* Background of close button on notis */
+  --text-noti-close-bg: @base;		/* Text of close button on notis */
   --noti-close-bg-hover: @maroon;	/* Background of close button on notis when hovered */
-  --text-noti-close-bg-hover: @base;	/* Background of close button text on notis when hovered */
+  --text-noti-close-bg-hover: @base;	/* Text of close button on notis when hovered */
   --text-color: @lavender;		/* Color of all text but top buttons */
-  --text-color-disabled: @overlay1;
+  --text-color-disabled: @red;		/* Not in use? */
   --bg-selected: @red;			/* Not in use? */
   --notification-icon-size: 64px;
   --notification-app-icon-size: calc(var(--notification-icon-size) / 3);
@@ -40,7 +41,7 @@
 }
 
 .blank-window {
-  /* Window behind control center and on all other monitors */
+  /* Window behind control cenpactl get-sink-mute @DEFAULT_SINK@ter and on all other monitors */
   /* To fix an interference with gtk themeing, please edit
      /usr/share/themes/catppuccin-mocha-lavender-standard+default/gtk-4.0/gtk.css 
      and /usr/share/themes/catppuccin-mocha-lavender-standard+default/gtk-4.0/gtk-dark.css 
@@ -63,7 +64,7 @@
 /********************************** Close Button **********************************/
 .close-button {
   background: var(--noti-close-bg);
-  color: var(--text-color);
+  color: var(--text-noti-close-bg);
   min-width: 24px;
   min-height: 24px;
 }
