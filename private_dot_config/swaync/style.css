@@ -616,7 +616,7 @@
     @lavender 50%,
     @mauve 100%
   ); */
-  background: var(--noti-bg);
+  background: var(--noti-bg-hover);
   color: var(--text-color);
 }
 
