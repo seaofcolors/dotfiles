@@ -80,7 +80,7 @@
 }
 
 .notification-row:focus {
-  background: @red;
+  background: @red;						/* Not in use */
 }
 
 .notification-row .notification-background {
@@ -90,18 +90,18 @@
 .notification-row .notification-background .notification {
   /* The actual notification */
   min-height: 50px;
-  background: @red;
+  background: @red;						/* Not in use */
   padding: 0px 0px 0px 0px;
 }
 
 .notification-row .notification-background .notification.low {
   /* Low Priority Notification */
-  background: rgba(0, 0, 0, 1);
+  background: @red;
 }
 
 .notification-row .notification-background .notification.normal {
   /* Normal Priority Notification */
-  background: rgba(0, 0, 0, 1);
+  background: @red;
 }
 
 .notification-row .notification-background .notification.critical {
