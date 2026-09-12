@@ -14,7 +14,7 @@
   --noti-border-color: @lavender;
   --noti-bg: @red;
   --noti-bg-alpha: 1.0;
-/*  --noti-bg-darker: rgba(0, 0, 0, 1); */
+  --noti-bg-darker: @mauve;
   --noti-bg-hover: @red;
   --noti-button-bg-hover: @primary_container;
   --text-noti-button-bg-hover: @on_primary_container;
