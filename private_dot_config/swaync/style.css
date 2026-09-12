@@ -122,7 +122,7 @@
 .notification-row .notification-background .notification:hover {
   /* -gtk-icon-filter: none; */
   background: var(--noti-bg-hover);				/* Not in use */
-  color: var(--text-noti-bg-hover);				/* Not in use */
+  border: var(--text-noti-bg-hover);				/* Not in use */
 }
 
 .notification-row
