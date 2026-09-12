@@ -16,12 +16,12 @@
   --noti-bg-alpha: 1.0;
 /*  --noti-bg-darker: rgba(0, 0, 0, 1); */
   --noti-bg-hover: @surface1;
-/*  --noti-button-bg-hover: @primary_container;
-/*  --text-noti-button-bg-hover: @on_primary_container;
+  --noti-button-bg-hover: @primary_container;
+  --text-noti-button-bg-hover: @on_primary_container;
   --noti-bg-focus: @surface_container_highest;
   --noti-close-bg: @surface_container;
   --noti-close-bg-hover: @tertiary_container;
-  --text-noti-close-bg-hover: @on_tertiary_container; */
+  --text-noti-close-bg-hover: @on_tertiary_container;
   --text-color: @text;
   --text-color-disabled: @on_secondary;
   --bg-selected: @surface_tint; */
