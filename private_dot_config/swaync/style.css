@@ -24,7 +24,7 @@
   --text-noti-close-bg-hover: @base;
   --text-color: @text;
   --text-color-disabled: @overlay1;
-  --bg-selected: @base;
+  --bg-selected: @red;
   --notification-icon-size: 64px;
   --notification-app-icon-size: calc(var(--notification-icon-size) / 3);
   --notification-group-icon-size: 32px;
