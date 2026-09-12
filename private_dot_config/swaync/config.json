@@ -141,7 +141,7 @@
           "active": true,
           "command": "sh -c 'swaync-client -d -sw'",
           "update-command": "sh -c 'set +e;swaync-client -D'"
-        },
+        }
 /*        {
           "label": "",
           "type": "toggle",
