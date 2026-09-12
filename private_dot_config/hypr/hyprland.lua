@@ -576,13 +576,10 @@ hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("swayosd-client --brightness rais
 hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("swayosd-client --brightness lower --device amdgpu_bl1"), { locked = true, repeating = true })
 
 -- Requires playerctl
---hl.bind("XF86AudioNext", hl.dsp.exec_cmd("playerctl next & swayosd-client --playerctl next"), { locked = true })
---hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause & swayosd-client --playerctl play-pause"), { locked = true })
---hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause & swayosd-client --playerctl play-pause"), { locked = true })
---hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous & swayosd-client --playerctl previous"), { locked = true })
 hl.bind("XF86AudioNext", hl.dsp.exec_cmd("swayosd-client --playerctl next"), { locked = true })
 hl.bind("XF86AudioPause", hl.dsp.exec_cmd("swayosd-client --playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("swayosd-client --playerctl play-pause"), { locked = true })
+hl.bind("XF86AudioStop", hl.dsp.exec_cmd("swayosd-client --playerctl stop"), { locked = true })
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("swayosd-client --playerctl previous"), { locked = true })
 
 
