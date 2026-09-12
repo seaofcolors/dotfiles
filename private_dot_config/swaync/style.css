@@ -10,8 +10,8 @@
 
 :root {
   --cc-bg: @base;			/* Swaync window background */
-  --cc-bg-alpha: 1.0;
-  --noti-border-color: @red;
+  --cc-bg-alpha: 0.6;			/* Opacity of window background */
+  --noti-border-color: @red;		/* border of swaync window and notifications */
   --noti-bg: @red;
   --noti-bg-alpha: 1.0;
   --noti-bg-darker: @red;
