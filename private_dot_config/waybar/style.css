@@ -9,7 +9,7 @@
 
 window#waybar {
   background: @surface;
-  color: @text;
+  color: @lavender;
 }
 
 window > box {
