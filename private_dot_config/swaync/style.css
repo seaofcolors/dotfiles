@@ -123,9 +123,8 @@
 
 .notification-row .notification-background .notification:hover {
   /* -gtk-icon-filter: none; */
-  background: var(--noti-bg-hover);				/* Not in use */
-/*  border: var(--text-noti-bg-hover); */				/* Not in use */
-  border: var(--border);				/* Not in use */
+  background: var(--noti-bg-hover);				/* Background color of hovered notification */
+  border: var(--border);					/* Border color of hovered notification */
 }
 
 .notification-row
