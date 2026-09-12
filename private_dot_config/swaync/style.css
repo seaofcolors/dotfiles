@@ -10,12 +10,12 @@
 
 :root {
   --cc-bg: @base;			/* Swaync window background */
-  --cc-bg-alpha: 0.6;			/* Opacity of window background */
-  --noti-border-color: @red;		/* border of swaync window and notifications */
-  --noti-bg: @red;
-  --noti-bg-alpha: 1.0;
-  --noti-bg-darker: @red;
-  --noti-bg-hover: @suface0;
+  --cc-bg-alpha: 1.0;			/* Opacity of window background */
+  --noti-border-color: @lavender;	/* Border of swaync window and notifications */
+  --noti-bg: @red;			/* Not in use? */
+  --noti-bg-alpha: 1.0;			/* Not in use? */
+  --noti-bg-darker: @red;		/* Not in use? */
+  --noti-bg-hover: @red;
   --noti-button-bg-hover: @maroon;
   --text-noti-button-bg-hover: @base;
   --noti-bg-focus: @red;
