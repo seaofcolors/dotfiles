@@ -42,7 +42,7 @@ tooltip {
 }
 
 #workspaces button.active {
-  color: @lavender;
+  color: @mauve;
 }
 
 #workspaces button.focused {
