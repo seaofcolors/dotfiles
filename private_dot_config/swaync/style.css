@@ -19,12 +19,12 @@
   --noti-button-bg-hover: @maroon;	/* Color of buttons on notifications when hovered */
   --text-noti-button-bg-hover: @base;	/* Color of button text on notif. when hovered */
   --noti-bg-focus: @red;		/* Not in use? */
-  --noti-close-bg: @base;		/*  */
+  --noti-close-bg: @red;		/*  */
   --noti-close-bg-hover: @maroon;	/* Background of close button on notis when hovered */
   --text-noti-close-bg-hover: @base;	/* Background of close button text on notis when hovered */
   --text-color: @lavender;
   --text-color-disabled: @overlay1;
-  --bg-selected: @red;
+  --bg-selected: @red;			/* Not in use? */
   --notification-icon-size: 64px;
   --notification-app-icon-size: calc(var(--notification-icon-size) / 3);
   --notification-group-icon-size: 32px;
