@@ -599,7 +599,7 @@
 
 .widget-mpris > box > button {
   /* Change player side buttons */
-  color: @red;
+  color: var(--text-color);                             /* Artist name color */
 }
 
 .widget-mpris > box > button:disabled {
