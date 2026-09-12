@@ -165,8 +165,8 @@ hl.animation({ leaf = "workspacesIn",  enabled = true,  speed = 1.21, bezier = "
 hl.animation({ leaf = "workspacesOut", enabled = true,  speed = 1.94, bezier = "almostLinear", style = "fade" })
 hl.animation({ leaf = "zoomFactor",    enabled = true,  speed = 7,    bezier = "quick" })
 
-hl.animation({ leaf = "border", enabled = true, speed = 1, bezier = "linear" })
-hl.animation({ leaf = "borderangle", enabled = true, speed = 24, bezier = "linear", style = "loop" })
+-- hl.animation({ leaf = "border", enabled = true, speed = 1, bezier = "linear" })
+-- hl.animation({ leaf = "borderangle", enabled = true, speed = 24, bezier = "linear", style = "loop" })
 
 -- Window decorations
 hl.config({
@@ -576,10 +576,14 @@ hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("swayosd-client --brightness rais
 hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("swayosd-client --brightness lower --device amdgpu_bl1"), { locked = true, repeating = true })
 
 -- Requires playerctl
-hl.bind("XF86AudioNext", hl.dsp.exec_cmd("playerctl next & swayosd-client --playerctl next"), { locked = true })
-hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause & swayosd-client --playerctl play-pause"), { locked = true })
-hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause & swayosd-client --playerctl play-pause"), { locked = true })
-hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous & swayosd-client --playerctl previous"), { locked = true })
+--hl.bind("XF86AudioNext", hl.dsp.exec_cmd("playerctl next & swayosd-client --playerctl next"), { locked = true })
+--hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause & swayosd-client --playerctl play-pause"), { locked = true })
+--hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause & swayosd-client --playerctl play-pause"), { locked = true })
+--hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous & swayosd-client --playerctl previous"), { locked = true })
+hl.bind("XF86AudioNext", hl.dsp.exec_cmd("swayosd-client --playerctl next"), { locked = true })
+hl.bind("XF86AudioPause", hl.dsp.exec_cmd("swayosd-client --playerctl play-pause"), { locked = true })
+hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("swayosd-client --playerctl play-pause"), { locked = true })
+hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("swayosd-client --playerctl previous"), { locked = true })
 
 
 
