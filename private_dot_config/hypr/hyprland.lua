@@ -221,6 +221,15 @@ hl.config({
     },
 })
 
+-- Make Swaync slide in from the right
+hl.layer_rule({
+    name = "float-and-pin-freetube",
+    match = {
+        namespace = "swaync-control-center",
+    },
+    animation = "slide right",
+})
+
 -- Ignore maximize requests from all apps. You'll probably like this.
 hl.window_rule({
     name = "suppress-maximize-events",
