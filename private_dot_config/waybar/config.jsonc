@@ -110,9 +110,8 @@
   },
 
   "custom/notification": {
-    "format": "{0} {icon}",
-/*    "tooltip": true,
-    "format": "{0}  {icon}", */
+    "format": "{0}  {icon}",
+    "tooltip": true,
     "format-icons": {
       "notification": " ",
       "none": " ",
