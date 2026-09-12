@@ -106,6 +106,13 @@
           "command": "sh -c '~/.config/swaync/scripts/toggle_bluetooth.sh'",
           "update-command": "sh -c 'set +e;bluetoothctl show | grep -qF Powered:\\ yes && echo true || echo false'"
         },
+        {
+          "label": "",
+          "type": "toggle",
+          "active": true,
+          "command": "sh -c '~/.config/swaync/scripts/toggle_hypridle.sh'",
+          "update-command": "sh -c '~/.config/swaync/scripts/update_hypridle.sh'"
+        },
 /*        {
           "label": "󰀝",
           "type": "toggle",
@@ -149,13 +156,6 @@
           "command": "sh -c '~/.config/swaync/scripts/toggle_hyprsunset.sh'",
           "update-command": "sh -c 'set +e;pgrep -x hyprsunset >/dev/null && echo true || echo false'"
         }, */
-        {
-          "label": "",
-          "type": "toggle",
-          "active": true,
-          "command": "sh -c '~/.config/swaync/scripts/toggle_hypridle.sh'",
-          "update-command": "sh -c '~/.config/swaync/scripts/update_hypridle.sh'"
-        }
       ]
     },
     "volume": {
