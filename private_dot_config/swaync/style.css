@@ -15,7 +15,7 @@
   --noti-bg: @red;
   --noti-bg-alpha: 1.0;
   --noti-bg-darker: @red;
-  --noti-bg-hover: @surface2;
+  --noti-bg-hover: @red;
   --noti-button-bg-hover: @maroon;
   --text-noti-button-bg-hover: @base;
   --noti-bg-focus: @red;
