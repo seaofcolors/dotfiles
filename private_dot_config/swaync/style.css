@@ -13,6 +13,7 @@
   --cc-bg-alpha: 1.0;			/* Opacity of window background */
   --noti-border-color: @lavender;	/* Border of swaync window and notifications */
   --noti-bg: @base;			/* Notification background */
+  --noti-bg-critical: @mauve		/* Background of critical notification */
   --noti-bg-darker: @red;		/* Not in use? */
   --noti-bg-hover: @surface1;		/* Background of notifications when hovered */
   --text-noti-bg-hover: @base;		/* Text of notifications when hovered */
@@ -106,7 +107,7 @@
 
 .notification-row .notification-background .notification.critical {
   /* Critical Priority Notification */
-  background: @red;
+  background: var(--noti-bg-critical);
 }
 
 .notification-row
@@ -127,8 +128,8 @@
   .notification
   .notification-default-action:not(:only-child) {
   /* When alternative actions are visible */
-  border-bottom-left-radius: 100px;
-  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .notification-row
