@@ -634,6 +634,8 @@
   transition: opacity 0.15s ease-in-out;
 }
 
+/*
+
 /************** Menubar Widget **************/
 .widget-menubar {
   /* The revealer buttons */
@@ -686,6 +688,8 @@
 .widget-menubar > revealer * button:last-child {
   margin-bottom: 0;
 }
+
+*/
 
 /************** Volume Widget **************/
 :root {
