@@ -38,13 +38,13 @@
   "script-fail-notify": true,
 /*  "control-center-preferred-output": "", */
 
-  "scripts": {
+/*  "scripts": {
     "play-sound": {
       "exec": "~/.config/swaync/scripts/notify_sound.sh",
       "app-name": ".*",
       "run-on": "receive"
     }
-  },
+  }, */
 
   "notification-visibility": {
     "Spotify": {
