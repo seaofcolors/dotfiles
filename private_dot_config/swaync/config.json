@@ -23,8 +23,8 @@
   "timeout-critical": 0,
   "fit-to-screen": true,
   "relative-timestamps": true,
-  "control-center-width": 350,
-  "control-center-height": 500,
+  "control-center-width": 450,
+  "control-center-height": 600,
   "notification-window-width": 400,
 /*  "notification-window-height": 500,
     "notification-window-preferred-output": "", */
