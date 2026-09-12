@@ -31,6 +31,7 @@
   --button-on-text: @base;		/* Color of active button text */
   --button-off-bg: @crust;		/* Color of inactive button background */
   --button-off-text: @surface0;		/* Color of inactive button text */
+  --mpris-text: @text;			/* Color of artist and song name */
   --notification-icon-size: 64px;
   --notification-app-icon-size: calc(var(--notification-icon-size) / 3);
   --notification-group-icon-size: 32px;
@@ -578,13 +579,13 @@
 }
 
 .widget-mpris .widget-mpris-player .mpris-overlay .widget-mpris-title {
-  color: var(--text-color);                             /* Artist name color */
+  color: var(--mpris-text);                             /* Artist name color */
   font-weight: bold;
   font-size: 1rem;
 }
 
 .widget-mpris .widget-mpris-player .mpris-overlay .widget-mpris-subtitle {
-  color: var(--text-color);				/* Song name color */
+  color: var(--mpros-text);				/* Song name color */
   font-size: 0.8rem;
 }
 
