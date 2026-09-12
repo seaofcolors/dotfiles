@@ -19,14 +19,14 @@ window > box {
 tooltip {
   background: @base;
   border-radius: 12px;
-  border-width: 3px;
+  border-width: 4px;
   border-style: solid;
   border-color: @lavender;
 }
 
 #workspaces {
   border-radius: 12px;
-  border-width: 3px;
+  border-width: 4px;
   border-style: solid;
   border-color: @lavender;
   background: @surface;
@@ -60,7 +60,7 @@ tooltip {
 
 #window {
   border-radius: 12px;
-  border-width: 3px;
+  border-width: 4px;
   border-style: solid;
   border-color: @lavender;
   margin-left: 5px;
@@ -72,7 +72,7 @@ tooltip {
 #tray{
   color: @lavender;
   border-radius: 12px;
-  border-width: 3px;
+  border-width: 4px;
   border-style: solid;
   border-color: @lavender;
   margin-left: 5px;
@@ -92,7 +92,7 @@ tooltip {
 
 #pulseaudio {
   border-radius: 12px 0 0 12px;
-  border-width: 3px;
+  border-width: 4px;
   border-style: solid;
   border-color: @lavender;
   border-right: 0px;
@@ -106,7 +106,7 @@ tooltip {
 
 #memory {
   border-radius: 0 0 0 0;
-  border-width: 3px;
+  border-width: 4px;
   border-style: solid;
   border-color: @lavender;
   border-left: 0px;
@@ -117,7 +117,7 @@ tooltip {
 
 #battery {
   border-radius: 0 0 0 0;
-  border-width: 3px;
+  border-width: 4px;
   border-style: solid;
   border-color: @lavender;
   border-left: 0px;
@@ -128,7 +128,7 @@ tooltip {
 
 #power-profiles-daemon {
   border-radius: 0 0 0 0;
-  border-width: 3px;
+  border-width: 4px;
   border-style: solid;
   border-color: @lavender;
   border-left: 0px;
@@ -140,7 +140,7 @@ tooltip {
 #idle_inhibitor {
   color: @red;
   border-radius: 0 0 0 0;
-  border-width: 3px;
+  border-width: 4px;
   border-style: solid;
   border-color: @lavender;
   border-left: 0px;
@@ -155,7 +155,7 @@ tooltip {
 
 #custom-notification {
   border-radius: 0 0 0 0;
-  border-width: 3px;
+  border-width: 4px;
   border-style: solid;
   border-color: @lavender;
   border-left: 0px;
@@ -191,7 +191,7 @@ tooltip {
 #custom-power {
   color: @text;
   border-radius: 0 0 0 0;
-  border-width: 3px;
+  border-width: 4px;
   border-style: solid;
   border-color: @lavender;
   border-left: 0px;
@@ -205,7 +205,7 @@ tooltip {
 }
 
 #clock {
-  border-width: 3px;
+  border-width: 4px;
   border-style: solid;
   border-color: @lavender;
   margin-right: 0px;
