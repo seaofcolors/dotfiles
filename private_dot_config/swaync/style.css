@@ -590,7 +590,7 @@
 
 .widget-mpris .widget-mpris-player .mpris-overlay > box > button {
   /* Change player control buttons */
-  color: @primary;
+  color: @red;
 }
 
 .widget-mpris .widget-mpris-player .mpris-overlay > box > button:hover {
