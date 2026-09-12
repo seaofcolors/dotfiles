@@ -101,7 +101,8 @@
 
 .notification-row .notification-background .notification.normal {
   /* Normal Priority Notification */
-  background: rgba(var(--noti-bg), var(--noti-bg-alpha));
+  /* background: rgba(var(--noti-bg), var(--noti-bg-alpha)); */
+  background: var(--noti-bg);
 }
 
 .notification-row .notification-background .notification.critical {
