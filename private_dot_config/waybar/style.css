@@ -70,6 +70,7 @@ tooltip {
 }
 
 #tray{
+  color: @lavender;
   border-radius: 12px;
   border-width: 3px;
   border-style: solid;
@@ -100,7 +101,7 @@ tooltip {
 }
 
 #pulseaudio.muted {
-  color: @red;
+  color: @maroon;
 }
 
 #memory {
