@@ -782,7 +782,7 @@
 
 .widget-backlight trough slider:hover,
 .widget-volume trough slider:hover {
-  background: @base;
+  background: @red;
   transition: opacity 0.3s ease-in-out;
   box-shadow: 0px 0px 3px alpha(@red, 1);
 }
