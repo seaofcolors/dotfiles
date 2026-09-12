@@ -616,7 +616,7 @@
     @secondary 50%,
     @tertiary 100%
   );
-  color: @on_primary;
+  color: @sapphire;
 }
 
 .widget-buttons-grid flowboxchild > button.toggle:hover {
