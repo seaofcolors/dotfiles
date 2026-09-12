@@ -609,13 +609,14 @@
 }
 
 .widget-buttons-grid flowboxchild > button.toggle:checked {
-  /* style given to the active toggle button */
+  /* style given to the active toggle button
   background: linear-gradient(
     45deg,
     @base 0%,
     @lavender 50%,
     @mauve 100%
-  );
+  ); */
+  background: var(--noti-bg);
   color: var(--text-color);
 }
 
