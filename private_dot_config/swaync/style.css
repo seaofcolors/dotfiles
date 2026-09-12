@@ -612,11 +612,11 @@
   /* style given to the active toggle button */
   background: linear-gradient(
     45deg,
-    @primary 0%,
-    @secondary 50%,
-    @tertiary 100%
+    @base 0%,
+    @lavender 50%,
+    @mauve 100%
   );
-  color: @sapphire;
+  color: var(--text-color);
 }
 
 .widget-buttons-grid flowboxchild > button.toggle:hover {
