@@ -170,7 +170,7 @@ hl.config({
     general = {
         border_size = 3,
         col = {
-            active_border = { colors = {mauve, flamingo}, angle = 90 },
+            active_border = { colors = {mauve, sapphire}, angle = 90 },
             inactive_border = subtext0,
         },
         resize_on_border = true,
