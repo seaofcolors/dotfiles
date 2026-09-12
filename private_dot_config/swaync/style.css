@@ -22,7 +22,7 @@
   --noti-close-bg: @maroon;		/* Background of close button on notis */
   --noti-close-bg-hover: @maroon;	/* Background of close button on notis when hovered */
   --text-noti-close-bg-hover: @base;	/* Background of close button text on notis when hovered */
-  --text-color: @red;
+  --text-color: @lavender;		/* Color of all text but top buttons */
   --text-color-disabled: @overlay1;
   --bg-selected: @red;			/* Not in use? */
   --notification-icon-size: 64px;
