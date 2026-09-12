@@ -780,9 +780,9 @@
 
 .widget-backlight trough slider:hover,
 .widget-volume trough slider:hover {
-  background: @tertiary;
+  background: @base;
   transition: opacity 0.3s ease-in-out;
-  box-shadow: 0px 0px 3px alpha(@on_surface, 1);
+  box-shadow: 0px 0px 3px alpha(@red, 1);
 }
 
 /************** Inhibitors Widget **************/
