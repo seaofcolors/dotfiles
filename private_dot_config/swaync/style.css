@@ -580,12 +580,12 @@
 .widget-mpris .widget-mpris-player .mpris-overlay .widget-mpris-title {
   color: @primary;
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .widget-mpris .widget-mpris-player .mpris-overlay .widget-mpris-subtitle {
   color: @secondary;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
 }
 
 .widget-mpris .widget-mpris-player .mpris-overlay > box > button {
