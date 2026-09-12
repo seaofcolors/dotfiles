@@ -150,7 +150,7 @@ tooltip {
 }
 
 #idle_inhibitor.deactivated {
-  color: @text;
+  color: @lavender;
 }
 
 #custom-notification {
@@ -165,27 +165,27 @@ tooltip {
 }
 
 #custom-notification.dnd-notification {
-  color: @red;
+  color: @maroon;
 }
 
 #custom-notification.dnd-none {
-  color: @red;
+  color: @maroon;
 }
 
 #custom-notification.inhibited-notification {
-  color: @red;
+  color: @maroon;
 }
 
 #custom-notification.inhibited-none {
-  color: @red;
+  color: @maroon;
 }
 
 #custom-notification.dnd-inhibited-notification {
-  color: @red;
+  color: @maroon;
 }
 
 #custom-notification.dnd-inhibited-none {
-  color: @red;
+  color: @maroon;
 }
 
 #custom-power {
@@ -201,7 +201,7 @@ tooltip {
 }
 
 #custom-power:hover {
-  color: @red;
+  color: @maroon;
 }
 
 #clock {
