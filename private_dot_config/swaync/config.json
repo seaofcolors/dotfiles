@@ -60,8 +60,8 @@
     "volume",
     "backlight",
     "mpris",
-    "inhibitors",
-    "title",
+/*    "inhibitors",
+    "title", */
     "notifications",
     "dnd"
   ],
