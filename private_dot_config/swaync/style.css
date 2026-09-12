@@ -27,6 +27,10 @@
   --text-color: @lavender;		/* Color of all text but top buttons */
   --text-color-disabled: @red;		/* Not in use? */
   --bg-selected: @red;			/* Not in use? */
+  --button-on-bg: @mauve;		/* Color of active button background */
+  --button-on-text: @base;		/* Color of active button text */
+  --button-off-bg: @crust;		/* Color of inactive button background */
+  --button-off-text: @surface0;		/* Color of inactive button text */
   --notification-icon-size: 64px;
   --notification-app-icon-size: calc(var(--notification-icon-size) / 3);
   --notification-group-icon-size: 32px;
@@ -609,28 +613,22 @@
 }
 
 .widget-buttons-grid flowboxchild > button.toggle:checked {
-  /* style given to the active toggle button
-  background: linear-gradient(
-    45deg,
-    @base 0%,
-    @lavender 50%,
-    @mauve 100%
-  ); */
-  background: var(--noti-bg-hover);
-  color: var(--text-color);
+  /* style given to the active toggle button */
+  background: var(--button-on-bg);
+  color: var(--button-on-text);
 }
 
 .widget-buttons-grid flowboxchild > button.toggle:hover {
   /* style given to the toggle button hover */
-  background: @red;
-  color: @sapphire;
+  background: var(--noti-bg-hover);
+  color: var(--text-noti-bg-hover);
   transition: opacity 0.15s ease-in-out;
 }
 
 .widget-buttons-grid flowboxchild > button.toggle:hover:checked {
   /* style given to the active toggle button hover */
-  background: @mauve;
-  color: @base;
+  background: var(--button-off-bg);
+  color: var(--button-off-text);
   transition: opacity 0.15s ease-in-out;
 }
 
