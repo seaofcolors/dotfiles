@@ -763,14 +763,14 @@
 .widget-backlight trough highlight,
 .widget-volume trough highlight {
 /*  background: linear-gradient(90deg, @primary 0%, @tertiary 100%); */
-  background: @red;
+  background: @lavender;				/* Color of the slider volume */
 }
 
 /* Inherits .control-center */
 .widget-backlight trough highlight:hover,
 .widget-volume trough highlight:hover {
 /*  background: linear-gradient(90deg, @secondary 0%, @tertiary 100%); */
-  background: @lavender;
+  background: @lavender;				/* Color of the slider volume when clicked */
 }
 
 .widget-backlight trough slider,
