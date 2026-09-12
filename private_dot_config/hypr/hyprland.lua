@@ -168,7 +168,7 @@ hl.animation({ leaf = "zoomFactor",    enabled = true,  speed = 7,    bezier = "
 -- Window decorations
 hl.config({
     general = {
-        border_size = 3,
+        border_size = 4,
         col = {
             active_border = { colors = {mauve, sapphire}, angle = 180 },
             inactive_border = overlay2,
