@@ -557,7 +557,7 @@
 }
 
 .widget-mpris .widget-mpris-player .mpris-background {
-  background: @primary;
+  background: var(--cc-bg);
 }
 
 .widget-mpris .widget-mpris-player .mpris-overlay {
@@ -578,7 +578,7 @@
 }
 
 .widget-mpris .widget-mpris-player .mpris-overlay .widget-mpris-title {
-  color: @red;
+  color: var(--text-color);                             /* Artist name color */
   font-weight: bold;
   font-size: 1rem;
 }
@@ -599,7 +599,7 @@
 
 .widget-mpris > box > button {
   /* Change player side buttons */
-  color: var(--text-color);                             /* Artist name color */
+  color: var(--text-color);
 }
 
 .widget-mpris > box > button:disabled {
