@@ -136,7 +136,7 @@
           "command": "sh -c 'swaync-client -d -sw'",
           "update-command": "sh -c 'set +e;swaync-client -D'"
         },
-        {
+/*        {
           "label": "",
           "type": "toggle",
           "active": true,
@@ -149,7 +149,7 @@
           "active": true,
           "command": "sh -c '~/.config/swaync/scripts/toggle_hyprsunset.sh'",
           "update-command": "sh -c 'set +e;pgrep -x hyprsunset >/dev/null && echo true || echo false'"
-        },
+        }, */
         {
           "label": "",
           "type": "toggle",
