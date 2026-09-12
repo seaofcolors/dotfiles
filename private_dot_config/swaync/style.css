@@ -17,7 +17,7 @@
   --noti-bg-darker: @red;
   --noti-bg-hover: @blue;
   --noti-button-bg-hover: @maroon;
-  --text-noti-button-bg-hover: @red;
+  --text-noti-button-bg-hover: @base;
   --noti-bg-focus: @surface_container_highest;
   --noti-close-bg: @surface_container;
   --noti-close-bg-hover: @tertiary_container;
