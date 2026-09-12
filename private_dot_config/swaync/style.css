@@ -578,13 +578,13 @@
 }
 
 .widget-mpris .widget-mpris-player .mpris-overlay .widget-mpris-title {
-  color: @primary;
+  color: @red;
   font-weight: bold;
   font-size: 1rem;
 }
 
 .widget-mpris .widget-mpris-player .mpris-overlay .widget-mpris-subtitle {
-  color: @red;
+  color: var(--text-color);				/* Song name color */
   font-size: 0.8rem;
 }
 
