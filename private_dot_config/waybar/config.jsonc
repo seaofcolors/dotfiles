@@ -110,7 +110,7 @@
   },
 
   "custom/notification": {
-    "format": "HUHU {icon}",
+    "format": "HUHU {0} {icon}",
 /*    "tooltip": true,
     "format": "{0}  {icon}", */
     "format-icons": {
