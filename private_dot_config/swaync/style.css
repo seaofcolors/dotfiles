@@ -80,7 +80,7 @@
 }
 
 .notification-row:focus {
-  background: @surface1;
+  background: @red;
 }
 
 .notification-row .notification-background {
