@@ -12,9 +12,9 @@
   --cc-bg: @base;
   --cc-bg-alpha: 0.9;
   --noti-border-color: @lavender;
-/*  --noti-bg: rgba(0, 0, 0, 1);
+  --noti-bg: rgba(0, 0, 0, 1);
   --noti-bg-alpha: 1.0;
-  --noti-bg-darker: rgba(0, 0, 0, 1); */
+/*  --noti-bg-darker: rgba(0, 0, 0, 1); */
   --noti-bg-hover: @surface1;
 /*  --noti-button-bg-hover: @primary_container;
 /*  --text-noti-button-bg-hover: @on_primary_container;
