@@ -4,25 +4,30 @@
   "positionX": "right",
   "positionY": "top",
   "layer": "overlay",
+  "control-center-layer": "top",
   "layer-shell": true,
-/*  "cssPriority": "application", */
   "layer-shell-cover-screen": true,
   "cssPriority": "user",
-  "control-center-layer": "top",
-
   "control-center-margin-top": 0,
   "control-center-margin-bottom": 0,
   "control-center-margin-right": 0,
   "control-center-margin-left": 0,
   "control-center-layer": "overlay",
-  "control-center-exclusive-zone": true,
+/*  "control-center-exclusive-zone": true, */
   "notification-2fa-action": true,
+  "notification-inline-replies": false,
+  "notification-body-image-height": 100,
+  "notification-body-image-width": 200,
   "timeout": 7,
   "timeout-low": 4,
   "timeout-critical": 0,
+  "fit-to-screen": true,
+  "relative-timestamps": true,
+  "control-center-width": 350,
+  "control-center-height": 500,
   "notification-window-width": 400,
-  "notification-window-height": 500,
-  "notification-window-preferred-output": "",
+/*  "notification-window-height": 500,
+    "notification-window-preferred-output": "", */
   "keyboard-shortcuts": true,
   "notification-grouping": true,
   "image-visibility": "when-available",
@@ -30,15 +35,17 @@
   "hide-on-clear": false,
   "hide-on-action": true,
   "text-empty": "No Notifications",
-  "fit-to-screen": true,
-  "relative-timestamps": true,
-  "control-center-height": 500,
-  "control-center-width": 350,
-  "control-center-preferred-output": "",
-  "layer-shell-cover-screen": true,
-  "notification-inline-replies": false,
-  "notification-body-image-height": 100,
-  "notification-body-image-width": 200,
+  "script-fail-notify": true,
+/*  "control-center-preferred-output": "", */
+
+  "scripts": {
+    "play-sound": {
+      "exec": "~/.config/swaync/scripts/notify_sound.sh",
+      "app-name": ".*",
+      "run-on": "receive"
+    }
+  },
+
   "notification-visibility": {
     "Spotify": {
       "state": "muted",
@@ -47,6 +54,7 @@
       "desktop-entry": "spotify.desktop"
     }
   },
+
   "widgets": [
     "buttons-grid",
     "volume",
@@ -163,14 +171,6 @@
       "min": 5
     }
   },
-  "script-fail-notify": false,
 
-  "scripts": {
-    "play-sound": {
-      "exec": "~/.config/swaync/scripts/notify_sound.sh",
-      "app-name": ".*",
-      "run-on": "receive"
-    }
-  }
 }
 
