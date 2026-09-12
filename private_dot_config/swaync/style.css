@@ -13,7 +13,7 @@
   --cc-bg-alpha: 1.0;			/* Opacity of window background */
   --noti-border-color: @lavender;	/* Border of swaync window and notifications */
   --noti-bg: @base;			/* Notification background */
-  --noti-bg-alpha: 0.9;			/* Opacity of notification background */
+  --noti-bg-alpha: 1.0;			/* Opacity of notification background */
   --noti-bg-darker: @red;		/* Not in use? */
   --noti-bg-hover: @surface1;		/* Background of notifications when hovered */
   --noti-button-bg-hover: @maroon;	/* Background of buttons on notifications when hovered */
