@@ -590,21 +590,21 @@
 
 .widget-mpris .widget-mpris-player .mpris-overlay > box > button {
   /* Change player control buttons */
-  color: @red;
+  color: var(--text-color);
 }
 
 .widget-mpris .widget-mpris-player .mpris-overlay > box > button:hover {
-  background-color: @primary_container;
+  background-color: var(--cc-bg);
 }
 
 .widget-mpris > box > button {
   /* Change player side buttons */
-  color: @secondary;
+  color: @red;
 }
 
 .widget-mpris > box > button:disabled {
   /* Change player side buttons insensitive */
-  color: @outline;
+  color: @sapphire;
 }
 
 /************** Buttons Grid Widget **************/
