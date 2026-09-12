@@ -9,9 +9,9 @@
 }
 
 :root {
-  --cc-bg: @red;
+  --cc-bg: @base;			/* Swaync window background */
   --cc-bg-alpha: 1.0;
-  --noti-border-color: @lavender;
+  --noti-border-color: @red;
   --noti-bg: @red;
   --noti-bg-alpha: 1.0;
   --noti-bg-darker: @red;
