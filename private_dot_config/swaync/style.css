@@ -547,7 +547,7 @@
   padding: 0;
   margin: 0px 3px;
   /* The parent to all players */
-  color: @base;
+  color: var(--cc-bg);
 }
 
 .widget-mpris .widget-mpris-player {
@@ -584,7 +584,7 @@
 }
 
 .widget-mpris .widget-mpris-player .mpris-overlay .widget-mpris-subtitle {
-  color: @secondary;
+  color: @red;
   font-size: 0.8rem;
 }
 
