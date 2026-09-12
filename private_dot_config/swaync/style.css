@@ -762,18 +762,21 @@
 /* Inherits .control-center */
 .widget-backlight trough highlight,
 .widget-volume trough highlight {
-  background: linear-gradient(90deg, @primary 0%, @tertiary 100%);
+/*  background: linear-gradient(90deg, @primary 0%, @tertiary 100%); */
+  background: @red;
 }
 
 /* Inherits .control-center */
 .widget-backlight trough highlight:hover,
 .widget-volume trough highlight:hover {
-  background: linear-gradient(90deg, @secondary 0%, @tertiary 100%);
+/*  background: linear-gradient(90deg, @secondary 0%, @tertiary 100%); */
+  background: @red;
 }
 
 .widget-backlight trough slider,
 .widget-volume trough slider {
-  background: @secondary;
+/*  background: @secondary; */
+  background: @red;
   min-width: 2px;
   min-height: 2px;
 }
