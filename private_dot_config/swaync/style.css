@@ -763,28 +763,28 @@
 .widget-backlight trough highlight,
 .widget-volume trough highlight {
 /*  background: linear-gradient(90deg, @primary 0%, @tertiary 100%); */
-  background: @lavender;				/* Color of the slider volume */
+  background: var(--text-color);				/* Color of the slider volume */
 }
 
 /* Inherits .control-center */
 .widget-backlight trough highlight:hover,
 .widget-volume trough highlight:hover {
 /*  background: linear-gradient(90deg, @secondary 0%, @tertiary 100%); */
-  background: @lavender;				/* Color of the slider volume when clicked */
+  background: var(--text-color);				/* Color of the slider volume when clicked */
 }
 
 .widget-backlight trough slider,
 .widget-volume trough slider {
-  background: @lavender;				/* Fill color of the slider button */
+  background: var(--text-color);				/* Fill color of the slider button */
   min-width: 2px;
   min-height: 2px;
 }
 
 .widget-backlight trough slider:hover,
 .widget-volume trough slider:hover {
-  background: @red;
+  background: var(--text-color);				/* Fill color of the slider button when hovered */
   transition: opacity 0.3s ease-in-out;
-  box-shadow: 0px 0px 3px alpha(@red, 1);
+/*  box-shadow: 0px 0px 3px alpha(@red, 1); */
 }
 
 /************** Inhibitors Widget **************/
