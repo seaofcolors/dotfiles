@@ -12,7 +12,7 @@
   --cc-bg: @base;			/* Swaync window background */
   --cc-bg-alpha: 1.0;			/* Opacity of window background */
   --noti-border-color: @lavender;	/* Border of swaync window and notifications */
-  --noti-bg: @red;			/* Not in use? */
+  --noti-bg: @base;			/* Notification background */
   --noti-bg-alpha: 1.0;			/* Not in use? */
   --noti-bg-darker: @red;		/* Not in use? */
   --noti-bg-hover: @surface1;		/* Background of notifications when hovered */
@@ -96,12 +96,12 @@
 
 .notification-row .notification-background .notification.low {
   /* Low Priority Notification */
-  background: @red;
+  background: var(--noti-bg);
 }
 
 .notification-row .notification-background .notification.normal {
   /* Normal Priority Notification */
-  background: @red;
+  background: var(--noti-bg);
 }
 
 .notification-row .notification-background .notification.critical {
@@ -118,7 +118,7 @@
 
 .notification-row .notification-background .notification:hover {
   /* -gtk-icon-filter: none; */
-  background: @surface1;
+  background: var(--noti-bg-hover);
   color: var(--text-color);
 }
 
