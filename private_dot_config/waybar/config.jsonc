@@ -110,7 +110,8 @@
   },
 
   "custom/notification": {
-    "tooltip": true,
+    "format": "HUHU",
+/*    "tooltip": true,
     "format": "{0}  {icon}",
     "format-icons": {
       "notification": " ",
@@ -127,7 +128,7 @@
     "exec": "swaync-client -swb",
     "on-click": "swaync-client -t -sw",
     "on-click-right": "swaync-client -d -sw",
-    "escape": true
+    "escape": true */
   },
 
 /*
