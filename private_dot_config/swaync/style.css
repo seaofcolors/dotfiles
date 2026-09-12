@@ -16,14 +16,13 @@
   --noti-bg-alpha: 1.0;			/* Not in use? */
   --noti-bg-darker: @red;		/* Not in use? */
   --noti-bg-hover: @surface1;		/* Background of notifications when hovered */
-  --text-noti-bg: @base;
   --noti-button-bg-hover: @maroon;	/* Color of buttons on notifications when hovered */
   --text-noti-button-bg-hover: @base;	/* Color of button text on notif. when hovered */
   --noti-bg-focus: @red;		/* ???? */
   --noti-close-bg: @maroon;		/* Background of close button on notis */
   --noti-close-bg-hover: @maroon;	/* Background of close button on notis when hovered */
   --text-noti-close-bg-hover: @base;	/* Background of close button text on notis when hovered */
-  --text-color: @lavender;
+  --text-color: @red;
   --text-color-disabled: @overlay1;
   --bg-selected: @red;			/* Not in use? */
   --notification-icon-size: 64px;
