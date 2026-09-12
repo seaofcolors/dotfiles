@@ -776,7 +776,7 @@
 .widget-backlight trough slider,
 .widget-volume trough slider {
 /*  background: @secondary; */
-  background: @red;
+  background: @lavender;
   min-width: 2px;
   min-height: 2px;
 }
