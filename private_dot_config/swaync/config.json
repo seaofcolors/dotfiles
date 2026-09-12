@@ -106,14 +106,13 @@
           "command": "sh -c '~/.config/swaync/scripts/toggle_bluetooth.sh'",
           "update-command": "sh -c 'set +e;bluetoothctl show | grep -qF Powered:\\ yes && echo true || echo false'"
         },
-        {
+/*        {
           "label": "󰀝",
           "type": "toggle",
           "active": true,
           "command": "sh -c '~/.config/swaync/scripts/toggle_airplanemode.sh'",
           "update-command": "sh -c 'set +e;[[ $(nmcli radio wifi) == \"enabled\" ]] || bluetoothctl show | grep -qF Powered:\\ yes && echo false || echo true'"
-        },
-
+        }, */
         {
           "label": "",
           "type": "toggle",
