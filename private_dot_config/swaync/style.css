@@ -585,7 +585,7 @@
 }
 
 .widget-mpris .widget-mpris-player .mpris-overlay .widget-mpris-subtitle {
-  color: var(--mpros-text);				/* Song name color */
+  color: var(--mpris-text);				/* Song name color */
   font-size: 0.8rem;
 }
 
