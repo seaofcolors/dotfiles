@@ -15,7 +15,7 @@
   --noti-bg: @red;			/* Not in use? */
   --noti-bg-alpha: 1.0;			/* Not in use? */
   --noti-bg-darker: @red;		/* Not in use? */
-  --noti-bg-hover: @red;
+  --noti-bg-hover: @surface1;		/* Background of notifications when hovered */
   --noti-button-bg-hover: @maroon;
   --text-noti-button-bg-hover: @base;
   --noti-bg-focus: @red;
