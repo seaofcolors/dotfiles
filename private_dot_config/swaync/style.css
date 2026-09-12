@@ -16,7 +16,7 @@
   --noti-bg-alpha: 1.0;
   --noti-bg-darker: @mauve;
   --noti-bg-hover: @red;
-  --noti-button-bg-hover: @primary_container;
+  --noti-button-bg-hover: @blue;
   --text-noti-button-bg-hover: @on_primary_container;
   --noti-bg-focus: @surface_container_highest;
   --noti-close-bg: @surface_container;
