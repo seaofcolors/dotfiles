@@ -525,10 +525,9 @@ hl.bind("SHIFT + Print", hl.dsp.exec_cmd("grim - | wl-copy && wl-paste > ~/Pictu
 
 -- Regional screen recording
 hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd("if pgrep -x \"wf-recorder\" > /dev/null; then pkill -INT -x wf-recorder; notify-send \"Regional screen recording ended.\"; else notify-send -t 5000 -i /usr/share/icons/Papirus/64x64/devices/camera-video.svg \"Screen recording...\" \"To start the screen recording, select a region by dragging the mouse. To end the recording press Win-Print again.\" & wf-recorder -g \"$(slurp)\" -f ~/Videos/screen_recording${RANDOM}.mp4; fi"))
--- hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd("if pgrep -x \"wf-recorder\" > /dev/null; then pkill -INT -x wf-recorder; notify-send \"Screen recording ended.\"; else notify-send -t 5000 -i /usr/share/icons/Papirus/64x64/devices/camera-video.svg \"Screen recording...\" \"Screen recording will start in 5 seconds when this notification times out. To end the recording press Win-Print again.\" & sleep 5 & wf-recorder -g \"$(slurp)\" -f ~/Videos/screen_recording${RANDOM}.mp4; fi"))
 
 -- Fullscreen screen recording
-hl.bind(mainMod .. " + SHIFT + Print", hl.dsp.exec_cmd("if pgrep -x \"wf-recorder\" > /dev/null; then pkill -INT -x wf-recorder; notify-send \"Screen recording ended.\"; else notify-send -t 5000 -i /usr/share/icons/Papirus/64x64/devices/camera-video.svg \"Screen recording...\" \"Full screen recording will start in 5 seconds when this notification times out. To end the recording press Win-Shift-Print again.\" & sleep 5.5 & wf-recorder -f ~/Videos/screen_recording${RANDOM}.mp4; fi"))
+hl.bind(mainMod .. " + SHIFT + Print", hl.dsp.exec_cmd("if pgrep -x \"wf-recorder\" > /dev/null; then pkill -INT -x wf-recorder; notify-send \"Screen recording ended.\"; else notify-send -t 5000 -i /usr/share/icons/Papirus/64x64/devices/camera-video.svg \"Screen recording...\" \"Full screen recording will start in 5 seconds when this notification times out. To end the recording press Win-Shift-Print again.\" & sleep 5.5 && wf-recorder -f ~/Videos/screen_recording${RANDOM}.mp4; fi"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
