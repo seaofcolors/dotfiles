@@ -269,7 +269,7 @@ hl.window_rule({
         class = "feh",
     },
     border_size = 0,
-    fullscreen = true,
+    maximize = true,
 })
 
 hl.window_rule({
