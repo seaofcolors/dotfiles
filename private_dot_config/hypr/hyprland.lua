@@ -262,9 +262,9 @@ hl.window_rule({
     border_color = red,
 })
 
--- Make the feh display of the key bindings fullscreen
+-- Make the feh display of the key bindings maximized
 hl.window_rule({
-    name = "make-feh-fullscreen",
+    name = "make-feh-maximized",
     match = {
         class = "feh",
     },
@@ -638,7 +638,7 @@ hl.on("hyprland.start", function()
 
     -- Attempt insync start fix
     -- hl.exec_cmd("~/.config/hypr/scripts/insync-fix.sh", { workspace = "1 silent" })
-    hl.exec_cmd("feh -x -F ~/.config/backgrounds/hyprland-keybindings.jpg", { workspace = "10 silent" })
+    hl.exec_cmd("feh --scale-down --bg-color black --image-bg black ~/.config/backgrounds/hyprland-keybindings.jpg", { workspace = "10 silent" })
     hl.exec_cmd("librewolf", { workspace = "1 silent" })
     hl.exec_cmd("proton-mail", { workspace = "2 silent" })
     hl.exec_cmd("proton-pass", { workspace = "9 silent" })
