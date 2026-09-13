@@ -518,10 +518,10 @@ hl.bind(mainMod .. " + I", hl.dsp.exec_cmd("google-chrome-stable"))
 hl.bind(mainMod .. " + G", hl.dsp.exec_cmd("[workspace 9] prime-run steam"))
 
 -- Regional screenshot
-hl.bind("Print", hl.dsp.exec_cmd("grim -g \"$(slurp)\" - | wl-copy && wl-paste > ~/Pictures/Screenshots/Screenshot-$(date +%F_%T).png | dunstify \"Screenshot of region taken\" -t 5000"))
+hl.bind("Print", hl.dsp.exec_cmd("grim -g \"$(slurp)\" - | wl-copy && wl-paste > ~/Pictures/Screenshots/Screenshot-$(date +%F_%T).png | notify-send \"Screenshot of region taken\""))
 
 -- Fullscreen screenshot
-hl.bind("SHIFT + Print", hl.dsp.exec_cmd("grim - | wl-copy && wl-paste > ~/Pictures/Screenshots/Screenshot-$(date +%F_%T).png | dunstify \"Fullscreen screenshot taken\" -t 5000"))
+hl.bind("SHIFT + Print", hl.dsp.exec_cmd("grim - | wl-copy && wl-paste > ~/Pictures/Screenshots/Screenshot-$(date +%F_%T).png | notify-send \"Fullscreen screenshot taken\""))
 
 -- Regional screen recording
 hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd("if pgrep -x \"wf-recorder\" > /dev/null; then pkill -INT -x wf-recorder; notify-send \"Screen recording ended.\"; notify-send -t 5000 -i /usr/share/icons/Papirus/64x64/devices/camera-video.svg \"Screen recording...\" \"Screen recording will start in 5 seconds when this notification times out. To end the recording press Win-Print again.\" & sleep 5 & wf-recorder -g \"$(slurp)\" -f ~/Videos/screen_recording${RANDOM}.mp4; fi"))
