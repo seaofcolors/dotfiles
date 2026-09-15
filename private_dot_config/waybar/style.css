@@ -8,7 +8,7 @@
 }
 
 window#waybar {
-  /* background: @surface; */
+  background: @thiscolordoesnotexist;
   opacity: 1;
   color: @lavender;
 }
@@ -35,6 +35,7 @@ tooltip {
   border-width: 4px;
   border-style: solid;
   border-color: @lavender;
+  background: @thiscolordoesnotexist;
   /*  background: @surface; */
   opacity: 1;
   margin-left: 0px;
