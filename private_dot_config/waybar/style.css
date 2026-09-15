@@ -19,10 +19,9 @@ window > box {
 tooltip {
   /* background: @base; */
   color: @lavender;
-  font-family: "JetBrainsMono NF";
+  /* font-family: "JetBrainsMono NF";
   font-weight: bold;
-  font-size: 15px;
-  height: 60px;
+  font-size: 15px; */
   border-radius: 12px;
   border-width: 4px;
   border-style: solid;
