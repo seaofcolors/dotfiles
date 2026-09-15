@@ -4,7 +4,7 @@
   font-family: "JetBrainsMono NF";
   font-weight: bold;
   font-size: 15px;
-  min-height: 0;
+  /* min-height: 0; */
 }
 
 window#waybar {
@@ -22,7 +22,7 @@ tooltip {
   font-family: "JetBrainsMono NF";
   font-weight: bold;
   font-size: 15px;
-  min-height: 30px;
+  min-height: 50px;
   border-radius: 12px;
   border-width: 4px;
   border-style: solid;
