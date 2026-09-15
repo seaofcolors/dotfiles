@@ -105,6 +105,7 @@ tooltip {
 }
 
 #memory {
+  color: @peach;
   border-radius: 0 0 0 0;
   border-width: 4px;
   border-style: solid;
@@ -116,6 +117,7 @@ tooltip {
 }
 
 #battery {
+  color: @yellow;
   border-radius: 0 0 0 0;
   border-width: 4px;
   border-style: solid;
@@ -127,6 +129,7 @@ tooltip {
 }
 
 #power-profiles-daemon {
+  color: @green;
   border-radius: 0 0 0 0;
   border-width: 4px;
   border-style: solid;
@@ -138,7 +141,7 @@ tooltip {
 }
 
 #idle_inhibitor {
-  color: @red;
+  color: @teal;
   border-radius: 0 0 0 0;
   border-width: 4px;
   border-style: solid;
@@ -154,6 +157,7 @@ tooltip {
 }
 
 #custom-notification {
+  color: @sky;
   border-radius: 0 0 0 0;
   border-width: 4px;
   border-style: solid;
@@ -189,7 +193,7 @@ tooltip {
 }
 
 #custom-power {
-  color: @lavender;
+  color: @sapphire;
   border-radius: 0 0 0 0;
   border-width: 4px;
   border-style: solid;
@@ -205,6 +209,7 @@ tooltip {
 }
 
 #clock {
+  color: @blue;
   border-width: 4px;
   border-style: solid;
   border-color: @lavender;
