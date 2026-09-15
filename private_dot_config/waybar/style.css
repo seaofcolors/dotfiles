@@ -9,6 +9,7 @@
 
 window#waybar {
   /* background: @surface; */
+  opacity: 1;
   color: @lavender;
 }
 
