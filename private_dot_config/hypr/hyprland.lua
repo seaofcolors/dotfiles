@@ -272,6 +272,21 @@ hl.window_rule({
     maximize = true,
 })
 
+-- For fixing or changing window rules for certain applications,
+-- run ´hyprctl clients´ and find either window title or class name.
+
+-- Make Red Dead Redemption 2 fullscreen
+hl.window_rule({
+    name = "make-RDR2-fullscreen",
+    match = {
+        class = "steam_app_1174180",
+    },
+    border_size = 0,
+    fullscreen = false,
+    float = true,
+})
+
+-- Make Civilization 6 fullscreen
 hl.window_rule({
     name = "make-civ6-fullscreen",
     match = {
