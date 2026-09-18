@@ -637,6 +637,8 @@ hl.on("hyprland.start", function()
     -- hl.exec_cmd("wait 10; ~/.config/hypr/scripts/waybar-fix.sh &")
 
     hl.exec_cmd("hyprpaper")
+--    hl.exec_cmd("awww-daemon")
+--    hl.exec_cmd("awww img --resize stretch ~/.config/backgrounds/raised-fist-3.png")
     -- hl.exec_cmd("dunst")
     hl.exec_cmd("swaync")
     hl.exec_cmd("swayosd-server")
@@ -644,8 +646,6 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("udiskie --appindicator")
     hl.exec_cmd("nm-applet &")
     hl.exec_cmd("blueman-applet")
---    hl.exec_cmd("awww-daemon")
---    hl.exec_cmd("awww img --resize stretch ~/.config/backgrounds/raised-fist-3.png")
 
     -- Attempt hypermondcfgd start and fix
     hl.exec_cmd("~/.config/hypr/scripts/hypermoncfgd-fix.sh &")
