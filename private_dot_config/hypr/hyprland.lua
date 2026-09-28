@@ -353,7 +353,7 @@ hl.window_rule({
     float = true,
     pin = true,
     size = "900 600",
-    move = "((monitor_w)-(900)) 46",
+    move = "(((monitor_w)-(900))-6) 48",
 })
 
 
