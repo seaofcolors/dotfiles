@@ -512,10 +512,7 @@ hl.bind(mainMod .. " + code:60", function()
     -- Calculate half the screen size minus top bar and gaps
     local width = math.ceil((m.width) * 0.5)
     local height = math.ceil((m.height - barHeight) * 0.5)
-    -- Calculate the window position
-    local left = math.ceil((width) * 0.5)
-    local top = math.ceil((height) * 0.5 + barHeight)
-    -- If the window is floating now, resize and move it
+    -- If the window is floating now, resize and center it
     if w.floating then
        hl.dispatch(hl.dsp.window.resize({ x = width, y = height }))
        hl.dispatch(hl.dsp.window.center)
