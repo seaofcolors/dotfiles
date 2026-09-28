@@ -490,13 +490,13 @@ hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("swaync-client -t -sw"))
 
 -- hl.bind(mainMod .. " + code:60", hl.dsp.window.float({ action = "toggle" }))
 
-hl.bind(mainMod .. " + code:60", function()
-    hl.dispatch(hl.dsp.window.float({ action = "toggle" }))
-end)
-
 -- hl.bind(mainMod .. " + code:60", function()
+--    hl.dispatch(hl.dsp.window.float({ action = "toggle" }))
+-- end)
+
+hl.bind(mainMod .. " + code:60", function()
        -- Toggle floating
---    hl.dsp.window.float({ action = "toggle" })
+    hl.dispatch(hl.dsp.window.float({ action = "toggle" }))
        -- Get active window
     -- local w = hl.get_active_window()
     -- if not w then return end
@@ -512,7 +512,7 @@ end)
     -- local y = math.ceil((m.height - 44) * 0.5)
        -- If the window is floating now, resize it
     -- if w.floating then hl.dispatch(hl.dsp.window.resize({ x = x, y = y })) end
--- end)
+end)
 
 hl.bind(mainMod .. " + code:61", hl.dsp.layout("togglesplit"))
 
