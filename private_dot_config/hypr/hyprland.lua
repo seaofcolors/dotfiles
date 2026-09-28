@@ -68,6 +68,7 @@ hl.config({
     },
 })
 
+-- Define bar height and outer border for window placement in window rules
 local barHeight = 44
 local outerBorder = 4
 
@@ -509,10 +510,16 @@ hl.bind(mainMod .. " + code:60", function()
     -- Handle list if returned
     if m[1] then m = m[1] end
     -- Calculate half the screen size minus top bar and gaps
-    local x = math.ceil((m.width) * 0.5)
-    local y = math.ceil((m.height - barHeight) * 0.5)
-    -- If the window is floating now, resize it
-    if w.floating then hl.dispatch(hl.dsp.window.resize({ x = x, y = y })) end
+    local width = math.ceil((m.width) * 0.5)
+    local height = math.ceil((m.height - barHeight) * 0.5)
+    -- Calculate the window position
+    local left = math.ceil((width) * 0.5)
+    local top = math.ceil((height) * 0.5 + barHeight)
+    -- If the window is floating now, resize and move it
+    if w.floating then
+       hl.dispatch(hl.dsp.window.resize({ x = width, y = height }))
+       hl.dispatch(hl.dsp.window.center)
+    end
 end)
 
 hl.bind(mainMod .. " + code:61", hl.dsp.layout("togglesplit"))
