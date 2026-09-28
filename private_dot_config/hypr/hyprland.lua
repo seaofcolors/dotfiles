@@ -69,6 +69,7 @@ hl.config({
 })
 
 local barHeight = 44
+local outerBorder = 4
 
 -- ------ --
 -- COLORS --
@@ -306,7 +307,7 @@ hl.window_rule({
     float = true,
     pin = true,
     size = "600 400",
-    move = "(((monitor_w)-(600))-10) (((monitor_h)-(400))-10)",
+    move = "(((monitor_w)-(600)) - outerBorder) (((monitor_h)-(400)) - outerBorder)",
 })
 
 -- Make Youtube's PIP popup window float and pin it to all workspaces
@@ -318,7 +319,7 @@ hl.window_rule({
     float = true,
     pin = true,
     size = "600 400",
-    move = "(((monitor_w)-(600))-4) (((monitor_h)-(400))-4)",
+    move = "(((monitor_w)-(600)) - outerBorder) (((monitor_h)-(400)) - outerBorder)",
 })
 
 -- Format Ente Auth as a pinned popup.
@@ -330,7 +331,7 @@ hl.window_rule({
     float = true,
     pin = true,
     size = "400 1000",
-    move = "(((monitor_w)-(400))-4) barHeight",
+    move = "(((monitor_w)-(400)) - outerBorder) barHeight",
 })
 
 -- Format Proton VPN as a pinned popup.
@@ -353,7 +354,7 @@ hl.window_rule({
     float = true,
     pin = true,
     size = "900 600",
-    move = "(((monitor_w)-(900))-4) 48",
+    move = "(((monitor_w)-(900)) - outerBorder) 48",
 })
 
 
