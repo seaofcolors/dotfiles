@@ -480,7 +480,6 @@ local mainMod     = "SUPER"
 -- KEYBINDINGS --
 -- ----------- --
 
-
 hl.bind(mainMod .. " + space", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + SHIFT + Q", hl.dsp.window.close())
 hl.bind(mainMod .. " + SHIFT + K", hl.dsp.window.kill())
@@ -510,7 +509,7 @@ hl.bind(mainMod .. " + code:60", function()
     -- local y = math.ceil((m.height - 44) * 0.5)
     -- If the window is floating now, resize it
     -- if w.floating then hl.dispatch(hl.dsp.window.resize({ x = x, y = y })) end
-  end)
+end)
 
 hl.bind(mainMod .. " + code:61", hl.dsp.layout("togglesplit"))
 
