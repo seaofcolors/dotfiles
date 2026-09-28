@@ -496,10 +496,10 @@ hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("swaync-client -t -sw"))
 
 hl.bind(mainMod .. " + code:60", function()
        -- Toggle floating
+    local w = hl.get_active_window()
+    if not w then return end
     hl.dispatch(hl.dsp.window.float({ action = "toggle" }))
        -- Get active window
-    -- local w = hl.get_active_window()
-    -- if not w then return end
        -- Handle list if returned
     -- if w[1] then w = w[1] end
        -- Get active monitor
