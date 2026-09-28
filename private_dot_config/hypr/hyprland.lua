@@ -495,20 +495,21 @@ hl.bind(mainMod .. " + code:60", function()
     -- Toggle floating
     hl.dsp.window.float({ action = "toggle" })
     -- Get active window
-    local w = hl.get_active_window()
-    if not w then return end
+
+    -- local w = hl.get_active_window()
+    -- if not w then return end
     -- Handle list if returned
-    if w[1] then w = w[1] end
+    -- if w[1] then w = w[1] end
     -- Get active monitor
-    local m = hl.get_active_monitor()
-    if not m then return end
+    -- local m = hl.get_active_monitor()
+    -- if not m then return end
     -- Handle list if returned
-    if m[1] then m = m[1] end
+    -- if m[1] then m = m[1] end
     -- Calculate half the screen size minus top bar and gaps
-    local x = math.ceil((m.width) * 0.5)
-    local y = math.ceil((m.height - 44) * 0.5)
+    -- local x = math.ceil((m.width) * 0.5)
+    -- local y = math.ceil((m.height - 44) * 0.5)
     -- If the window is floating now, resize it
-    if w.floating then hl.dispatch(hl.dsp.window.resize({ x = x, y = y })) end
+    -- if w.floating then hl.dispatch(hl.dsp.window.resize({ x = x, y = y })) end
   end)
 
 hl.bind(mainMod .. " + code:61", hl.dsp.layout("togglesplit"))
