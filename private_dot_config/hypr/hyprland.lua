@@ -495,22 +495,22 @@ hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("swaync-client -t -sw"))
 -- end)
 
 hl.bind(mainMod .. " + code:60", function()
-       -- Toggle floating
+    -- Toggle floating
     hl.dispatch(hl.dsp.window.float({ action = "toggle" }))
-       -- Get active window
+    -- Get active window
     local w = hl.get_active_window()
     if not w then return end
-       -- Handle list if returned
+    -- Handle list if returned
     if w[1] then w = w[1] end
-       -- Get active monitor
+    -- Get active monitor
     local m = hl.get_active_monitor()
     if not m then return end
-       -- Handle list if returned
+    -- Handle list if returned
     if m[1] then m = m[1] end
-       -- Calculate half the screen size minus top bar and gaps
+    -- Calculate half the screen size minus top bar and gaps
     local x = math.ceil((m.width) * 0.5)
     local y = math.ceil((m.height - 44) * 0.5)
-       -- If the window is floating now, resize it
+    -- If the window is floating now, resize it
     if w.floating then hl.dispatch(hl.dsp.window.resize({ x = x, y = y })) end
 end)
 
