@@ -318,7 +318,7 @@ hl.window_rule({
     float = true,
     pin = true,
     size = "600 400",
-    move = "(((monitor_w)-(600))-10) (((monitor_h)-(400))-10)",
+    move = "(((monitor_w)-(600))-4) (((monitor_h)-(400))-4)",
 })
 
 -- Format Ente Auth as a pinned popup.
@@ -330,7 +330,7 @@ hl.window_rule({
     float = true,
     pin = true,
     size = "400 1000",
-    move = "(((monitor_w)-(400))-8) barHeight",
+    move = "(((monitor_w)-(400))-4) barHeight",
 })
 
 -- Format Proton VPN as a pinned popup.
