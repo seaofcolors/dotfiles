@@ -330,7 +330,7 @@ hl.window_rule({
     float = true,
     pin = true,
     size = "400 1000",
-    move = "(((monitor_w)-(400))-10) 44",
+    move = "(((monitor_w)-(400))-8) barHeight",
 })
 
 -- Format Proton VPN as a pinned popup.
