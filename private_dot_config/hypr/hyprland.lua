@@ -68,7 +68,7 @@ hl.config({
     },
 })
 
-
+local barHeight = 44
 
 -- ------ --
 -- COLORS --
@@ -509,7 +509,7 @@ hl.bind(mainMod .. " + code:60", function()
     if m[1] then m = m[1] end
     -- Calculate half the screen size minus top bar and gaps
     local x = math.ceil((m.width) * 0.5)
-    local y = math.ceil((m.height - 44) * 0.5)
+    local y = math.ceil((m.height - barHeight) * 0.5)
     -- If the window is floating now, resize it
     if w.floating then hl.dispatch(hl.dsp.window.resize({ x = x, y = y })) end
 end)
